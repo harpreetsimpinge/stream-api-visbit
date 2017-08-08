@@ -1,0 +1,126 @@
+<section ng-controller="bulkController">
+    <h1>Search</h1>
+    <div class="row">
+        <div class="col-md-12 panel panel-primary margin-top-20">
+            <div class="panel">
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item smartSearchList greybg">
+                            <div class="col-md-12">
+                                <div class="col-md-5 ">
+                                    <select ng-model="smartSearch.currentField" ng-options="item as item.name group by item.category for item in fields | orderBy:'order'" class="form-control"></select>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <select data-ng-model="smartSearch.input" ng-options="item for item in smartSearch.currentField.values | orderBy:'toString()'" ng-if="smartSearch.currentField.type === 'dropdown'" class="form-control">
+                    </select>
+                                    <input type="text" ng-model="smartSearch.input" class="form-control" ng-if="smartSearch.currentField.type === 'text'" />
+                                    <input date-range-picker class="form-control date-picker" type="text" ng-model="smartSearch.input" ng-if="smartSearch.currentField.type === 'date' && smartSearch.option === 'range'" />
+                                    <md-datepicker class="form-control date-picker" type="text" ng-model="smartSearch.input" ng-if="smartSearch.currentField.type === 'date' && smartSearch.option !== 'range'"></md-datepicker>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <select ng-if="smartSearch.currentField.type === 'text' || smartSearch.currentField.type === 'dropdown'" ng-model="smartSearch.option" class="form-control"><option value="exact">Exact</option><option value="contains">contains</option><option value="starting">starting with</option><option value="not">does not contain</option></select>
+                                    <select ng-if="smartSearch.currentField.type === 'date'" ng-model="smartSearch.option" class="form-control" options="{singleDatePicker: true}"><option value="earlier">earlier than</option><option value="exactly">exactly matches</option><option value="later">later than</option><option value="range">in the range</option></select>
+                                </div>
+                                <div class="col-md-1 ">
+                                    <i class="fa fa-plus form-group" ng-click="addLineToSmartSearch()"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item smartSearchList greybg2" ng-repeat="item in smartList">
+                            <div class="col-md-12">
+                                <div class="col-md-5 ">
+                                    <input type="text" ng-model="item.fieldName" class="form-control" disabled="true"></select>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <input type="smart.text" ng-model="item.text" class="form-control" ng-if="item.type === 'text' || item.type === 'dropdown'" />
+                                    <md-datepicker class="form-control date-picker" type="text" ng-model="item.text" ng-if="item.type === 'date' && item.option !== 'range'"></md-datepicker>
+                                    <input date-range-picker class="form-control date-picker" type="text" ng-model="item.text" ng-if="item.option === 'range'" />
+                                </div>
+                                <div class="col-md-3 ">
+                                    <select ng-if="item.type === 'text'" ng-model="item.option" class="form-control"><option value="exact">Exact</option><option value="contains">contains</option><option value="starting">starting with</option><option value="not">does not contain</option></select>
+                                    <select ng-if="item.type === 'date'" ng-model="item.option" class="form-control"><option value="earlier">earlier than</option><option value="exactly">exactly matches</option><option value="later">later than</option><option value="range">in the range</option></select>
+                                </div>
+                                <div class="col-md-1 ">
+                                    <i class="fa fa-trash form-group" ng-click="removeFromSmartList($index)"></i>
+                                </div>
+                            </div>
+                        </li>
+                </div>
+                <div class="panel-footer">
+                    <div class="col-md-2 col-md-offset-4 margin-bottom-10">
+                        <button ng-click="doSmartSearch()" class="btn btn-primary center-block" ng-disabled="search">
+                    Search
+                    <span ng-show="search === true"><i class="fa fa-spinner fa-spin"></i></span>
+                  </button>
+                    </div>
+                    <div class="col-md-2">
+                        <select ng-model="closed" class="form-control">
+                    <option value ="open" selected="selected">Only Open</option>
+                    <option value="closed">Only Closed</option>
+                    <option value="both">Both</option>
+                  </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-primary margin-top-20">
+            <div class="panel-body">
+                <div class="col-md-2">
+                    <select ng-model="filedsList" ng-options="item as item.name group by item.category for item in fields | orderBy:'order'" class="form-control" ng-change="affField()"></select>
+                </div>
+                <div class="col-md-8">
+                    <button class="btn btn-fields" ng-repeat="btn in showFields" ng-click="showFields.splice($index, 1)">
+              {{btn.name}}
+              <small>
+                {{btn.category}}
+              </small>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-success form-control" ng-click="editAll()">Edit All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-primary margin-top-20">
+            <div class="panel-body">
+                <ul class="bulk-list">
+                    <li ng-repeat="item in streaming" class="col-md-12" ng-init="outerIndex=$index">
+                        <!-- users -->
+                        <div class="col-md-12 first" ng-if='$first'>
+                            <div class='col-md-2'>
+                                Details
+                            </div>
+                            <div class="col-md-2" ng-repeat="field in item" ng-if="showField(field)">
+                                {{field.id.name}}
+                                <small class='block'>
+                  {{field.id.category}}
+                </small>
+                            </div>
+                            <div class='col-md-2 pull-right'>
+                                Edit
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            {{item.FirstnameContact.value}} {{item.LastnameContact.value}}
+                            <small class="block">{{item.ClaimContact.value}}</small>
+                        </div>
+                        <div class="col-md-2" ng-repeat="field in item" ng-if="showField(field)">
+                            <!-- fields -->
+                            <input type="text" ng-model="field.value" class="form-control" value="{{field.value}}" ng-if="field.id.type === 'text'" ng-blur="pushChange(outerIndex, field)">
+                            <md-datepicker class="form-control date-picker" type="text" ng-model="field.value" value="{{field.value}}" ng-if="field.id.type === 'date'" ng-blur="pushChange(outerIndex, field)"></md-datepicker>
+                            <select data-ng-model="field.value" ng-options="item for item in field.id.values | orderBy:'toString()'" ng-if="field.id.type === 'dropdown'" class="form-control" ng-blur="pushChange(outerIndex, field)"></select>
+                        </div>
+                        <div class="col-md-2 pull-right">
+                            <button class="btn btn-success form-control" ng-click="editSingle($index)">Edit</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+
+<div class="side-bar" resizable on-resize="resize($evt, $ui)">
+  <div class="head" ng-click="open = !open">  
+    
+    <span>
+      <h2><i class="fa " aria-hidden="true" ng-class="open ? 'fa-arrow-down' : 'fa-arrow-up'"></i> Details</h2>
+    </span>
+  </div>
+  <div class='body' ng-if="open">
+    <div class="col-md-12" ng-repeat="cat in cats" ng-init="splitTitles(cat)">
+        <div class="panel-heading" ng-click="showTab = !showTab" ng-init="cat === 'Contact' ? showTab = true : showTab = false">
+          <h2>{{cat}} </h2>
+        </div>
+        <div class="" ng-show="showTab">
+          <div class="" ng-repeat="item in article_sort track by $index" ng-if="item.id.category === cat">
+            <small class="bold">{{item.id.name}}</small> : <span ng-if="item.id.type !== 'date'">{{item.value}}</span><span ng-if="item.id.type === 'date'">{{item.value | date}}</span><br>
+            
+          </div>
+        </div>    
+    </div>
+  </div>
+</div>

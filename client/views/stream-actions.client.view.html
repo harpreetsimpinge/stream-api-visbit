@@ -1,0 +1,182 @@
+<script type="text/ng-template" id="editStream">
+    <md-tabs md-dynamic-height="true">
+        <md-tab label="Personal Information">
+            <form name="userForm" ng-submit="sendEditStream(userForm.$invalid)">
+                <md-tab-body>
+                    <div class="panel-heading">
+                        <h2>Edit Case - {{stream.FirstnameContact.value}} {{stream.LastnameContact.value}}</h2>
+                    </div>
+                    </div>
+                    <div class="col-md-12 margin20-buttom" ng-repeat="cat in cats" ng-init="splitTitles(cat)">
+                        <div class="panel panel panel-inf">
+                            <div class="panel-heading">
+                                {{cat}}
+                            </div>
+                            <div class="panel-body fieldsSet">
+                                <div class="col-md-4 form-group" ng-repeat="item in stream | orderBy:'id.order'" ng-if="item.id.category === cat">
+                                    <small class="bold">{{item.id.name}}</small>
+                                    <input type="text" ng-model="item.value" ng-if="item.id.type === 'text'" class="form-control">
+                                    <md-content class="md-hue-1">
+                                        <md-datepicker class="form-control date-picker" type="text" ng-model="item.value" ng-if="item.id.type === 'date'" is-open="$parent.opened"></md-datepicker>
+                                    </md-content>
+                                </div>
+                            </div>
+                            <div class="panel-footer" ng-if="cat === 'Contact'">
+                                <button type="submit" ng-disabled="streamForm.$invalid" class='btn btn-primary form-control'>Update </button>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <button type="submit" class="btn btn-primary center-block">Saved</button>
+                        </div>
+            </form>
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="Notes">
+            <form name="newNoteForm" novalidate>
+                <md-tab-body>
+                    <div class="panel-heading">
+                        <h2>Notes</h2>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" ng-click="showNote = ! showNote">
+                            View Notes <i class="fa fa-level-down"></i>
+                        </div>
+                        <div class="panel-body" ng-show="!showNote">
+                            <div class="col-md-12">
+                                <ul class="list-group">
+                                    <li class="list-group-item greybg3">
+                                        <div class="col-md-5">
+                                            <span><strong>Next # notes</strong> </span>
+                                            <input type="number" ng-model="limit" ng-init="limit = 8">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <strong>Total of {{notes.length}} notes</strong>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item" ng-repeat="note in notes | orderBy: 'date' | limitTo: limit" id="{{note._id}}" style="height: 50px;">
+                                        <form name="emailForm">
+                                            <div class="col-md-8">
+                                                <div class="col-md-10">
+                                                    <strong>{{note.title}}</strong> ,
+                                                    <mark>{{note.date | date}}</mark> - <span ng-click="showMore = ! showMore">{{note.type}}</span>
+                                                    <span ng-if="note.isFollow === true"> Follow Up </span>{{note.isFollow}}
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <a href="{{note.url}}" download class="btn btn-small btn-info" ng-if="note.url !== ''"><i class="fa fa-file-o" ng-if="note.url!==''"></i></a>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <i class="fa fa-trash btn btn-danger" ng-click="deleteNote(note._id)" ng-if="note.class !== 'followupNote'"></i>
+                                                    <i class="fa fa-trash btn btn-danger" ng-click="deleteFollowUp(note._id)" ng-if="note.class === 'followupNote'"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <input name="myInput" ng-model="note.email" type="email" placeolder="Email Address" required>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <button class="btn btn-primary" ng-click="sendNoteByEmail(note.email, note._id)">
+                          <i class="fa fa-envelope"></i>
+                        </button>
+                                            </div>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <input type="submit" value="Refresh" class="btn btn-primary center-block" ng-click="updateAllNotes()">
+                        </div>
+                    </div>
+                    <!-- end of panel -->
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Add Notes <i class="fa fa-level-down"></i>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-6 form-group">
+                                <h4>Note Title</h4>
+                                <input type="text" class="form-control" ng-model="newNote.title">
+                            </div>
+                            <div class="col-md-3 form-group">
+                                <h4>Note Type</h4>
+                                <select ng-model="newNote.type" class="form-control">
+                  <option value="meeting">Meeting</option>
+                  <option value="phone">Phone Call</option>
+                  <option value="email">Email</option>
+                  <option value="check">Checking</option>
+                  <option value="other">Other</option>
+                </select>
+                            </div>
+                            <div class="col-md3 form-group">
+                                <h4>File</h4>
+                                <form>
+                                    <fieldset>
+                                        <div class="text-center form-group" ng-hide="uploader.queue.length">
+                                            <div class="btn btn-default btn-file form-control">
+                                                Add File
+                                                <input type="file" nv-file-select uploader="uploader" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="text-center form-group" ng-show="uploader.queue.length && !loadFile && !loadSuccess">
+                                            <button class="btn btn-primary" ng-click="uploadFile();">Upload</button>
+                                            <button class="btn btn-default" ng-click="cancelUpload();">Cancel</button>
+                                        </div>
+                                        <div class="text-center form-group" ng-show="loadSuccess">
+                                            <b>File is ready</b>
+                                        </div>
+                                        <div class="text-center form-group" ng-show="loadFile">
+                                            <i class="fa fa-spinner fa-spin"></i>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <h4>Note Date</h4>
+                                <md-content class="md-hue-1">
+                                    <md-datepicker class="form-control date-picker" type="text" ng-model="newNote.date" is-open="$parent.opened"></md-datepicker>
+                                </md-content>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <h4>Follow Up Date</h4>
+                                <md-content class="md-hue-1">
+                                    <md-datepicker class="form-control date-picker" type="text" ng-model="newNote.followup" is-open="$parent.opened"></md-datepicker>
+                                </md-content>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <h4>Description</h4>
+                                <textarea ng-model="newNote.text" class="form-control" rows="12"> </textarea>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <button type="submit" class="btn btn-primary center-block" ng-disabled="loadFile" ng-click="addNote(newNoteForm.$invalid)">Save</button>
+                        </div>
+                    </div>
+                    <!-- end of panel -->
+            </form>
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="All Fiels">
+            <md-tab-body>
+                <div class="panel-heading">
+                    <h2>Files</h2>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="item in files">
+                        <div class="col-md-5 col-md-offset-3">
+                            {{item.title}}
+                        </div>
+                        <div class="col-md-1">
+                            <a href="{{item.url}}" download class="btn btn-small btn-info" ng-if="item.url !== ''"><i class="fa fa-file-o" ng-if="item.url!==''"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="Export">
+            <md-tab-body>
+                <div class="col-md-12 margin40top">
+                    <button class="btn btn-info" ng-click="exportStreamToPdf()">Export user to pdf</button>
+                </div>
+            </md-tab-body>
+        </md-tab>
+    </md-tabs>
+</script>

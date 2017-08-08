@@ -1,0 +1,45 @@
+<section ng-controller="streamController">
+    <div class="page-header">
+        <h1>New Claimant</h1>
+    </div>
+    <div class="col-md-12">
+
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <form name="streamForm" class="form-horizontal" ng-submit="create(streamForm.$valid)" novalidate>
+                <fieldset>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Information</div>
+                        <div class="panel-body">
+                            <div class="col-md-12">
+                                <label for="title">permissions</label>
+                                <div isteven-multi-select input-model="users" output-model="permissions" button-label="displayName" item-label="displayName" tick-property="ticked" output-properties="_id">
+                                </div>
+                            </div>
+                            <div class="col-md-12 margin20-buttom" ng-repeat="cat in cats" ng-init="cat === 'Contact' ? showTab = true : showTab = false">
+                                <h2 ng-click="showTab = !showTab">{{cat}} <i class="fa" ng-class="showTab ? 'fa-level-up' : 'fa-level-down'"></i></h2>
+                                <div class="col-md-4 margin20-buttom" ng-repeat="field in fields  | filter:{category : cat} | orderBy:'order'" ng-class="field.required === 'true'? 'has-warning' : 'odd-row'" ng-show="showTab">
+                                    <label for="title">{{field.name}}</label>
+                                    <select ng-model="field[feld.key]" ng-if="field.type === 'dropdown'" class="form-control">
+                    <option ng-repeat="item in field.values" value="{{item}}">{{item}}</option>
+                  </select>
+                                    <input name="title" type="text" ng-model="field[feld.key]" class="form-control" ng-if='field.type === "text" && field.key !== "ClaimContact"' ng-required="field.required === 'true'">
+                                    <input name="title" type="text" ng-model="claim" class="form-control has-error" ng-class="claimCheck ? 'claim-error' : ''" ng-if="field.key === 'ClaimContact'" ng-required="field.required === 'true'" ng-change="checkClaim(claim)">
+                                    <md-datepicker class="form-control date-picker" type="text" ng-model="field[feld.key]" class="form-control" ng-if='field.type === "date"' ng-required="field.required === 'true'"></md-datepicker>
+                                    <div ng-messages="streamForm.firstName.$error" role="alert">
+                                        <p class="help-block error-text" ng-message="required">First name is required.</p>
+                                    </div>
+                                </div>
+                                <button type="submit" class='btn btn-primary form-control' ng-if="cat === 'Contact'">Add New </button>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <button type="submit" class='btn btn-primary form-control'>Add New </button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>

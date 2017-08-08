@@ -1,0 +1,514 @@
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+    width: 1000px;
+}
+
+md-switch {
+    margin: 0px;
+}
+
+.noPadding{
+    padding: 0px !important;
+}
+
+.smartSearchList{
+    height: 40px;
+}
+
+.greybg{
+    background: #CCC;
+    border: 1px solid;
+    height: 55px;
+}
+
+.greybg2{
+    background: #E2E2E2;
+    border: 1px solid;
+    height: 55px;
+}
+
+md-tabs .md-tab.md-active{
+    background: #DECBD1;
+}
+
+md-tabs .md-tab {
+    background: #EAE2E5;
+}
+
+md-datepicker, mdp-date-picker{
+    padding: 0 !important;
+}
+
+mdp-date-picker .md-button.md-icon-button,
+mdp-date-picker md-input-container {
+    margin: 0px !important;
+}
+
+.md-dialog-container {
+    z-index: 80000;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd){
+    background-color: #D0D0D0;
+}
+
+thead{
+    background: #B9B9B9;
+}
+
+tbody > tr > td{
+    border-left: 1px solid #fff;
+}
+
+.sp{
+    background: black;
+    height: 2px;
+}
+
+.panel-inf > .panel-heading{
+    font-weight: bold;
+    color: #000000;
+    background: #989696;
+    border-bottom: 2px solid #AD1D1D;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.ngdialog.ngdialog-theme-default {
+    padding-bottom: 160px;
+    padding-top: 30px;
+}
+
+.md-datepicker-calendar-pane {
+    z-index: 99999;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-close {
+    height: 32px;
+    width: 36px;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-close:before{
+    font-size: 23px;
+    color: #717171;
+    border-radius: 16px;
+}
+
+
+.md-datepicker-input {
+    color: rgba(0,0,0,0.87);
+    background: rgb(255, 255, 255) !important;
+}
+
+.fieldsSet{
+    border: 1px solid #989696;
+    background: #F5F5F5;
+}
+
+.list-group-item{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-height: 50px !important;
+}
+
+.greybg3{
+    background: #E2E2E2;
+}
+
+.panel-primary > .panel-heading {
+    border-bottom: 2px solid #A93838;
+}
+
+.list-group-item {
+    background: #EFEFEF;
+}
+
+.padding25top{
+    padding-top: 25px;
+}
+
+.panel-primary{
+    border: 1px solid #9E9D9D;
+    box-shadow: 0px 3px 16px -2px #000000;
+}
+
+
+.panel-primary > .panel-heading {
+    background: #B9B9B9;
+    color: #000;
+}
+
+md-tabs .md-tab.md-active {
+    background: #1C4466;
+    color: #fff;
+    border: none;
+}
+
+tab .md-ripple-container {
+    color: rgb(169, 56, 56);
+}
+
+md-tabs .md-tab {
+    background: #B9B9B9;
+}
+
+.btn-disable{
+    background: #fff;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.note-table-header{
+    background: #D0D0D0;
+    text-align: Center;
+}
+
+.flex-disaply{
+    display: flex;
+}
+
+.values{
+    margin-top: 20px;
+    padding-left: 16px;
+}
+
+.values>li{
+    height: 23px;
+    list-style-type: none;
+}
+
+.values>li>.btn{
+    height: 20px;
+    width: 20px;
+    text-align: Center;
+    padding: 1px 0 0 0;
+}
+
+.values>li>.fa{
+    float: right;
+    margin-right: 15px;
+}
+
+
+.ex{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    display: inherit;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+    width: 1200px !important;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.ngdialog-overlay {
+  position: fixed;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: ngdialog-fadein 0.5s;
+  animation: ngdialog-fadein 0.5s;
+}
+
+.ngdialog-no-overlay {
+    pointer-events: all;
+}
+
+.ngdialog-custom{
+
+}
+
+.ngdialog-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.ngdialog-close{
+    float: right;
+    font-size: 22px;
+}
+
+.input-height{
+    min-height: 400px;
+}
+
+.links-popup{
+    position: absolute;
+    width: 270px;
+    z-index: 999;
+    border: 1px solid;
+    border-radius: 4px;
+    background: #fff;
+    left: -90px;
+}
+
+.yellow{
+    color: #F6911E
+
+
+}
+
+.inline{
+    display: inline-block;
+    width: 100%;
+}
+
+.dragndrop{
+    height: 51px;
+    border: 2px dotted green;
+    border-radius: 10px;
+    text-align: Center;
+    font-size: 25px;
+    padding-top: 4px;
+}
+
+.file-list > div > input[type="text"]{
+    border: none;
+}
+
+.versions{
+    margin-top: 10px;
+    padding: 10px;
+    background: #E4E4E4;
+}
+
+.versions .line{
+    margin: 10px;
+    //background: #E4E4E4;
+    height: 44px;
+    padding-top: 4px;
+    color: #424242;
+}
+
+.calc1{
+    margin-top: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #8A8A8A;
+}
+
+.calc1 td{
+    padding: 10px;
+}
+
+.calc1 .big{
+    width: 360px;
+}
+
+.calc1 .med{
+    border-left: 1px solid #B5B5B5;
+    width: 270px;
+}
+
+.calc2 .small{
+    width: 270px;
+}
+
+.calc1 .color1{
+    color: #307D33;
+}
+
+.calc1 .color2{
+    color: #280DE4;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select File';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  line-height: 1.22857143;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.file-input-wrapper {
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.file-input-wrapper > input[type="file"] {
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.file-input-wrapper > .btn-file-input {
+    border: 1px solid #909090;
+}
+.file-input-wrapper:hover > .btn-file-input {
+    background-color: #aaa;
+}
+
+.text-center{
+
+}
+
+.hide-overflow{
+    overflow: hidden;
+}
+
+.side-bar{
+    width: 280px;
+    background: #f4f4f4;
+    border-radius: 4px;
+    box-shadow: 0px 3px 16px -2px #000000;
+    max-height: 960px;
+}
+
+.side-bar h2{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.placment{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+}
+.side-bar .head{
+    padding: 12px;
+    background: #B9B9B9;
+    border-radius: 4px;
+}
+
+.side-bar .body{
+    height: 900px;
+    overflow-y: scroll;
+
+}
+
+.legacy-date{
+    background: #EEE;
+}
+
+.loading{
+    text-align: center;
+}
+
+.claim-error{
+    border: 1px solid red;
+}
+
+.search-dropdoc{
+    width: 200px;
+}
+
+.float-search{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    background: #BDBDBD;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.btn-fields{
+    font-size: 12px;
+    background: #78909C;
+    padding: 8px 15px;
+    margin: 0px 3px;
+}
+
+.btn-fields small{
+    color: #fff;
+    display: block;
+}
+
+.bulk-list .block{
+    display: block;
+}
+
+.bulk-list{
+    margin: 0;
+    padding: 0;
+}
+
+.bulk-list li{
+    margin-bottom: 5px;
+    list-style: none;
+    background: #FAFAFA;
+    border-bottom: 1px solid #9E9E9E;
+}
+
+.bulk-list li .first{
+    padding: 10px 0px;
+    background: #BDBDBD;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.bulk-list li .first small{
+    color: #37474F;
+    font-weight: normal;
+}
+
+@media (min-width: 992px) {
+    .panel-medium-size {
+        width: 80%;
+        margin-left: 18%;
+    }
+
+    .dialog-medium-size .ngdialog-content {
+        width: 80%;
+        margin-left: 18%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .panel-medium-size {
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    .dialog-medium-size .ngdialog-content {
+        width: 80%;
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .panel-medium-size {
+        width: 100%;
+        margin-left: 0px;
+    }
+}

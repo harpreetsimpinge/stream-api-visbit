@@ -1,0 +1,2266 @@
+[{
+    "_id": {
+        "$oid": "571eae01c874a90e009ff242"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f0429af9581a111152b32d",
+    "creator": "56aa66be44aeb7c61ba42f42",
+    "title": "Spoke to ER",
+    "type": "employer",
+    "content": "<p>Spoke to Katherine and discussed workers restrictions.  Suggested the light duty previously discussed be offered to this worker.</p><p>She will discuss with Fred and Tom and get back to me</p>",
+    "stream": "56f0429af9581a111152b32d",
+    "followUp": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T23:53:37.292+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571f9b519713b00e0015c51e"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e5fa7c874a90e009ff215",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 818-764-6400 left message for Kobi with Kathleen</p>",
+    "stream": "571e5fa7c874a90e009ff215",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T16:46:09.644+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571f9db59713b00e0015c520"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e6edac874a90e009ff217",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 562-856-9300 Ext. 29 spoke to Lauren Duarte who advised me that we need to speak to Sharon Peralta.  Spoke to Sharon stated she will need to pull EE's info. and call us back</p>",
+    "stream": "571e6edac874a90e009ff217",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T16:56:21.124+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fa2e19713b00e0015c523"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e516bc874a90e009ff20b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 310-773-9350 left message for Leonela Gonzalez re: scheduling appt. to develop JD.  Is mod. work available?</p>",
+    "stream": "571e516bc874a90e009ff20b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T17:18:25.999+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fa7ea9713b00e0015c528"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e53e0c874a90e009ff20e",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 424-214-6721 left message for Kristin Wright re: scheduling appt. to develop JD.  Would the JD be the same as Timothy Cottle?</p>",
+    "stream": "571e53e0c874a90e009ff20e",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T17:39:54.868+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571faa539713b00e0015c52d"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e4f24c874a90e009ff208",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 858-565-9870 Ext. 112 left message for Florence Gray re: scheduling appt. to develop JD</p>",
+    "stream": "571e4f24c874a90e009ff208",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T17:50:11.606+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571faf6d9713b00e0015c533"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e796cc874a90e009ff21b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "571e796cc874a90e009ff21b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T18:11:57.200+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57223b690f0f9a0e0077558b"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04284f9581a111152b122",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "ER - can no longer offer TWA",
+    "type": "employer",
+    "content": "<p>ER, Terri, called and they cannot accommodate the new QME restrictions. EE has been working in TWA since 2014. </p>",
+    "stream": "56f04284f9581a111152b122",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:33:45.608+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57223c880f0f9a0e0077558c"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04284f9581a111152b122",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "EX - update",
+    "type": "email",
+    "content": "<p>Email from EX - they are requesting a supplemental QME report to address the new restrictions</p>",
+    "stream": "56f04284f9581a111152b122",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:38:32.301+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716b44ba2e42d0e00163b87"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571522bae21bd10e0046524a",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 831-722-2510 left message for Rosalva Rocha with Fatima</p>",
+    "stream": "571522bae21bd10e0046524a",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T22:42:19.150+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716b4c9a2e42d0e00163b8a"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571522bae21bd10e0046524a",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Called",
+    "type": "meeting",
+    "content": "<p>Rosalva called scheduled appt. for 4/21 @2:00 p.m.  Per Rosalva mod. work is available she will contact EE today and invite her back to work.</p>",
+    "stream": "571522bae21bd10e0046524a",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T22:44:25.321+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717c86b70318b0e0064360c"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57152e24e21bd10e00465254",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "meeting",
+    "content": "<p>Cherie (ER) called stated EE is no longer working for the company.  Scheduled appt. for 4/22 @10:00 a.m. to develop the JD</p>",
+    "stream": "57152e24e21bd10e00465254",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T18:20:27.074+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717d6c370318b0e00643617"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5715194ae21bd10e00465247",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 858-777-9525 left message for Robert Tahiry re: scheduling appt. to develop JD/TWA</p>",
+    "stream": "5715194ae21bd10e00465247",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T19:21:39.954+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717d79b70318b0e00643619"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5715194ae21bd10e00465247",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Ana,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Robert Tahiry at (858-777-9525) for EE Michelle Leduc on 4/25 @10:00 a.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "5715194ae21bd10e00465247",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T19:25:15.949+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717e65070318b0e0064361e"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5717dd1070318b0e0064361b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 951-231-1480 left message for Yasmine Gonzalez re: JD being updated with new Cl#</p>",
+    "stream": "5717dd1070318b0e0064361b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:28:00.467+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717e6ef70318b0e00643621"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5717dd1070318b0e0064361b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 951-231-1480 left message for Yasmine</p>",
+    "stream": "5717dd1070318b0e0064361b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:30:39.530+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f47970318b0e0064362f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04229f9581a111152a8d0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 949-943-8668 left message for Diana Sidi re: perm. mod/alt being available</p>",
+    "stream": "56f04229f9581a111152a8d0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-12T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:28:25.650+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f4b570318b0e00643630"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04229f9581a111152a8d0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 949-943-8668 left message for Diana re: perm. mod/alt being available</p>",
+    "stream": "56f04229f9581a111152a8d0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:29:25.759+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f85d70318b0e00643635"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04292f9581a111152b265",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. Agency 323-516-6519 lines temporary busy try again</p>",
+    "stream": "56f04292f9581a111152b265",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:45:01.995+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571802bb70318b0e00643643"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f98a75a3ae7e290003e2ea",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "meeting",
+    "content": "<p>Phd. ER 805-928-7744 spoke to Jose Perez scheduled appt. for 4/25 @9:00 a.m. to develop perm JD</p>",
+    "stream": "56f98a75a3ae7e290003e2ea",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T22:29:15.756+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571803ee70318b0e00643647"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f041eef9581a111152a344",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. Chantelle (ER) 951-501-5677 left message re: perm. mod/alt being available</p>",
+    "stream": "56f041eef9581a111152a344",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T22:34:22.256+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57190de8ba3e2a0e00550efe"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e7fe02c76030e00f5cc97",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "L/VM w/ Sharp Rees-Stealy Occupational Medicine Phone: 858-521-2350 x2",
+    "type": "physician",
+    "content": "<p>L/VM w/ Sharp Rees-Stealy Occupational Medicine Phone: 858-521-2350 x2<br/></p>",
+    "stream": "570e7fe02c76030e00f5cc97",
+    "followUp": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T17:29:12.350+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57193b4dba3e2a0e00550f22"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f99d3da3ae7e290003e2ee",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "meeting",
+    "content": "<p>Phd. ER 714-249-4843 spoke to Tricia scheduled appt. to develop JD for 4/22 @1:00 p.m.</p>",
+    "stream": "56f99d3da3ae7e290003e2ee",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T20:42:53.120+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a9b9d8f1b600e00ebf22b"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f042a8f9581a111152b472",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD/TWA to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD/TWA to MD</p>",
+    "stream": "56f042a8f9581a111152b472",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T21:46:05.097+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a9d3e8f1b600e00ebf22f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04268f9581a111152ae92",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD/TWA to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD/TWA to MD</p>",
+    "stream": "56f04268f9581a111152ae92",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T21:53:02.213+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a9f768f1b600e00ebf232"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570549e15990b20e004e0fb6",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD/TWA to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD/TWA to MD</p>",
+    "stream": "570549e15990b20e004e0fb6",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T22:02:30.612+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571ab3db8f1b600e00ebf240"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570549e15990b20e004e0fb6",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Called Back: Mod. Work Available as of 5/2/16",
+    "type": "phone",
+    "content": "<p>Spoke to David (ER) stated EE can resume mod. duties as of 5/2/16</p>",
+    "stream": "570549e15990b20e004e0fb6",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T23:29:31.509+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570e83252c76030e00f5cc99"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04282f9581a111152b0ee",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: Is EE continuing to work his U&C?",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Mary,</p><p class=\"p2\">Cypress Insurance Company has requested Focus On Intervention complete state required return to work notices regarding Jose Lopez.  In order to complete these forms please confirm the following information:</p><p class=\"p2\">Is Jose Lopez continuing to work his regular duties no restrictions?</p><p class=\"p2\">Per our notes Mr. Lopez resumed his regular duties as of 1/15/16 work 40 hours per week @$13.00 per hour.  Please confirm this information is correct.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04282f9581a111152b0ee",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T17:34:29.542+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570e835c2c76030e00f5cc9a"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04282f9581a111152b0ee",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Robert,</p><p class=\"p2\">I have continued to follow up with the employer, Fabrication Concepts Corporation wanting to confirm if EE is continuing to work his regular duties (start date, hours and wages).  Messages have been left for Mary Sanchez, I am awaiting a response.  I will continue to follow up with the ER and keep you updated.</p><p class=\"p2\">As son as information is confirmed we will proceed on developing the necessary RTW notices.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04282f9581a111152b0ee",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T17:35:24.912+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570e8bb92c76030e00f5cc9f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f0426cf9581a111152aef4",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: No Mod. Work Available",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Kristina,</p><p class=\"p2\">I have continued to follow up with the employer, Westside Landscape &amp; Concrete regarding modified work availability.  Per Karina Castaneda (ER) there is no modified work available.</p>",
+    "stream": "56f0426cf9581a111152aef4",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T18:11:05.757+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570e9c562c76030e00f5cca8"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04282f9581a111152b0fb",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Pauline,</p><p class=\"p2\">I have continued to follow up with the employer, Modern Express, Inc. regarding modified work availability.  Per Jose Rodriguez (ER) employee resigned his position.  I proceeded to ask Jose if modified work would have been available had EE not resigned?  Jose (ER) stated that yes modified work would have been available.</p><p><br/></p><p class=\"p2\">Scheduled a meeting with Jose (ER) to develop a transitional job assignment based on the duties that would have been available within EE's temporary restrictions on 4/14 @10:00 a.m.</p><p class=\"p2\">We will keep you updated.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04282f9581a111152b0fb",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T19:21:58.815+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570ea3e22c76030e00f5ccad"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04221f9581a111152a819",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER re: perm. mod/alt availability",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Peter,</p><p class=\"p1\">Attached please find Hugo Lucero's permanent work restrictions for your review.  Please advise us as soon as possible if permanent modified or alternate work is available within Mr. Lucero's permanent restrictions.</p><p class=\"p2\">Please fill out and sign the attached letter and email or fax (888-503-3910) it back.</p>",
+    "stream": "56f04221f9581a111152a819",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T19:54:10.274+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fdc305c23ab0e00528f9e"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e7fe02c76030e00f5cc97",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 714-540-5468 spoke to John Muller re: scheduling appt. &amp; mod. work availability.  John (sounded frustrated) stated EE is back to mod. duties as of 4/13/16, however had an MD appt. today.  Re: developing JD John requested we email him at jmuller@finelinewood.com due to him in a middle of a training right now</p>",
+    "stream": "570e7fe02c76030e00f5cc97",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T18:06:40.081+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fe07a5c23ab0e00528fa3"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e7fe02c76030e00f5cc97",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p>Hi Melissa,</p><p>I proceeded to follow up with the employer, Fineline Woodworking, Inc. in regards to scheduling appointment based on EE's usual and customary duties, as well as exploring modified work availability spoke to John Muller.</p><p>Per John (ER) employee is back to modified work as of 4/13/16.</p><p>John (ER) stated he was in the middle of a training and asked that I email him in regards to scheduling appointment to develop the job description and transitional job assignment based on the modified work.</p><p>I will continue to follow up with the ER and keep you updated.</p>",
+    "stream": "570e7fe02c76030e00f5cc97",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T18:24:58.899+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570ff62d5c23ab0e00528fbd"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570ea0312c76030e00f5cca9",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Please Help",
+    "type": "email",
+    "content": "<p></p><p class=\"p1\">Hi Bryan,</p><p class=\"p2\">We received this referral for an Interactive Process.</p><p class=\"p2\">Upon review of the case notes EE has been released back to his regular duties no restrictions as of 2/26/16.  Per notes EE is back to work</p><p class=\"p2\">Please advised if you would like for us to proceed on developing the JD.</p><p></p>",
+    "stream": "570ea0312c76030e00f5cca9",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T19:57:33.208+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57100a895c23ab0e00528fce"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04268f9581a111152ae96",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 707-963-9999 spoke to Jeanne Sheber confirmed EE is continuing to work his U&amp;C as of 11/20/15 works 40 hours per week.  Re: wages Jeanne will call back EE's wage went up.  Per Jeanne (ER) EE made 60,000.00 last year (2015)</p><p>Jeanne will call back with EE's wages</p>",
+    "stream": "56f04268f9581a111152ae96",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T21:24:25.983+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57100c1f5c23ab0e00528fcf"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04268f9581a111152ae96",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: EE Continuing to Work His U&C/Please Help",
+    "type": "email",
+    "content": "<p>Hi Joshua,</p><p>I proceeded to follow up with the employer, Alpha Omega Winery spoke to Jeanne Sheber.  Per Jeanne (ER) employee is continuing to work his regular duties no restrictions as of 11/20/15 40 hours per week.</p><p>As you are aware EE was released from care to his full duty no restrictions, no PD per the QME-Dr. Kevin Hanley report dated 3/5/16.</p><p>RTW notices are not required when its determined that EE has no PD.</p><p>Please advise If you would like us to proceed on developing the RTW notices.  We will be gladly to assist.</p>",
+    "stream": "56f04268f9581a111152ae96",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T21:31:11.953+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571012815c23ab0e00528fd4"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f99d3da3ae7e290003e2ee",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER cc'd carrier",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Tricia,</p><p class=\"p2\">We have continued to follow up with you via the phone in regards to your availability so we can coordinate a meeting to develop the job description based on Ms. Leslie Liverett's usual and customary duties.</p><p class=\"p2\">Messages have been left for you 714-249-4843, please contact us as soon as you can so we can proceed on coordinating this appointment.</p>",
+    "stream": "56f99d3da3ae7e290003e2ee",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T21:58:25.786+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57101d915c23ab0e00528fe3"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57029d98bce48332000b7786",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER, Debbie",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Debbie,</p><p class=\"p1\">I proceeded to leave a message for Eric Rafanan in regards to coordinating a phone meeting to discuss Mr. Diaz physical demands.</p><p class=\"p2\">I will provide the information you forwarded to me to our evaluator, Steve Gray.</p><p class=\"p2\">Attached please find a copy of the MD report dated 2/23/16 from Dr. Dainer noting that Mr. Diaz can resume his usual and customary occupation as of 2/24/16.</p><p class=\"p2\">Mr. Diaz was again seen by Dr. Dainer on 3/15/16 at this point he was declared permanent and stationary, released from care to his usual and customary duties.</p>",
+    "stream": "57029d98bce48332000b7786",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T22:45:37.987+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fe81a5c23ab0e00528fab"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e93042c76030e00f5cca5",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "570e93042c76030e00f5cca5",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T18:57:30.205+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fe8cd5c23ab0e00528fb0"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e99022c76030e00f5cca6",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "570e99022c76030e00f5cca6",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T19:00:29.073+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fe9e65c23ab0e00528fb3"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e8bed2c76030e00f5cca0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "570e8bed2c76030e00f5cca0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T19:05:10.142+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570feaae5c23ab0e00528fb6"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e875f2c76030e00f5cc9b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "570e875f2c76030e00f5cc9b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T19:08:30.748+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570ff5365c23ab0e00528fbc"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570ea0312c76030e00f5cca9",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 760-446-2702 spoke to Teresa Becker scheduled appt. for 4/20 @3:00 p.m. to develop JD.  Teresa was very busy at the moment</p>",
+    "stream": "570ea0312c76030e00f5cca9",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T19:53:26.837+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57101b475c23ab0e00528fdd"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f9aae4a3ae7e290003e2f0",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "JD ER Sig",
+    "type": "other",
+    "content": "<p>Jd ER sig</p>",
+    "stream": "56f9aae4a3ae7e290003e2f0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T22:35:51.127+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57101cb95c23ab0e00528fe0"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57029d98bce48332000b7786",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 925-586-0902 left message for Eric re: scheduling appt. to develop JD</p>",
+    "stream": "57029d98bce48332000b7786",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T22:42:01.188+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117a77b938ab0e00ff3220"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570553705990b20e004e0fbe",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD to MD</p>",
+    "stream": "570553705990b20e004e0fbe",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:34:15.119+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117d2eb938ab0e00ff3222"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56fc1270969d330e0020b34d",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD to MD</p>",
+    "stream": "56fc1270969d330e0020b34d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:45:50.717+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117eb7b938ab0e00ff3224"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5705590d5990b20e004e0fc2",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD to MD</p>",
+    "stream": "5705590d5990b20e004e0fc2",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:52:23.368+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57118023b938ab0e00ff3226"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f9a526a3ae7e290003e2ef",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD to MD</p>",
+    "stream": "56f9a526a3ae7e290003e2ef",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:58:27.547+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5711822bb938ab0e00ff3228"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f9993aa3ae7e290003e2ed",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Faxed JD/Trans to MD",
+    "type": "physician",
+    "content": "<p>Faxed JD/Trans to MD</p>",
+    "stream": "56f9993aa3ae7e290003e2ed",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-16T00:07:07.539+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716924ea2e42d0e00163b57"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153d2ce21bd10e0046525e",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Returned Call",
+    "type": "phone",
+    "content": "<p>Carla (ER) called stated she will need Sedgwick to contact her directly before providing us with any info.</p>",
+    "stream": "57153d2ce21bd10e0046525e",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:17:18.621+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57169587a2e42d0e00163b5f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153299e21bd10e00465255",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 831-421-9664 left message for Tracy Taylor re: scheduling appt. to develop JD.  Is mod. work available?</p>",
+    "stream": "57153299e21bd10e00465255",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:31:03.358+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57169826a2e42d0e00163b65"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153fe8e21bd10e00465260",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 818-701-8800 Ext. 401 left message for Annie Tosounian re: scheduling appt. to develop JD</p>",
+    "stream": "57153fe8e21bd10e00465260",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:42:14.013+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57169b73a2e42d0e00163b6b"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571542e2e21bd10e00465262",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 805-964-1896 left message for Julie States re: scheduling appt. to develop JD.  Was advised Julie is out until Thursday</p>",
+    "stream": "571542e2e21bd10e00465262",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:56:19.920+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57169dfba2e42d0e00163b6d"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571526f8e21bd10e0046524d",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 805-524-8620 left message for Darcy Johnson re: scheduling appt. to develop JD</p>",
+    "stream": "571526f8e21bd10e0046524d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T21:07:07.894+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716a70ba2e42d0e00163b73"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153500e21bd10e00465258",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "meeting",
+    "content": "<p>Phd. ER 626-333-9393 spoke to Aiwa Ton scheduled appt. for 4/21 @1:00 p.m.</p>",
+    "stream": "57153500e21bd10e00465258",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T21:45:47.369+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716a76ca2e42d0e00163b74"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153500e21bd10e00465258",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Renee,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Aiwa Ton at KP Poultry (626-333-9393) for EE Rafael Villareal on 4/21 @1:00 p.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "57153500e21bd10e00465258",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T21:47:24.557+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716b1b0a2e42d0e00163b7d"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571545dee21bd10e00465263",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "meeting",
+    "content": "<p>Phd. ER 909-946-5555 was advised that Robert Bumpus no longer works there.</p><p>Spoke to Barbara Schilder scheduled appt. for 4/21 @3:00 p.m. to develop JD</p>",
+    "stream": "571545dee21bd10e00465263",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T22:31:12.058+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57223e720f0f9a0e0077558e"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04284f9581a111152b122",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "No update on supplemental QME report",
+    "type": "other",
+    "content": "<p>Checked notepad - no update on supplemental QME report</p>",
+    "stream": "56f04284f9581a111152b122",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:46:42.886+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572243a50f0f9a0e00775594"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5707eb396544fa94190b0844",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30165482837-0001     Claimant:  GONZALEZ JAMES   Dr. update - 3/30 MOD",
+    "type": "physician",
+    "content": "<p>LOV 3/30</p><p>NOV 4/27</p><p>Work Status: MOD</p><p>Work restrictions: no use of Left hand, no lift/push/pull</p>",
+    "stream": "5707eb396544fa94190b0844",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-03-31T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:08:53.725+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572244560f0f9a0e00775598"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5707eb396544fa94190b0844",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "ER - offering TWA",
+    "type": "employer",
+    "content": "<p>ER - offering TWA and accepted by EE </p><p>starting on 3/30 </p>",
+    "stream": "5707eb396544fa94190b0844",
+    "followUp": null,
+    "date": {
+        "$date": "2016-03-31T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:11:50.412+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572244ab0f0f9a0e00775599"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5707eb396544fa94190b0844",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "LM for ER TCB - how is TWA?",
+    "type": "employer",
+    "content": "<p>LM with receptionist to have ER - Griselda - call back - how is TWA going?</p>",
+    "stream": "5707eb396544fa94190b0844",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:13:15.744+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5722469f0f0f9a0e0077559c"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5707eb396544fa94190b0844",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30165482837-0001     Claimant:  GONZALEZ JAMES   ER - TWA going ok",
+    "type": "employer",
+    "content": "<p>Spoke with ER Griselda - TWA going okay and keeping EE busy</p>",
+    "stream": "5707eb396544fa94190b0844",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:21:35.344+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57224c960f0f9a0e007755a3"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5706bc8be124af0e001e7053",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30165545472-0001     Claimant:  DURAN SERAFINA    - FD on 4/1",
+    "type": "physician",
+    "content": "<p>Spoke with Fredrick at DO - EE released to full duty on 4/1 not 3/28</p>",
+    "stream": "5706bc8be124af0e001e7053",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:47:02.106+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57224cdd0f0f9a0e007755a4"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5706bc8be124af0e001e7053",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30165545472-0001     Claimant:  DURAN SERAFINA     - RTW FD",
+    "type": "employer",
+    "content": "<p>Call from ER - EE RTW FD 3/28 - all is good and he does not have a copy of the Dr. release</p>",
+    "stream": "5706bc8be124af0e001e7053",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-18T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:48:13.406+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572255c10f0f9a0e007755ac"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04238f9581a111152aa2d",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30142052051-0001     Claimant:  COY JOSE     - EE in TWA",
+    "type": "employer",
+    "content": "<p>Spoke with ER - Christina - yes EE started TWA on 3/29 </p>",
+    "stream": "56f04238f9581a111152aa2d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-03-30T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T18:26:09.485+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fb0109713b00e0015c536"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e7bb7c874a90e009ff21c",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "571e7bb7c874a90e009ff21c",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T18:14:40.387+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fb0e89713b00e0015c539"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e7e48c874a90e009ff21f",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "571e7e48c874a90e009ff21f",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T18:18:16.979+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fb1c49713b00e0015c53c"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e80b0c874a90e009ff224",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "571e80b0c874a90e009ff224",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T18:21:56.062+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fb2869713b00e0015c53f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e6333c874a90e009ff216",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "571e6333c874a90e009ff216",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T18:25:10.365+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fb3149713b00e0015c542"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e5b2cc874a90e009ff211",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Assigned to Melinda",
+    "type": "email",
+    "content": "<p>Emailed referral to Melinda</p>",
+    "stream": "571e5b2cc874a90e009ff211",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T18:27:32.391+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fbf759713b00e0015c546"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571526f8e21bd10e0046524d",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "MD Contact",
+    "type": "phone",
+    "content": "<p>Phd. MD 818-905-2222 was advised EE was seen 3/21 and has a follow up 5/5</p>",
+    "stream": "571526f8e21bd10e0046524d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T19:20:21.743+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5721231d8f57c80e001bc448"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04260f9581a111152ade0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Jeffrey,</p><p class=\"p2\">I have continued to follow up with the employer, Foothill Family Service regarding modified work availability.  Today I spoke to Christina who advised we will need to speak to the HR manager, Stacy Terriquez.  Left message for Stacy, I will continue to follow up with the ER and keep you updated.</p>",
+    "stream": "56f04260f9581a111152ade0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T20:37:49.346+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57223d940f0f9a0e0077558d"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04284f9581a111152b122",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "ER - call about QME",
+    "type": "employer",
+    "content": "<p>Call from ER - Leo - and he spoke with EE about the QME. EE said the QME misunderstood him. EE says he is in pain when he sits and prefers to stand so not sure why QME gave him the restrictions for sedentary work only. </p>",
+    "stream": "56f04284f9581a111152b122",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:43:00.814+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a5ebb8f1b600e00ebf1f4"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153500e21bd10e00465258",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 626-333-9393 spoke to Aiwa stated there is no mod. work available, they cannot accommodate EE's lifting restrictions.  I proceeded to ask Aiwa if they had someone there named May.  Aiwa stated May is another supervisor there at their location.  per Aiwa if she is not available we can also speak to My</p>",
+    "stream": "57153500e21bd10e00465258",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T17:26:19.657+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a5f148f1b600e00ebf1f5"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153500e21bd10e00465258",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: No Mod. Work Available",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Renee,</p><p class=\"p2\">Per our conversation today I spoke to Aiwa Ton at KP Poultry who advised that no modified work is available within EE's temporary restrictions.  Per Aiwa (ER) May is another supervisor there at their location.</p><p class=\"p2\">We will proceed on doing the medical follow up with Western Hand and Orthopedics and keep you updated.</p>",
+    "stream": "57153500e21bd10e00465258",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T17:27:48.671+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571e8890c874a90e009ff22c"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f042a5f9581a111152b420",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Martir, Morris cl # 30165231358 - Post 2004/MD Response 04/25/16 - F/D",
+    "type": "email",
+    "content": "<p>Hi Alvin,<br/><br/>Here is the updated status we received regarding Morris Martir<br/><br/>Received information by phone spoke with : Luis<br/><br/>PTP &amp; Phone # : Kaiser   310-325-5111<br/><br/>Last office visit : 04/22/16<br/><br/>Status : Full duty<br/><br/>Next office visit : 05/20/16 @ 11:50<br/><br/>Next diary : 05/23/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/></p>",
+    "stream": "56f042a5f9581a111152b420",
+    "followUp": {
+        "$date": "2016-05-23T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T21:13:52.208+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fa9319713b00e0015c52b"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571e4f24c874a90e009ff208",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "MD Response",
+    "type": "email",
+    "content": "<p>Hi Kyle,</p><p></p><p>PTP &amp; Phone #: Dr. Murphy 858-657-0000</p><p></p><p>Spoke with: Alexia</p><p></p><p>Last Office Visit: 4/18</p><p></p><p>Next Office Visit: None schedule</p><p></p><p>Status: TTD</p><p></p><p>Next Diary: 5/9</p>",
+    "stream": "571e4f24c874a90e009ff208",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T17:45:21.021+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fc87a9713b00e0015c54f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571542e2e21bd10e00465262",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Courtney,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Claudia Esparza at Surf to Summit, Inc. (805-964-1896) for EE Josefa Alonso on 4/27 @10:00 a.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "571542e2e21bd10e00465262",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T19:58:50.224+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fcf349713b00e0015c55a"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f0425cf9581a111152ad73",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Katkov, Michael / Cl # 30142679258 - 04/26/16 - P&S Report",
+    "type": "physician",
+    "content": "<p>spoke with : Lorena<br/><br/>PTP &amp; Phone # : Sports &amp; Spine Orthopaedics   Peter S. Borden M.D.   (310) 775-2331<br/><br/>Last office visit : 04/04/16<br/><br/>Status : Spoke with Lorena. She said the P&amp;S report was complete. She took my fax # and said she would fax the report right over. <br/></p>",
+    "stream": "56f0425cf9581a111152ad73",
+    "followUp": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T20:27:32.739+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5721141b8f57c80e001bc432"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04249f9581a111152abb8",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: No Mod. Work Available",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Daniel,</p><p class=\"p2\">I have continued to follow up with the employer, California Custom Laminate, Inc. regarding modified work availability.  Per Chris Giordana (ER) there is no modified work available.</p>",
+    "stream": "56f04249f9581a111152abb8",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T19:33:47.456+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57154f55e21bd10e00465269"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f042a5f9581a111152b432",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "ER has PMA avail-ER signed letter to file-Emailed CE",
+    "type": "email",
+    "content": "<pre class=\"margin20top ng-binding\" style=\"color: rgb(51, 51, 51);background-color: rgb(245, 245, 245);\"><p>Rec'd PMA JD letter from ER Pam Conlon Sandhu</p><p class=\"p2\"><span class=\"s1\">Hi Tamara, </span></p><p class=\"p2\"><span class=\"s1\">A JD/PMA meeting has been scheduled with Pam Conlan Sandhu at Agility Health Services (650-453-5104 ) for EE Yolonda Brown  on 04/19/16.</span></p><p class=\"p2\"><span class=\"s1\">Attached is the Letter signed by ER Pam Conlan-Sandhu advising they have a Perm Mod Alt position available with in the Permanent Restrictions.</span></p><p class=\"p2\"><span class=\"s1\">We will keep ypu updated.</span></p><p class=\"p4\"><span class=\"s1\">Thank you, </span></p><p class=\"p4\">Janet Collins</p><p class=\"p5\"><span class=\"s1\">Focus On Intervention</span></p><p class=\"p5\"><span class=\"s1\">Return to Work Coordinator</span></p><p class=\"p5\"><span class=\"s1\">760-632-0237 Phone</span></p><p class=\"p5\"><span class=\"s1\">888-503-3910 Fax </span><a href=\"mailto:janet@focusonintervention.com\" style=\"color: rgb(51, 122, 183);background-color: rgb(255, 255, 255);\">janet@focusonintervention.com</a></p><p><br/></p></pre>",
+    "stream": "56f042a5f9581a111152b432",
+    "followUp": null,
+    "date": {
+        "$date": "1970-01-01T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-18T21:19:17.428+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717a46870318b0e006435fb"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e7fe02c76030e00f5cc97",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Email from ER-Replied to ER",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Marc,</p><p class=\"p2\">Our evaluator is gone for the day.  Would you be available Friday (4/22/16) after 11:00 a.m. or in the afternoon?</p><p class=\"p2\">Thank You</p><p class=\"p1\">Maria Aragon</p><p class=\"p1\">760 632-0237 Ext. 10</p><p class=\"p1\">888 503-3910 Fax</p><p class=\"p3\"><span class=\"s1\"><a href=\"mailto:maria@focusonintervention.com\">maria@focusonintervention.com</a></span></p><p class=\"p2\">On Apr 19, 2016, at 3:59 PM, Marc Butman &lt;<a href=\"mailto:marc@finelinewood.com\" style=\"background-color: rgb(255, 255, 255);\"><span class=\"s2\">marc@finelinewood.com</span></a>&gt; wrote:</p><p><br/></p><p class=\"p4\">today pls</p><p><br/></p><p class=\"p5\"><br/></p><p><br/></p><p class=\"p6\"><b> Marc Butman  I   CEO</b></p><p class=\"p7\">FINELINE WOODWORKS, INC.</p><p><br/></p><p class=\"p6\">1139 Baker Street | Costa Mesa, CA | 92626</p><p><br/></p><p class=\"p9\"><span class=\"s3\">c: <a href=\"tel:631.484.8804\"><span class=\"s4\">714.345.7718</span></a></span></p><p><br/></p><p class=\"p9\"><span class=\"s3\">o: <a href=\"tel:714.540.5468\"><span class=\"s4\">714.540.5468</span></a></span></p><p><br/></p><p class=\"p9\"><span class=\"s3\">f: <a href=\"tel:714.957.5771\"><span class=\"s4\">714.957.5771</span></a></span></p><p><br/></p><p class=\"p10\"><span class=\"s3\">e</span><span class=\"s4\"> .<a href=\"mailto:marc@finelinewood.com\"><span class=\"s2\">marc@finelinewood.com</span></a></span></p><p><br/></p><p class=\"p9\"><span class=\"s3\">w: <a href=\"http://www.finelinewood.com/\"><span class=\"s4\">www.finelinewood.com</span></a></span></p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "570e7fe02c76030e00f5cc97",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T15:46:48.019+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57191774ba3e2a0e00550f04"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f04294f9581a111152b2aa",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Alvarez, Rose claim# 30154620639 - 04/21/16 - TTD",
+    "type": "email",
+    "content": "<p>LOV : 03/10/16<br/>W/S : TTD<br/>NOV : 05/10/16<br/>Diary : 05/11/16<br/><br/>4/20/2016    SYS    PAULINEG    claim    PR<br/>Telephonic Case Management Referral: Called the office of Dr. Gregg Sobeck (Ortho/PTP) @ Los Angeles Orthopedic Institute @ 818-905-2222 and spoke with Diana who verified that EE was last seen on 4/7/16 and her next visit is scheduled for 5/10/16 at 1 PM.<br/>Mary Ellen Alexander, RN<br/><br/>4/20/2016    TNORLAND    TNORLAND    claim    MD<br/>Disability Status Call<br/>LA Ortho<br/>Dr. Sobeck<br/>661-267-7777 Press 0 right away<br/>Spoke with Breyanna<br/>Last seen 3/10/16 (NO SHOW 4/12/16)<br/>Work Status TTD<br/>Next Appointment 5/10/16<br/><br/>4/20/2016    SYS    PAULINEG    claim    PR<br/>Telephonic Case Management Referral: MD Contact Letter with optional PCE faxed to Dr. Gregg Sobeck in advance of the 5/10/16 appointment.<br/>Mary Ellen Alexander, RN<br/>Entered by: Mary Ellen Alexander<br/>Entered on: 04/20/2016<br/><br/></p>",
+    "stream": "56f04294f9581a111152b2aa",
+    "followUp": {
+        "$date": "2016-05-11T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T18:09:56.068+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57192f28ba3e2a0e00550f1b"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f0428cf9581a111152b1e2",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Vanessa,</p><p class=\"p2\">I have continued to follow up with the employer, Zanotto Markets, Inc. regarding permanent mod/alt availability based on the permanent work restrictions given by QME-Dr. Gang Li report dated 3/4/16.  Today I spoke to Cal Wong (ER) stated EE resigned his position (did not have date available).</p><p class=\"p2\">Advised Cal (ER) that EE has permanent work restrictions and that we need to confirm if permanent mod/alt would have been available had EE not resigned.  Cal (ER) stated EE had been working on a modified position before he resigned.  Cal (ER) confirmed permanent mod/alt would have been available had EE not resigned his position.</p><p class=\"p2\">We will proceed on developing a permanent JD based on the duties available within EE;s permanent work restrictions.  We will keep you updated.</p>",
+    "stream": "56f0428cf9581a111152b1e2",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T19:51:04.988+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5722561e0f0f9a0e007755ad"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04238f9581a111152aa2d",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30142052051-0001     Claimant:  COY JOSE     - Dr. Alves TTD",
+    "type": "physician",
+    "content": "<p>LOV 3/24</p><p>NOV 5/5</p><p>Work Status: TTD</p>",
+    "stream": "56f04238f9581a111152aa2d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-04T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T18:27:42.200+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571693dca2e42d0e00163b59"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57153d2ce21bd10e0046525e",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Please Help-Contact ER",
+    "type": "email",
+    "content": "<p>Hi Cheryl,</p><p>We receieved this referral for an Interactive Process.</p><p>I proceeded to follow up with the employer, Darla Applebaum in regards to scheduling an appointment to develop the JD based on EE's usual and customary duties, as well as exploring modified work availability.  I spoke to Darla (ER) stated she will not provide us with any information until Sedgwick contacts her directly.</p><p><br/></p><p>Please contact ER, Darla 619-219-4086.</p>",
+    "stream": "57153d2ce21bd10e0046525e",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:23:56.584+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716b214a2e42d0e00163b7e"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571545dee21bd10e00465263",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Ana,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Barbara Schilder at Ford of Upland, Inc. (909-946-5555) for EE Benjamin Arellano on 4/21 @3:00 p.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "571545dee21bd10e00465263",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T22:32:52.407+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716b598a2e42d0e00163b8b"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "571522bae21bd10e0046524a",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Ana,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Rosalva Rocha at Rocha Brothers Farms, LLC (831-722-2510) for EE Carmen Ramirez on 4/21 @2:00 p.m.  Per Rosalva (ER) modified work is available, however did not provide us with a specific start date, hours and wages.</p><p class=\"p2\">We will continue to follow up with the ER and keep you updated.</p>",
+    "stream": "571522bae21bd10e0046524a",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T22:47:52.753+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717a51070318b0e006435fc"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "570e7fe02c76030e00f5cc97",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Email from ER",
+    "type": "meeting",
+    "content": "<p class=\"p1\">Hi Marc,</p><p class=\"p1\"> Thank you for your response.</p><p class=\"p2\">I will put you on the calendar for Friday (4/22/16) @11:00 a.m.</p><p class=\"p2\">Our evaluator, Steve Gray will contact you via phone at 714-540-5468.  Please confirm phone number is correct.</p><p class=\"p2\">Maria Aragon</p><p class=\"p1\">760 632-0237 Ext. 10</p><p class=\"p1\">888 503-3910 Fax</p><p class=\"p1\">maria@focusonintervention.com</p><p class=\"p2\"><br/></p><p class=\"p2\">On Apr 19, 2016, at 4:04 PM, Marc Butman &lt;marc@finelinewood.com&gt; wrote:</p><p class=\"p3\">Friday at 11</p><p><br/></p><p class=\"p4\"> Marc Butman</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "570e7fe02c76030e00f5cc97",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T15:49:36.308+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717c8e170318b0e0064360d"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "57152e24e21bd10e00465254",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Carlye,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Cherie Basler at George Chevrolet (562-925-2500) for EE Felipe Rodriguez on 4/22 @10:00 a.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "57152e24e21bd10e00465254",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T18:22:25.277+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717d73970318b0e00643618"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5715194ae21bd10e00465247",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Called",
+    "type": "meeting",
+    "content": "<p>Robert (ER) called scheduled appt. for 4/25 @10:00 a.m. to develop JD/TWA.  Per Robert mod. work is available and has been offered to EE however EE refuses to return to work.  Robert will email us a copy of letter provided to EE advised her of mod. work availability</p>",
+    "stream": "5715194ae21bd10e00465247",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T19:23:37.201+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717e68770318b0e0064361f"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5717dd1070318b0e0064361b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Per Email: MD Info",
+    "type": "email",
+    "content": "<p class=\"p1\">On Apr 20, 2016, at 9:03 AM, &#34;Folloso, Marylin&#34; &lt;Marylin.Folloso@sedgwickcms.com&gt; wrote:</p><p class=\"p2\">Hi Maria,</p><p class=\"p3\">The contact # for Dr. Phillips  is 949-287-3231 /.Ontario</p><p class=\"p2\">The authorization letter and medical records been sent to their office on 04/14/2016.</p>",
+    "stream": "5717dd1070318b0e0064361b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:28:55.400+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717e6ce70318b0e00643620"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5717dd1070318b0e0064361b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "MD Contact",
+    "type": "phone",
+    "content": "<p class=\"p1\">Phd. Dr. Phillips 949-287-3231 spoke to Monica stated they have not yet received any authorization to treat EE.  Monica stated authorization letter and records should be mailed to their main office: 2700 N. Main Street #400 Santa Ana CA 92705 Fax # 714-916-5733.  Monica advised that Dr. Phillips treat at 5 different locations.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "5717dd1070318b0e0064361b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:30:06.579+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717e71670318b0e00643622"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5717dd1070318b0e0064361b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Marylin,</p><p class=\"p2\">I proceeded to contact Dr. Phillips office 949-287-3231 spoke to Monica stated EE has no initial visit schedule.</p><p class=\"p2\">Per Monica they have not yet received any authorization to treat EE.  Monica stated authorization letter and records should be mailed to their main office: 2700 N. Main Street #400 Santa Ana CA 92705 Fax # 714-916-5733.  Monica advised that Dr. Phillips treat at 5 different locations.</p>",
+    "stream": "5717dd1070318b0e0064361b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:31:18.376+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717e75870318b0e00643623"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5717dd1070318b0e0064361b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: JD for review & sign",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Yasmin,</p><p class=\"p2\">Attached please find the job description developed regarding Consuelo Robles that we have on file.  </p><p class=\"p2\">Information on the report has been updated/revised (clam # 30153879311).  Please review and sign the attached report and email or fax (888-503-3910 it back.</p><p class=\"p2\">Please feel free to contact us if you have any questions.</p>",
+    "stream": "5717dd1070318b0e0064361b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:32:24.842+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f51b70318b0e00643631"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04229f9581a111152a8d0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: Letter re: perm. mod/alt availability",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Diana,</p><p class=\"p2\">Attached please find Heriberto Alvarez permanent work restrictions for your review.  Please advise if permanent modified or alternate work is available within Mr. Alvarez permanent work restrictions.</p><p class=\"p2\">Please fill out and sign the attached letter and email or fax (888-503-3910) it back.</p>",
+    "stream": "56f04229f9581a111152a8d0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:31:07.422+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f61d70318b0e00643632"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04229f9581a111152a8d0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Ana,</p><p class=\"p2\">I have continued to follow up with the employer, The Habit Restaurants, LLC regarding permanent mod/alt availability.  Messages have been left for Diana Sidi, I am awaiting a response.</p><p class=\"p2\">I will continue to follow up with the ER and keep you updated.</p>",
+    "stream": "56f04229f9581a111152a8d0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:35:25.470+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f96870318b0e00643636"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f04292f9581a111152b265",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Please Help",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Aubree,</p><p class=\"p2\"><b>Please advise how you want us to proceed.</b><br/></p><p class=\"p2\">We are having a difficult time getting ahold of someone at the Temp Service 323-516-6519.  I have tried several time however I only get a busy tone or a recording stating lines are busy please try back later.</p>",
+    "stream": "56f04292f9581a111152b265",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:49:28.703+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5718045a70318b0e00643648"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f041eef9581a111152a344",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Chantelle,</p><p class=\"p2\">I am following up with you in regards to permanent modified or alternate work being available within Ms. Sloan's permanent work restrictions.</p><p class=\"p2\">Please advise us as soon as possible.</p>",
+    "stream": "56f041eef9581a111152a344",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T22:36:10.391+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571805ac70318b0e00643649"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f041eef9581a111152a344",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p>Hi William,</p><p>I am continuing to follow up with the employer, A Better Tomorrow regarding permanent mod/alt availability within EE's permanent work restrictions from Dr. Simpkins report dated 12/17/15.</p><p>On 4/5/16 Chantelle (ER) advised that she was awaiting to hear back from HR and their legal department before making a determination.</p><p>I have left messages for Chantelle (ER), I am awaiting a response.</p><p>I will continue to follow up with the ER and keep you updated.</p>",
+    "stream": "56f041eef9581a111152a344",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T22:41:48.398+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57193be4ba3e2a0e00550f23"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f99d3da3ae7e290003e2ee",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Candace,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Tricia Mora at Matthew 25:40, Inc. (714-249-4815) for EE Leslie Liverett on 4/22 @1:00 p.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "56f99d3da3ae7e290003e2ee",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T20:45:24.730+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57193fc1ba3e2a0e00550f2c"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56fc0c1d969d330e0020b349",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: Important",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Ana,</p><p class=\"p2\">We have continued to follow up with you via the phone in regards to your availability so we can coordinate a meeting to develop the job description based on Mr. Saul Alvarez usual and customary duties.</p><p class=\"p2\">Messages have been left for you 973-986-0233, please contact us as soon as you can so we can proceed on coordinating this appointment.</p>",
+    "stream": "56fc0c1d969d330e0020b349",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T21:01:53.830+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57194559ba3e2a0e00550f30"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f042abf9581a111152b4b0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Update",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Carlye,</p><p class=\"p2\">A JD/ERTW meeting has been scheduled with Doris Haltom at Chris Haltom Hardwood Floors, Inc. (831-426-426-7300) for EE Humberto Zamora-Ferrer on 4/25 @11:00 a.m.</p><p class=\"p2\">We will keep you updated.</p>",
+    "stream": "56f042abf9581a111152b4b0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T21:25:45.564+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "56f96672c3233f0e00b76832"
+    },
+    "status": "close",
+    "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f42/145918525723201a4879208b32595032astatus-request-Yvonne%20Haynes%20Workstation.txt",
+    "_case": "56f04198f9581a1111529b58",
+    "creator": "56aa66be44aeb7c61ba42f42",
+    "title": "Follow up in regards to sit to stand",
+    "type": "email",
+    "content": "<p>Sent e-mail to Tommy in regards to status of sit to stand unit<br/>---<br/>Attached files<br/><a href=\"[object Object]\">NEW Closing ergo report 3.docx</a><br/><a href=\"[object Object]\">Fields, Teresa Ergo 4-13-16.doc</a><br/><br/></p>",
+    "stream": "56f04198f9581a1111529b58",
+    "followUp": {
+        "$date": "2016-03-30T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-03-24T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-03-28T17:14:26.735+0000"
+    },
+    "__v": 0,
+    "files": ""
+}, {
+    "_id": {
+        "$oid": "571005e85c23ab0e00528fc7"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "56f0427ef9581a111152b0a2",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER re: mod. work availability",
+    "type": "email",
+    "content": "<p>Hi Mark,</p><p>These are the current work restrictions from Reliant Immediate Care for your injured employee, Maria Romero. </p><p>Please respond as to whether or not there is temporary modified work available at your company that can accommodate these restrictions. </p><p><span>            </span><span>            </span>No repetitive use of the right wrist</p><p><span>            </span><span>            Lift, push or pull up to 10 lbs. with the right wrist</span></p><p><span>            </span><span>            Must use splint support</span></p><p><span>            </span><span>            </span>Date of exam – 4/11/16</p>",
+    "stream": "56f0427ef9581a111152b0a2",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T21:04:40.422+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fef419713b00e0015c56f"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f042aaf9581a111152b4ae",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Fwd: Important : Fwd: RE: Carney, Jim - cl # 30154688525 - Post 2004/MD Response 03/22/16 - MOD",
+    "type": "email",
+    "content": "<p>To : Maria Aragon </p><p><br/></p><p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>      <br/><br/>      -------- Forwarded Message --------<br/>      <br/>        <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>        <br/>      <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/>            </th><td>Important : Fwd: RE: Carney, Jim - cl # 30154688525 -<br/>              Post 2004/MD Response 03/22/16 - MOD</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Thu, 21 Apr 2016 10:46:31 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization:<br/>            </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Maria Aragon <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:maria@focusonintervention.com\">&lt;maria@focusonintervention.com&gt;</a></td></tr></tbody></table><br/>      <br/><br/>      <br/><br/>      <br/>      Hi Maria, <br/><br/>      Carlye Russo asked if we had talked to the employer about modified<br/>      work (see below)<br/><br/>      I have included the most recent status here.<br/><br/>      I did not send the status to Carlye yet since she's requesting w/s<br/>      and f/u with ER.<br/><br/>      Have a great day !<br/><br/>      Sincerely, <br/><br/>      Paul Howland<br/><br/>      <br/><br/>      regarding Carney, Jim - cl # 30154688525<br/><br/>      Received information by phone spoke with : Crystal<br/><br/>      PTP &amp; Phone # : Dr. William Sima 805-434-5555<br/><br/>      Last office visit : 04/18/16<br/><br/>      Status : Modified duty. No lifting greater than 10 lbs. No over<br/>      the shoulder reaching/lifting. Crystal faxing report.<br/><br/>      Next office visit : 05/26/16 @ 11 am<br/><br/>      Next diary : 05/27/16<br/><br/>      <div class=\"moz-forward-container\"><br/><br/>        -------- Forwarded Message --------<br/>        <br/>          <br/>            <br/>              <br/>              <br/>            <br/>            <br/>              <br/>              <br/>            <br/>            <br/>              <br/>              <br/>            <br/>            <br/>              <br/>              <br/>            <br/>          <br/>        <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/><br/>              </th><td>RE: Carney, Jim - cl # 30154688525 - Post 2004/MD<br/>                Response 03/22/16 - MOD</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date:<br/>              </th><td>Thu, 21 Apr 2016 16:30:43 +0000</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From:<br/>              </th><td>Russo, Carlye <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:Carlye.Russo@sedgwickcms.com\">&lt;Carlye.Russo@sedgwickcms.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr></tbody></table><br/>        <br/><br/>        <br/><br/>        <pre>Please advise the status of injured worker's LOV, as well have we talked to the employer about modified work yet?<br/><br/>Thank you,<br/><br/>Carlye Russo | IAP<br/>Sedgwick Claims Management Services, Inc.<br/>DIRECT (858) 503-4887<br/>EMAIL <a class=\"moz-txt-link-abbreviated\" href=\"mailto:Carlye.Russo@sedgwick.com\">Carlye.Russo@sedgwick.com</a><br/> <a class=\"moz-txt-link-abbreviated\" href=\"http://www.sedgwick.com\">www.sedgwick.com</a> | The leader in innovative claims and productivity management solutions<br/><br/><br/>-----Original Message-----<br/>From: P Howland [<a class=\"moz-txt-link-freetext\" href=\"mailto:phowland@focusonintervention.com\">mailto:phowland@focusonintervention.com</a>]<br/>Sent: Tuesday, March 22, 2016 2:43 PM<br/>To: Russo, Carlye<br/>Subject: Carney, Jim - cl # 30154688525 - Post 2004/MD Response 03/22/16 - MOD<br/><br/>Hi Carlye,<br/><br/>Here is the updated status we received regarding<br/><br/>Received information by phone spoke with : Chris<br/><br/>PTP &amp; Phone # : Dr. William Sima 805-434-5555<br/><br/>Last office visit : 03/21/16<br/><br/>Status : Modified duty. No right handed work.<br/><br/>Next office visit : 04/18/16 @ 2 pm<br/><br/>Next diary : 04/19/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/>________________________________<br/>The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender and delete the material from any computer.<br/></pre><br/>        <br/><br/>      </div><br/>      <br/><br/>      <br/><br/>    </div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f042aaf9581a111152b4ae",
+    "followUp": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T22:44:17.856+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572245680f0f9a0e0077559a"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5707eb396544fa94190b0844",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "Claim Number:  30165482837-0001     Claimant:  GONZALEZ JAMES   Dr. update - MOD",
+    "type": "physician",
+    "content": "<p><b><span style=\"color: red;\">Dr<br/>Status Call - MOD duty</span></b></p><p><span></span></p><p><span>PTP &amp;<br/>Phone #: USHW 877-678-4612</span></p><p><span></span></p><p><span>Spoke With:<br/>Evelina </span></p><p><span></span></p><p><span>Last Office<br/>Visit: 4/27</span></p><p><span></span></p><p><span>Next Office<br/>Visit: 5/25</span></p><p><span></span></p><p><span>Work Status:<br/>MOD</span></p><p><span></span></p><p><span>Restrictions<br/>if Modified: no use of left hand, no lift/push/pull </span></p><p><span></span></p><p><span>Next Diary:<br/>5/26</span></p><p><span></span></p><p><span>As you know,<br/>ER offered EE TWA. We are contacting the ER to see how everything is going. </span></p>",
+    "stream": "5707eb396544fa94190b0844",
+    "followUp": {
+        "$date": "2016-05-26T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:16:24.711+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572235be0f0f9a0e00775584"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5714d2fce21bd10e0046523b",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "RS Dr. appt",
+    "type": "physician",
+    "content": "<p><title>    Sedgwick viaOne </title></p><!--[if lt IE 9]><br />&nbsp;&nbsp;&nbsp;&nbsp;<script src=\"/libs/html5shiv-printshiv.js\" type=\"text/javascript\"></script><br />&nbsp;&nbsp;&nbsp;&nbsp;<script src=\"/libs/respond.js\" type=\"text/javascript\"></script><br />&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--><p><br/></p><p><br/></p><section id=\"main\"><div class=\"container\"><div class=\"row\"><div class=\"span9\"><div class=\"mobile-scrollable\"><div class=\"dataDiv\" id=\"divData\"><table class=\"dataTable\" id=\"NotesData\" style=\"width: 100%;\"><tbody><tr class=\"noteTextDataRow noteRow\"><td colspan=\"5\"><!--StartFragment-->CANCELLED/RESCHEDULED DR. APPT<br/><br/>PTP &amp; Phone #: Mulleken 805-925-9997<br/><br/>Spoke with:  Fatima <br/><br/>Cancelled Appt: 4/22<br/><br/>Rescheduled to: 4/27<br/><br/>Next Diary:  4/28<!--EndFragment--></td></tr></tbody></table></div></div></div></div></div></section>",
+    "stream": "5714d2fce21bd10e0046523b",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:09:34.600+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572238910f0f9a0e00775586"
+    },
+    "status": "close",
+    "files": "",
+    "_case": "5714d2fce21bd10e0046523b",
+    "creator": "56aa66be44aeb7c61ba42f43",
+    "title": "EE on MOD",
+    "type": "physician",
+    "content": "<p><b><span style=\"color: red;\">Dr Status Call - MOD duty</span></b></p><p><span></span></p><p><span>PTP &amp;<br/>Phone #: Mulleken 805-925-9997</span></p><p><span></span></p><p><span>Spoke With:<br/>Mitzy </span></p><p><span></span></p><p><span>Last Office<br/>Visit: 4/27</span></p><p><span></span></p><p><span>Next Office<br/>Visit: 6/1</span></p><p><span></span></p><p><span>Work Status:<br/>MOD</span></p><p><span></span></p><p><span>Restrictions<br/>if Modified: limited stand/walk/sitting to &gt; 30 min with a 10 minute break<br/>or change positions, limited lift/push/pull &gt;25lbs., limited<br/>kneel/squat/stoop/bend to rare.</span></p><p><span></span></p><p><span>Next Diary:<br/>6/2</span></p><p><span></span></p><p><span>As you know<br/>ER has offered TWA and has yet to hear back from him. </span></p>",
+    "stream": "5714d2fce21bd10e0046523b",
+    "followUp": {
+        "$date": "2016-06-02T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:21:37.853+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5720d2028f57c80e001bc405"
+    },
+    "status": "open",
+    "files": "",
+    "_case": "56f0427ef9581a111152b0a1",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Fwd: Fwd: Re: Fwd: PLEASE ADVISE RE : Anderson, Charles cl # 30154233495 - Post 2004/MD Response 02/25/16 - N/S - N/R - F/D",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p>Hi April,</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>Have you heard any word of a new PTP on this claimant ? (See below).</p><p><br/></p><p><br/></p><p>Please let me know, I will be happy to follow up with the a new PTP.</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>Thank you.</p><p><br/></p><p><br/></p><p>Have a great day !</p><p><br/></p><p><br/></p><p>Sincerely,</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>P Howland</p><p><br/></p><p><br/></p><p>Focus On Intervention</p><p><br/></p><p><br/></p><p>Return To Work Coordinator</p><p><br/></p><p><br/></p><p>phowland@focusonintervention.com</p><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>Fwd: Re: Fwd: PLEASE ADVISE RE : Anderson, Charles cl # 30154233495 - Post 2004/MD Response 02/25/16 - N/S - N/R - F/D</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Tue, 12 Apr 2016 08:37:11 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization: </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>April Coniglio &lt;april.coniglio@sedgwickcms.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/><br/>  <br/>    <br/>  <br/>  <br/>    <br/><br/><br/>    Hello April,<br/><br/><br/>    <br/><br/><br/>    Have you heard any word regarding a new PTP on this claimant ? (See<br/>    below).<br/><br/><br/>    Please let me know, and provide me with the new PTP's contact<br/>    information and I will be happy to follow up with the a new PTP.<br/><br/><br/>    Alternatively, if the patient is treating with Dr. Maywood, I will<br/>    of course be happy to continue to follow up with Dr. Maywood.<br/><br/><br/>    <br/><br/><br/>    Please advise,<br/><br/><br/>    Thanks.<br/><br/><br/>    <br/><br/><br/>    Have a great day !<br/><br/><br/>    Sincerely,<br/><br/><br/>    <br/><br/><br/>    P Howland<br/><br/><br/>    Focus On Intervention<br/><br/><br/>    Return To Work Coordinator<br/><br/><br/>    <a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/><br/><br/>    <br/>  <div class=\"moz-forward-container\"><br/><br/>      <br/><br/>      -------- Forwarded Message --------<br/>      <br/>        <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>        <br/>      <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/>            </th><td>Re: Fwd: PLEASE ADVISE RE : Anderson, Charles cl #<br/>              30154233495 - Post 2004/MD Response 02/25/16 - N/S - N/R -<br/>              F/D</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Thu, 24 Mar 2016 10:17:17 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization:<br/><br/>            </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>April Coniglio <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:april.coniglio@sedgwickcms.com\">&lt;april.coniglio@sedgwickcms.com&gt;</a></td></tr></tbody></table><br/>      <br/><br/>      <br/><br/>      <br/>      Hello April, <br/><br/>      <br/><br/>      Have you heard any word regarding a new PTP on this claimant ?<br/>      (See below).<br/><br/>      Please let me know, and provide me with the new PTP's contact<br/>      information and I will be happy to follow up with the a new PTP.<br/><br/>      Alternatively, if the patient is treating with Dr. Maywood, I will<br/>      of course be happy to continue to follow up with Dr. Maywood.<br/><br/>      <br/><br/>      Please advise,<br/><br/>      Thanks. <br/><br/>      <br/><br/>      Have a great day !<br/><br/>      Sincerely, <br/><br/>      <br/><br/>      P Howland<br/><br/>      Focus On Intervention<br/><br/>      Return To Work Coordinator<br/><br/>      <a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/><br/>      <br/><br/>      <div class=\"moz-cite-prefix\">On 3/11/2016 2:14 PM, P Howland<br/>        wrote:<br/><br/>      </div><br/>      <blockquote type=\"cite\"><br/>        <br/>        Hi April, <br/><br/>        <br/><br/>        Have you heard any word of a new PTP on this claimant ? (See<br/>        below). <br/><br/>        Please let me know, I will be happy to follow up with the a new<br/>        PTP.<br/><br/>        <br/><br/>        Thank you.<br/><br/>        Have a great day !<br/><br/>        Sincerely, <br/><br/>        <br/><br/>        P Howland<br/><br/>        Focus On Intervention<br/><br/>        Return To Work Coordinator<br/><br/>        <a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/><br/>        <div class=\"moz-forward-container\"><br/><br/>          <br/><br/>          -------- Forwarded Message --------<br/>          <br/>            <br/>              <br/>                <br/>                <br/>              <br/>              <br/>                <br/>                <br/>              <br/>              <br/>                <br/>                <br/>              <br/>              <br/>                <br/>                <br/>              <br/>              <br/>                <br/>                <br/>              <br/>            <br/>          <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/><br/><br/><br/>                </th><td>PLEASE ADVISE RE : Anderson, Charles cl #<br/>                  30154233495 - Post 2004/MD Response 02/25/16 - N/S -<br/>                  N/R - F/D</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date:<br/><br/><br/>                </th><td>Thu, 25 Feb 2016 14:34:07 -0800</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From:<br/><br/><br/>                </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization:<br/><br/><br/><br/>                </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To:<br/>                </th><td>April Coniglio <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:april.coniglio@sedgwickcms.com\">&lt;april.coniglio@sedgwickcms.com&gt;</a></td></tr></tbody></table><br/>          <br/><br/>          <br/><br/>          <pre>Hi April,<br/><br/>Here is the updated status we received regarding Charles Anderson<br/><br/>Received information by phone spoke with : Sofia<br/><br/>PTP &amp; Phone # : Dr. Maywood: (858) 616-6400<br/><br/>Last office visit : 12/15/15. No Show 01/19/16.<br/><br/>Next office visit : Unscheduled<br/><br/>Status : Full duty (12/15/15)<br/><br/>Next diary : 03/10/16<br/><br/>Please advise, do you know if this claimant has a new PTP ? Please let <br/>me know and I will be happy to follow up with the new PTP.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/></pre><br/>          <br/><br/>        </div><br/>        <br/><br/>      </blockquote></div></div><p><br/></p>",
+    "stream": "56f0427ef9581a111152b0a1",
+    "followUp": {
+        "$date": "2016-05-11T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T14:51:46.925+0000"
+    },
+    "__v": 0
+}]

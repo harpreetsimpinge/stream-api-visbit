@@ -1,0 +1,108 @@
+<div class="panel panel-primary add-note-dir">
+    <div class="col-md-12" ng-if="!file._id">
+        Please choose a Claimant
+    </div>
+    <div class="panel-heading" id="some-id">
+        Add Notes to {{file.FirstnameContact.value}} {{file.LastnameContact.value}}<i class="fa fa-level-down"></i>
+    </div>
+    <div class="panel-body" style="z-index: 5" ng-if="file._id">
+        <!--{{file._id | json}}-->
+        <!--{{fields|json}}-->
+
+        <md-content layout-padding>
+            <div class="col-md-3 form-group">
+                <h4>Note Title</h4>
+                <input type="text" class="form-control" ng-model="newNote.title">
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Work Status</h4>
+                <select ng-options="workface._id as workface.workface group by workface.workstatus for workface in allworkfaces" ng-model="newNote.workface" class="form-control"></select>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Assign Followup</h4>
+                <select ng-options="item._id as item.displayName for item in users" ng-model="newNote.assign" class="form-control"></select>
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Medical Status</h4>
+                <select ng-options="item for item in allfields.data.values" ng-model="addNoteStatus" class="form-control" ng-change="sendEditStream(this, file._id)"></select>
+
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Note Type</h4>
+                <select ng-model="newNote.type" class="form-control">
+          <option value="priority" class="priorityNote">Priority</option>
+          <option value="closing" class="closingNote">Closing File</option>
+          <option value="email" class="closingNote">Email</option>
+          <option value="employer" class="employerNote">Employer contact</option>
+          <option value="form" class="formNote">Forms</option>
+          <option value="meeting" class="meetingNote">Meeting</option>
+          <option value="other" class="otherNote">Other</option>
+          <option value="phone" class="phoneNote">Phone Call</option>
+          <option value="physician" class="physicianNote">Physician Contact</option>
+          <option value="check" class="checkingNote">Status</option>
+          <option value="JD/ERTW" class="jdNote"> JD/ERTW</option>
+          <option value="Ergo" class="ergoNote">Ergo</option>
+          <option value="invoice" class="invoiceNote">Invoice</option>
+        </select>
+            </div>
+
+            <div class="col-md-3 form-group">
+                <h4>Note Date</h4>
+                <mdp-date-picker class="form-control" ng-model="newNote.date"></mdp-date-picker>
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Follow Up Date</h4>
+                <mdp-date-picker class="form-control" ng-model="newNote.followup"></mdp-date-picker>
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>RTW (reg/perm)</h4>
+                <mdp-date-picker class="form-control" ng-model="newNote.RTWregpermFocusInformation"></mdp-date-picker>
+            </div>
+            <div class="col-md-6 form-group">
+                <h4>RTW (trans)</h4>
+                <mdp-date-picker class="form-control" ng-model="newNote.RTWtransFocusInformation"></mdp-date-picker>
+            </div>
+
+            <div class="col-md-6 form-group" nv-file-over="" uploader="uploader" ng-mouseover="changeUploadType('newFileNote',{})">
+                <h4>Attachments</h4>
+                <form>
+                    <fieldset style="position: relative">
+                        <button class="btn form-control btn-info" ng-click="showSearch = !showSearch">
+              Search File
+            </button>
+                        <div class="float-search" ng-if="showSearch">
+                            <search-doc user="{{file._id}}" callback="onFileNote"></search-doc>
+                        </div>
+                        <div class="text-center form-group" ng-disabled="loadFile">
+                            <div class="btn btn-default btn-file form-control"> Add File
+                                <input type="file" nv-file-select uploader="uploader" class="form-control" ng-click="changeUploadType('newFileNote',{})" />
+                            </div>
+                        </div>
+                        <div class="text-center form-group" ng-show="loadFile">
+                            <i class="fa fa-spinner fa-spin"></i>
+                        </div>
+                        <ul class="list-group">
+                            <li ng-repeat="file in newNote.filesShow track by $index" class="list-group-item">
+                                {{file.originalName}} <i class="fa fa-minus btn btn-danger pull-right" ng-click="newNote.files.splice($index,1);newNote.filesShow.splice($index,1);"></i>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-12 input-height">
+                <h4>Description</h4>
+                <!-- <textarea ng-model="newNote.text" class="form-control" rows="12"></textarea> -->
+                <!-- <div text-angular ng-model="newNote.text"  class=""></div> -->
+                <textarea froala="froalaOptions" ng-model="newNote.text"></textarea>
+            </div>
+        </md-content>
+    </div>
+    <div class="panel-footer">
+        <button type="submit" class="btn btn-primary center-block" ng-disabled="loadFile" ng-click="addNote(newNoteForm.$invalid)">Save</button>
+    </div>
+</div>
+<!-- end of panel -->
+<script>
+    $(function() {});
+</script>

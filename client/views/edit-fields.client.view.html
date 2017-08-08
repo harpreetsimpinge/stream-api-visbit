@@ -1,0 +1,98 @@
+<section ng-controller="FieldsController">
+  <div class="row margin40top">
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          Add Fields
+        </div>
+        <div class="panel-body">
+          <div class="smartSearchList">
+            <div class="col-md-4">
+              <select ng-model="newFiled.cat"  class="form-control">
+                <option ng-repeat="cat in cats">{{cat}}</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <input type="text" ng-model="newFiled.value"/>
+            </div>
+            <div class="col-md-1">
+              <input type="checkbox" ng-model="newFiled.required"/>
+            </div>
+            <div class="col-md-1">
+              <i class="fa fa-plus form-group" ng-click="addLineToFilds()" ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div  class="panel panel-primary" ng-repeat="cat in cats">
+        <div class="panel-heading">
+          {{cat}}
+        </div>
+        <div class="panel-body">
+          <ul class="list-group" dnd-list="fields">
+            <li class="list-group-item greybg3">
+              <div class="col-md-6" >
+                <strong>Name</strong>
+              </div>
+              <div class="col-md-1">
+                <strong>Required</strong>
+              </div>
+              <div class="col-md-2">
+                <strong>Type</strong>
+              </div>
+              <div class="col-md-1">
+                  <strong>Delete</strong>
+                </a>
+              </div>
+            </li>
+            <li ng-repeat="item in fields | filter: {category: cat} | orderBy: 'order'  track by $index" class="list-group-item" ng-init="item.order = $index" ng-class="item.type === 'dropdown' ? 'flex-disaply' : ''">
+              <div class="col-md-1" >
+                {{item.order}}
+              </div>
+              <div class="" ng-class="item.type ==='dropdown' ? 'col-md-2' : 'col-md-5'">
+                <input type="text" ng-model="item.name"  class="form-control" ng-change="update()" ng-blur="showUpdate()" ng-disabled="item.edit === false">
+              </div>
+              <div class="col-md-3" ng-if="item.type === 'dropdown'">
+                <div class="col-md-9">
+                  <input type="text" ng-model="item.new"  class="form-control">
+                </div>
+                <div class="col-md-3">
+                  <i class="fa fa-plus btn btn-info" ng-click="addToDropdown(item);update();"></i>
+                </div>
+                <br>
+                <ul class="values">
+                  <li class="" ng-repeat="val in item.values track by $index">{{val}} <i class="fa fa-minus btn btn-danger" ng-click="removeFromValues($index, item); update();"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-1">
+                <input type="checkbox" ng-model="item.required"  ng-disabled="item.edit === false" ng-click="update()"> 
+              </div>
+              <div class="col-md-2">
+                <select ng-model="item.type" ng-change="update(); addDropdown(item);" ng-disabled="item.edit === false">
+                  <option value="text">Text</option>
+                  <option value="date">Date</option>
+                  <option value="dropdown">Dropdown</option>
+                </select>
+              </div>
+              <div class="col-md-1">
+                <a class="btn btn-danger" ng-click="delete(item._id)" ng-disabled="true">
+                  <i class="fa fa-trash"></i>
+                </a>
+              </div>
+              <div class="col-md-1">
+                <a class="btn btn-info" ng-click="moveUp($index, cat)">
+                  <i class="fa fa-arrow-up"></i>
+                </a>
+              </div>
+              <div class="col-md-1">
+                <a class="btn btn-info" ng-click="moveDown($index, cat)">
+                  <i class="fa fa-arrow-down"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

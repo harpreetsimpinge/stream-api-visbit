@@ -1,0 +1,1031 @@
+<section ng-controller="streamController" class="panel-medium-size">
+    <script>
+        //var doc = Docxgen;
+    </script>
+    <div class="page-header">
+        <h1>Search</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12 panel panel-primary margin-top-20">
+            <md-tabs md-dynamic-height="true">
+                <md-tab label="Basic Search">
+                    <md-tab-body>
+                        <div class="panel-body margin">
+                            <div class="col-md-4 form-group normalFields" ng-repeat="item in requiredFileds | orderBy:'order'">
+                                <label for="exampleInputEmail1">{{item.name}}</label>
+                                <input type="text" class="form-control" ng-model="item.value" ng-if="item.type === 'text'">
+                                <mdp-date-picker class="form-control" ng-model="item.value" ng-if="item.type === 'date'"></mdp-date-picker>
+                                <select data-ng-model="item.value" ng-options="item for item in item.values" ng-if="item.type === 'dropdown'" class="form-control">
+                </select>
+                            </div>
+
+
+                            <div ng-if="showAdvance" class="col-md-4 form-group advancedFields" ng-repeat="items in advancedRequiredFileds">
+                                <label for="exampleInputEmail1">{{items.name}}</label>
+                                <input type="text" class="form-control" ng-model="items.value" ng-if="items.type === 'text'">
+                                <mdp-date-picker class="form-control" ng-model="items.value" ng-if="items.type === 'date'"></mdp-date-picker>
+                                <select data-ng-model="items.value" ng-options="item for item in items.values" ng-if="items.type === 'dropdown'" class="form-control">
+                </select>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-md-4 pull-right">
+                                <button ng-click="showAdvance = !showAdvance" class="btn btn-primary form-control" ng-disabled="search">
+                    <span ng-if="showAdvance">Close</span>
+                    <span ng-if="!showAdvance">Advance Search</span>
+                    <span ng-show="search === true" class="ng-hide"><i class="fa fa-spinner fa-spin"></i></span>
+                  </button>
+                            </div>
+
+                            <div class="col-md-12 form-group search-box">
+                                <div class="col-md-4">
+                                    <label for="exampleInputEmail1">Search History</label>
+                                    <select ng-model="searchSelect" ng-options="item.date |  date:'MM/dd/yyyy @ h:mma' for item in searchHistory" class="form-control" ng-change="adaptSearchHistory()"></select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select ng-model="closed" class="form-control">
+                    <option value="open" selected="selected">Only Open</option>
+                    <option value="closed">Only Closed</option>
+                    <option value="both">Both</option>
+                  </select>
+                                    <button ng-click="find()" class="btn btn-primary form-control" ng-disabled="search">
+                    Search
+                    <span ng-show="search === true"><i class="fa fa-spinner fa-spin"></i></span>
+                  </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="exampleInputEmail1">All Assignments</label>
+                                    <button ng-click="find(true)" class="btn btn-primary form-control" ng-disabled="search">
+                    My Assignments
+                    <span ng-show="search === true"><i class="fa fa-spinner fa-spin"></i></span>
+                  </button>
+                                </div>
+                            </div>
+                    </md-tab-body>
+                </md-tab>
+                <md-tab label="Smart Search">
+                    <md-tab-body>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item smartSearchList greybg">
+                                    <div class="">
+                                        <div class="col-md-3">
+                                            <select ng-model="smartSearch.currentField" ng-options="item as item.name group by item.category for item in fields | orderBy:'order'" class="form-control"></select>
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <select data-ng-model="smartSearch.input" ng-options="item for item in smartSearch.currentField.values | orderBy:'toString()'" ng-if="smartSearch.currentField.type === 'dropdown'" class="form-control">
+                      </select>
+                                            <input type="text" ng-model="smartSearch.input" class="form-control" ng-if="smartSearch.currentField.type === 'text'" />
+                                            <input date-range-picker class="form-control date-picker" type="text" ng-model="smartSearch.input" ng-if="smartSearch.currentField.type === 'date' && smartSearch.option === 'range'" />
+                                            <mdp-date-picker class="form-control" ng-model="smartSearch.input" ng-if="smartSearch.currentField.type === 'date' && smartSearch.option !== 'range'"></mdp-date-picker>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-6" ng-if="smartSearch.currentField.type === 'text' || smartSearch.currentField.type === 'dropdown'">
+                                                    <select ng-model="smartSearch.option" class="form-control">
+                        <option value="exact">Exact</option>
+                        <option value="contains">contains</option>
+                        <option value="starting">starting with</option>
+                        <option value="not">does not contain</option>
+                      </select></div>
+
+                                                <div class="col-md-6" ng-if="smartSearch.currentField.type === 'date'">
+                                                    <select ng-model="smartSearch.option" class="form-control" options="{singleDatePicker: true}">
+                        <option value="earlier">earlier than</option>
+                        <option value="exactly">exactly matches</option>
+                        <option value="later">later than</option>
+                        <option value="range">in the range</option>
+                      </select></div>
+                                                <div class="col-md-6" ng-if="smartSearch.currentField.type === 'text' || smartSearch.currentField.type === 'dropdown' || smartSearch.currentField.type === 'date'">
+                                                    <select ng-model="smartSearch.optionCondition" class="form-control">
+                        <option value="or">Or</option>
+                        <option value="and">And</option>
+                      </select></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <i class="fa fa-plus form-group" ng-click="addLineToSmartSearch()"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item smartSearchList greybg2" ng-repeat="item in smartList">
+                                    <div class="col-md-12">
+                                        <div class="col-md-3 ">
+                                            <input type="text" ng-model="item.fieldName" class="form-control" disabled="true">
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <input type="smart.text" ng-model="item.text" class="form-control" ng-if="item.type === 'text' || item.type === 'dropdown'" />
+                                            <mdp-date-picker class="form-control" ng-model="item.text" ng-if="item.type === 'date' && item.option !== 'range'"></mdp-date-picker>
+                                            <input date-range-picker class="form-control date-picker" type="text" ng-model="item.text" ng-if="item.option === 'range'" />
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <select ng-if="item.type === 'text'" ng-model="item.option" class="form-control">
+                        <option value="exact">Exact</option>
+                        <option value="contains">contains</option>
+                        <option value="starting">starting with</option>
+                        <option value="not">does not contain</option>
+                      </select>
+                                            <select ng-if="item.type === 'date'" ng-model="item.option" class="form-control">
+                        <option value="earlier">earlier than</option>
+                        <option value="exactly">exactly matches</option>
+                        <option value="later">later than</option>
+                        <option value="range">in the range</option>
+                      </select>
+                                        </div>
+                                        <div class="col-md-2">
+
+                                        </div>
+                                        <div class="col-md-1 ">
+                                            <i class="fa fa-trash form-group" ng-click="removeFromSmartList($index)"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="col-md-2 col-md-offset-4">
+                                <button ng-click="doSmartSearch()" class="btn btn-primary center-block" ng-disabled="search">
+                  Search
+                  <span ng-show="search === true"><i class="fa fa-spinner fa-spin"></i></span>
+                </button>
+                            </div>
+                            <div class="col-md-2">
+                                <select ng-model="closed" class="form-control">
+                  <option value="open" selected="selected">Only Open</option>
+                  <option value="closed">Only Closed</option>
+                  <option value="both">Both</option>
+                </select>
+                            </div>
+                        </div>
+                    </md-tab-body>
+                </md-tab>
+            </md-tabs>
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel panel panel-primary" class="list-group-item">
+                <div class="panel-body">
+                    <table st-table="streaming" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'LastnameContact.value'; sortReverse = !sortReverse">
+                    Name
+                    <span ng-show="sortType === 'LastnameContact.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'ClaimContact.value'; sortReverse = !sortReverse">
+                    Claim #
+                    <span ng-show="sortType === 'ClaimContact.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'DateofreferralFocusInformation.value'; sortReverse = !sortReverse">
+                    Date of referral
+                    <span ng-show="sortType === 'DateofreferralFocusInformation.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'DateClosedFocusInformation.value'; sortReverse = !sortReverse">
+                     Date Closed
+                    <span ng-show="sortType === 'DateClosedFocusInformation.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'LastnameContact.value'; sortReverse = !sortReverse">
+                     Date of Reopen
+                    <span ng-show="sortType === 'LastnameContact.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'CompanyNameClaimsRepresentative.value'; sortReverse = !sortReverse">
+                     Company Name
+                    <span ng-show="sortType === 'CompanyNameClaimsRepresentative.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'NorthorCentralorStatewideFocusInformation.value'; sortReverse = !sortReverse">
+                     North or Central or Statewide
+                    <span ng-show="sortType === 'NorthorCentralorStatewideFocusInformation.value'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                  </a>
+                                </th>
+                                <th>Edit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr ng-repeat="item in streaming |  orderBy:sortType:sortReverse" ng-click="editStream(item,cats); changeSide(item._id);">
+
+                                <td>{{item.FirstnameContact.value}} {{item.LastnameContact.value}}</td>
+                                <td>{{item.ClaimContact.value}}</td>
+                                <td>{{item.DateofreferralFocusInformation.value | date: "MM/dd/yy"}}</td>
+                                <td>{{item.DateClosedFocusInformation.value| date: "MM/dd/yy"}}</td>
+                                <td>{{item.DateofReopenFocusInformation.value | date: "MM/dd/yy"}}</td>
+                                <td>{{item.CompanyNameClaimsRepresentative.value}}</td>
+                                <td>{{item.NorthorCentralorStatewideFocusInformation.value}}</td>
+                                <td><i class="fa fa-pencil-square-o text-danger"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-warning text-center margin20-buttom" ng-if="streaming.$resolved && !streaming.length">
+        No streaming yet, why don't you <a ui-sref="streaming.create">create one</a>?
+    </div>
+    <div class="placment">
+        <span my-draggable stream="xxx"></span>
+    </div>
+</section>
+<script type="text/ng-template" id="editStream">
+    <div class="ngdialog-close"></div>
+    <md-tabs md-dynamic-height="true">
+        <md-tab label="Claimant Information">
+            <form name="userForm" ng-submit="sendEditStream(userForm.$invalid)">
+                <md-tab-body>
+                    <div class="panel-heading">
+                        <div class="col-md-4">
+                            <h2>{{stream.FirstnameContact.value}} {{stream.LastnameContact.value}}</h2> {{ DateClosedFocusInformation.value}}
+                        </div>
+                    </div>
+                    <div class="loading col-md-12" ng-if="loading">
+                        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="panel-body" id="streamInfo" ng-if="!loading">
+                        <div class="col-md-12 margin20-buttom">
+                            <div class="col-md-2">
+                                <!-- <label for="title">permissions</label> -->
+                                <div isteven-multi-select input-model="users" output-model="permissionsOutput" button-label="displayName" item-label="displayName" tick-property="ticked" output-properties="_id" on-item-click="permissionsChange(data)">
+                                </div>
+                            </div>
+
+                            <div class="col-md-2" ng-if="isClosed(stream.DateClosedFocusInformation.value)">
+                                <span ng-class="text-warning">Closed <i class="fa fa-times-circle-o"></i> - <button class="btn btn-info" ng-click="openFile()">Open</button></span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 margin20-buttom" ng-repeat="cat in cats" ng-init="splitTitles(cat)">
+                            <div class="panel panel panel-primary">
+                                <div class="panel-heading" ng-click="showTab = !showTab" ng-init="cat === 'Contact' ? showTab = true : showTab = false">
+                                    {{cat}} <i class="fa" ng-class="showTab ? 'fa-level-up' : 'fa-level-down'"></i></h2>
+                                </div>
+                                <div class="panel-body fieldsSet">
+                                    <div class="col-md-4 form-group" ng-repeat="item in stream_sort track by $index " ng-if="item.id.category === cat" ng-show="showTab">
+                                        <small class="bold">{{item.id.name}}</small>
+                                        <select data-ng-model="item.value" ng-options="item for item in item.id.values" ng-if="item.id.type === 'dropdown'" class="form-control" ng-disabled="isLegacy">
+                    </select>
+                                        <input type="text" ng-model="item.value" ng-if="item.id.type === 'text'" class="form-control" ng-disabled="isLegacy" />
+                                        <md-content class="md-hue-1">
+                                            <mdp-date-picker class="form-control" ng-model="item.value" ng-if="item.id.type === 'date' && !isLegacy" is-open="$parent.opened" ng-disabled="isLegacy"></mdp-date-picker>
+                                        </md-content>
+                                        <span class="legacy-date form-control" ng-if="isLegacy && item.id.type === 'date'">{{item.value | date}}</span>
+                                    </div>
+                                </div>
+                                <div class="panel-footer" ng-if="cat === 'Contact'">
+                                    <button type="submit" class='btn btn-primary form-control' ng-disabled="!bAllowedToChangeInfo">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <button type="submit" class="btn btn-primary center-block" ng-disabled="!bAllowedToChangeInfo">Save</button>
+                    </div>
+            </form>
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="Notes">
+            <form name="newNoteForm" novalidate>
+                <md-tab-body>
+                    <div class="panel-heading">
+                        <h2>Notes for {{stream.FirstnameContact.value}} {{stream.LastnameContact.value}}</h2>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" ng-click="showNote = ! showNote">
+                            View Notes <i class="fa fa-level-down"></i>
+                        </div>
+                        <div class="panel-body" ng-show="!showNote" ng-if="isNotesReady">
+                            <div class="col-md-12">
+                                <div class="list-group">
+                                    <div class="list-group-item row greybg3">
+                                        <div class="col-md-4">
+                                            <span><strong>Next # notes</strong> </span>
+                                            <input type="number" class="form-control" ng-model="limit" ng-init="limit = 8">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <strong>Total of {{notes.length}} notes</strong>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <span><strong>Search</strong> </span>
+                                            <input class="form-control" type="text" ng-model="search" placeholder="Search" ng-change="searchAndDisplay()" />
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item row note-table-header">
+                                        <div class="col-md-12">
+                                            <div class="col-md-1">
+                                                Edit
+                                            </div>
+                                            <div class="col-md-2">
+                                                <a href="#" ng-click="flipSortReverse(); searchAndDisplay();">
+                                                    <strong>Date</strong>
+                                                    <span ng-show="sortType === 'date'" class="fa " ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <strong>Title</strong>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <strong>Medical Status</strong>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <strong>Work Status</strong>
+                                            </div>
+                                            <!--div class="col-md-1">
+                        <strong>Type</strong>
+                      </div-->
+                                            <div class="col-md-1">
+                                                <strong>File</strong>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <strong>Status</strong>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <strong>Delete</strong>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <strong>Email</strong>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <strong>Original Creator</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item row " ng-repeat="note in notes | limitTo: limit track by $index" id="{{note._id}}" ng-if="(isLegacy && note.status === 'legacy') || (note.status !== 'legacy')">
+                                        <form name="emailForm">
+                                            <div class="col-md-12">
+                                                <div class="col-md-1">
+                                                    <i class="fa fa-pencil-square-o btn btn-info" aria-hidden="true" ng-click="editNoteDialog(note)"></i>
+                                                </div>
+                                                <div class="col-md-2" ng-click="showContent = !showContent">
+                                                    {{note.date | date}}
+                                                </div>
+                                                <div class="col-md-2" ng-click="showContent = !showContent">
+                                                    <strong>{{note.title}}</strong>
+                                                    <span ng-if="note.isFollow === true"> F.A </span>{{note.isFollow}}
+                                                </div>
+                                                <!--<div class="col-md-1">{{note.type}}</div>-->
+                                                <div class="col-md-1"></div>
+                                                <div class="col-md-1">{{note.workface.workstatusid.workStatus}}</div>
+                                                <!--div class="col-md-1">
+                          <i class="fa fa-exclamation-circle priorityNote btn" ng-if="note.type === 'priority'"></i>
+                          <i class="fa fa-users meetingNote btn" ng-if="note.type === 'meeting'"></i>
+                          <i class="fa fa-phone phoneNote btn phoneNote" ng-if="note.type === 'phone'"></i>
+                          <i class="fa fa-envelope btn emailNote" ng-if="note.type === 'email'"></i>
+                          <i class="fa fa-asterisk btn otherNote" ng-if="note.type === 'other'"></i>
+                          <i class="fa fa-check btn checkingNote" ng-if="note.type === 'check'"></i>
+                          <i class="fa fa-times-circle btn closingNote" ng-if="note.type === 'closing'"></i>
+                          <i class="fa fa-male btn employerNote" ng-if="note.type === 'employer'"></i>
+                          <i class="fa fa-book btn formNote" ng-if="note.type === 'form'"></i>
+                          <i class="fa fa-wheelchair btn physicianNote" ng-if="note.type === 'physician'"></i>
+                          <i class="fa fa-paperclip btn invoiceNote" ng-if="note.type === 'invoice'"></i>
+                          <i class="fa fa-inbox btn jdNote" ng-if="note.type === 'JD/ERTW'"></i>
+                          <i class="fa fa-paper-plane btn ergoNote" ng-if="note.type === 'Ergo'"></i>
+                          <i class="fa fa-info-circle btn newInfoNote" ng-if="note.type === 'newInfo'"></i>
+                        </div-->
+                                                <div class="col-md-1">
+                                                    <i class="fa fa-file-o btn btn-info" ng-click="showLinks = !showLinks" ng-show="note.files.length !== 0"></i>{{downloadList}}
+                                                    <div class="links-popup" ng-show="showLinks === true">
+                                                        <ul class="list-group">
+                                                            <li ng-repeat="file in note.files track by $index" class="list-group-item inline">
+                                                                {{file.originalName}}
+                                                                <a href="{{file.url}}">
+                                                                    <i class="fa fa-download btn btn-info pull-right"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1" ng-click="changeStatus(note, $index)" ng-disabled="!canEditNote(note)">
+                                                    <i class="btn fa" ng-class="note.status === 'close' ? 'fa-check otherNote' : 'btn-disable fa-check'"></i>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <i class="fa fa-trash btn btn-danger" ng-click="deleteNote(note)" ng-if="note.class !== 'followupNote'" ng-disabled="!canEditNote(note)"></i>
+                                                    <i class="fa fa-trash btn btn-danger" ng-click="deleteFollowUp(note)" ng-if="note.class === 'followupNote'" ng-disabled="!canEditNote(note)"></i>
+                                                </div>
+                                                <!-- <div class="col-md-2">
+                          <input name="myInput" ng-model="note.email" type="email" placeolder="Email Address" class="form-control" required>
+                        </div>
+                        <div class="col-md-1">
+                          <button class="btn btn-primary" ng-click="sendNoteByEmail(note.email, note._id)" ng-if="note.class !== 'followupNote'">
+                            <i class="fa fa-envelope"></i>
+                          </button>
+                          <button class="btn btn-primary" ng-click="sendNoteByEmail(note.email, note.id._id)" ng-if="note.class === 'followupNote'" ng-disabled="somefield.length">
+                            <i class="fa fa-envelope"></i>
+                          </button>
+                        </div> -->
+                                                <div class="col-md-1">
+                                                    <i class="btn btn-primary fa fa-external-link" ng-click="emailDialog(note)"></i>
+                                                    <div ng-click="changeEmailSent(note, $index)" ng-disabled="!canEditNote(note)">
+                                                        <i class="btn fa" ng-class="note.email_sent ? 'fa-check otherNote' : 'btn-disable fa-check'"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    {{note.creator.firstName}}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" ng-show="showContent === true">
+                                                <pre class="margin20top" ng-bind-html="note.content"></pre>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of panel -->
+                        <div class="panel panel-primary" nv-file-drop="" uploader="uploader">
+                            <md-content layout-padding>
+                                <div class="panel-heading">
+                                    Add Notes <i class="fa fa-level-down"></i>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-md-3 form-group">
+                                        <h4>Note Title</h4>
+                                        <input type="text" class="form-control" ng-model="newNote.title">
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>Work Status</h4>
+
+                                        <select ng-options="workface._id as workface.workface group by workface.workstatus for workface in allworkfaces" ng-model="newNote.workface" class="form-control"></select>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>Assign Followup</h4>
+                                        <select ng-options="item._id as item.displayName for item in users" ng-model="newNote.assign" class="form-control"></select>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>Medical Status</h4>
+
+                                        <!--<select ng-options="item for item in stream.AdditionalInformationFocusInformation.id.values" ng-model="stream.StatusFocusInformation.value" class="form-control" ng-change="sendEditStream(true)"></select>-->
+                                        <select ng-options="item for item in stream.StatusFocusInformation.id.values" ng-model="stream.StatusFocusInformation.value" class="form-control" ng-change="sendEditStream(true)"></select>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>Note Type</h4>
+                                        <select ng-model="newNote.type" class="form-control">
+                      <option value="newInfo" class="newInfoNote">Fixed Note</option>
+                      <option value="priority" class="priorityNote">Priority</option>
+                      <option value="closing" class="closingNote">Closing File</option>
+                      <option value="email" class="closingNote">Email</option>
+                      <option value="employer" class="employerNote">Employer contact</option>
+                      <option value="form" class="formNote">Forms</option>
+                      <option value="meeting" class="meetingNote">Meeting</option>
+                      <option value="other" class="otherNote">Other</option>
+                      <option value="phone" class="phoneNote">Phone Call</option>
+                      <option value="physician" class="physicianNote">Physician Contact</option>
+                      <option value="check" class="checkingNote">Status</option>
+                      <option value="JD/ERTW" class="jdNote"> JD/ERTW</option>
+                      <option value="Ergo" class="ergoNote">Ergo</option>
+                      <option value="invoice" class="invoiceNote">Invoice</option>
+                    </select>
+                                    </div>
+
+                                    <div class="col-md-3 form-group">
+                                        <h4>Note Date</h4>
+                                        <mdp-date-picker class="form-control" mdp-placeholder="" ng-model="newNote.date"></mdp-date-picker>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>Follow Up Date</h4>
+                                        <mdp-date-picker class="form-control" ng-model="newNote.followup"></mdp-date-picker>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>RTW (reg/perm)</h4>
+                                        <mdp-date-picker class="form-control" ng-model="stream.RTWregpermFocusInformation.value"></mdp-date-picker>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <h4>RTW (trans)</h4>
+                                        <mdp-date-picker class="form-control" ng-model="stream.RTWtransFocusInformation.value"></mdp-date-picker>
+                                    </div>
+                                    <div class="col-md-3 form-group" nv-file-over="" uploader="uploader" ng-mouseover="changeUploadType('newFileNote',{})">
+                                        <h4>Attachments</h4>
+                                        <form>
+                                            <fieldset style='position: relative'>
+                                                <button class="btn form-control btn-info" ng-click="showSearch = !showSearch">
+                          Search File
+                        </button>
+                                                <div class="float-search" ng-if="showSearch">
+                                                    <search-doc user="{{stream._id}}" callback="onFileNote2"></search-doc>
+                                                </div>
+                                                <div class="text-center form-group" ng-disabled="loadFile">
+                                                    <div class="btn btn-default btn-file form-control">
+                                                        Add File
+                                                        <input type="file" nv-file-select uploader="uploader" class="form-control" ng-click="changeUploadType('newFileNote',{})">
+                                                    </div>
+                                                </div>
+                                                <div class="text-center form-group" ng-show="loadFile">
+                                                    <i class="fa fa-spinner fa-spin"></i>
+                                                </div>
+                                                <ul class="list-group">
+                                                    <li ng-repeat="file in newNote.filesShow track by $index" class="list-group-item">
+                                                        {{file.originalName}} <i class="fa fa-minus btn btn-danger pull-right" ng-click="newNote.files.splice($index,1);newNote.filesShow.splice($index,1);"></i>
+                                                    </li>
+                                                </ul>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-12 input-height">
+                                        <h4>Description</h4>
+                                        <!-- <textarea ng-model="newNote.text" class="form-control" rows="12"></textarea> -->
+                                        <!-- <div text-angular ng-model="newNote.text"  class=""></div> -->
+                                        <textarea froala="froalaOptions" ng-model="newNote.text"></textarea>
+                                    </div>
+                                </div>
+                                <div class="panel-footer">
+                                    <button type="submit" class="btn btn-primary center-block" ng-disabled="loadFile" ng-click="addNote(newNoteForm.$invalid)">Save</button>
+                                </div>
+                            </md-content>
+                        </div>
+                        <!-- end of panel -->
+            </form>
+
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="Dropdoc" ng-click="changeUploadType('newCaseFile',{case: stream._id})">
+            <md-tab-body>
+                <div class="panel-heading">
+                    <h2>DropDoc for {{stream.FirstnameContact.value}} {{stream.LastnameContact.value}}</h2>
+                </div>
+                <div class="col-md-12" nv-file-drop="" uploader="uploader" ng-mouseover="changeUploadType('newCaseFile',{case: stream._id})">
+                    <div class="col-md-12 dragndrop">
+                        <div nv-file-select uploader="uploader">
+                            <span ng-show="!loadFile">Drop Zone</span>
+                            <div class="text-center form-group" ng-show="loadFile">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 search-box">
+                    <div class="col-md-3" style="padding-top: 10px;">
+                        <div class="input-group">
+                            <input type="text" class="btn search-input" ng-model="dropdoc.value" placeholder="Search" ng-change="">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary" ng-click="dropdoc.searchAndDisplay(dropdoc.value)" type="button">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-1">
+                        <nav>
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Next" ng-click="dropdocPrev()">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li ng-repeat="n in [] | range: pageLength"><a href="#" ng-click="seize(n)">{{n+1}}</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next" ng-click="dropdocNext()">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="co-md-12">
+                    <div class="col-md-12" style="text-align:center">
+                        <div class="col-md-1">
+                            <strong>Download</strong>
+                        </div>
+                        <div class="col-md-2 hide-overflow">
+                            <strong>File Name</strong>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" ng-click="dropdoc.sortType = 'date'; orderDropdoc(); dropdoc.sortReverse = !dropdoc.sortReverse">
+                                <strong>Date</strong>
+                                <span ng-show="sortType === 'date'" class="fa" ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" ng-click="dropdoc.sortType = 'LastModify'; orderDropdoc(); dropdoc.sortReverse = !dropdoc.sortReverse">
+                                <strong>Last Modify</strong>
+                                <span ng-show="dropdoc.sortType === 'LastModify'" class="fa" ng-class="sortReverse? 'fa-caret-up' : 'fa-caret-down'"></span>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <strong>Created By</strong>
+                        </div>
+                        <div class="col-md-2">
+                            <strong>Update</strong>
+                        </div>
+                        <div class="col-md-1">
+                            <strong>Open</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-12 file-list" ng-repeat="item in files track by $index">
+                        <div class="col-md-1">
+                            <a href="{{item.url}}">
+                                <i class="fa fa-download btn btn-info pull-right"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            {{item.originalName}}
+                        </div>
+                        <div class="col-md-2">
+                            {{item.date | date}}
+                        </div>
+                        <div class="col-md-2">
+                            {{item.LastModify | date}}
+                        </div>
+                        <div class="col-md-2">
+                            {{item.user.displayName}}
+                        </div>
+                        <div class="col-md-2">
+                            <label for="file">
+                <div class="file-input-wrapper">
+                  <button class="btn-file-input btn">Update File</button>
+                  <input type="file" nv-file-select uploader="uploader" class="custom-file-input form-control" ng-click="changeUploadType('modifyFile',{id: item._id})" name="file">
+                </div>
+              </label>
+                        </div>
+                        <div class="col-md-1">
+                            <i class="fa btn btn-primary fa-level-down" aria-hidden="true" ng-click="openVersions = !openVersions"></i>
+                        </div>
+                        <div class="col-md-12 versions" ng-show="openVersions">
+                            <div class="col-md-6 margin-top-20 margin20-buttom">
+                                <div class="col-md-4" ng-if="item.note">
+                                    <button ng-click="eidtNoteDialog(item.note)" class="btn btn-info"> Show Note <i class="fa fa-sticky-note-o" aria-hidden="true"></i> </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-danger" ng-click=" openVersions = !openVersions; deleteFileDropdoc(item._id, $index);">
+                    <i class="fa fa-trash" aria-hidden="true"></i> Delete File
+                  </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-info" ng-click="emailDialogDropDoc(item);">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> Email File
+                  </button>
+                                </div>
+                                <div class="col-md-4" ng-if="checkIfPdf(item.originalName)">
+                                    <button class="btn btn-info" ng-click="showPdfDialog(item.url);">
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Show File
+                  </button>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-1">
+                                    <strong>Version</strong>
+                                </div>
+                                <div class="col-md-1">
+                                    <strong>Download</strong>
+                                </div>
+                                <div class="col-md-2">
+                                    <strong>User changed</strong>
+                                </div>
+                                <div class="col-md-2">
+                                    <strong>Modification Date</strong>
+                                </div>
+                                <div class="col-md-3">
+                                    <strong>Name</strong>
+                                </div>
+                            </div>
+                            <div class="col-md-12 line" ng-repeat="ver in item.versions track by $index">
+                                <div class="col-md-1">
+                                    {{$index}}
+                                </div>
+                                <div class="col-md-1">
+                                    <a href="{{ver.url}}">
+                                        <i class="fa fa-download btn btn-info pull-right"></i>
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    {{ver.user.displayName}}
+                                </div>
+                                <div class="col-md-2">
+                                    {{ver.date | date }}
+                                </div>
+                                <div class="col-md-3">
+                                    {{ver.originalName}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="Tools">
+            <div class="panel-heading">
+
+                <h2>Export {{stream.FirstnameContact.value}} {{stream.LastnameContact.value}}</h2>
+            </div>
+            <md-tab-body>
+                <div class="col-md-12 margin40top">
+                    <div class="col-md-12">
+                        <div class="col-md-2">
+                            <h3>PDF Export</h3>
+                            <button class="btn btn-info form-control" ng-click="exportStreamToPdf()">Export to pdf</button>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="text-center form-group">
+                                <h3>Render</h3>
+                                <div class="btn btn-default btn-file">
+                                    Choose Template File
+                                    <input type="file" nv-file-select uploader="uploaderDoc" id='renderFile'>
+                                </div>
+                            </div>
+                            <div class="text-center form-group" ng-show="uploaderDoc.queue.length">
+                                <button class="btn btn-primary" ng-click="renderDocument();">Render Template</button>
+                                <button class="btn btn-default" ng-click="cancelUpload();">Cancel</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h3>Delete</h3>
+                            <button ng-show="authentication.user.roles[0] === 'admin' || authentication.user.roles[0] === 'admin2'" class="btn btn-danger form-control" ng-click="deleteFile(stream);delete='true'" ng-disabled="delete === 'true' && confirm!=='DELETE'">DELETE</button>
+                            <input type="text" ng-model="confirm" ng-show="delete === 'true'" style="color:#000" placeholder="DELETE">
+                        </div>
+                        <div class="col-md-2">
+                            <h3>Legacy</h3>
+                            <span ng-show="authentication.user.roles[0] === 'admin'" class="btn btn-info form-control" ng-click="createLegacy(confirmLegacy);legecyButton='true'" ng-disabled="legecyButton === 'true' && confirmLegacy!=='LEGACY'">LEGACY</span>
+                            <input type="text" ng-model="confirmLegacy" ng-show="legecyButton === 'true'" style="color:#000" placeholder="LEGACY">
+                        </div>
+                        <div class="col-md-2">
+                            <h3>List</h3>
+                            <select ng-model="legacy" ng-if="stream.legacy.length !== 0 && stream.legacy.length " ng-options="item as item.created | date for item in stream.legacy" class="form-control" ng-change="loadlegacy(legacy)"> </select>
+                        </div>
+                        <div class="col-md-2" ng-if="isLegacy">
+                            <span class="btn btn-success form-control" ng-click="disableLegacy()">Revert</span>
+                        </div>
+                    </div>
+                    <div ng-bind-html="pdf">
+                    </div>
+                    <div class="col-md-12 margin40top" ng-if="editDoc !== null">
+                        <div class="col-md-4 margin40top">
+                            <select ng-model="copypaste" ng-options="item as item.name group by item.category for item in fields  | orderBy:'order'" class="form-control" ngclipboard data-clipboard-text="**{{copypaste.key}}**"></select>
+                        </div>
+                        <div class="col-md-4 margin40top">
+                            <button class="btn btn-warning form-control" ng-click="editDocFun(tempDoc)" style="padding:0;"> Reset <i class="fa fa-repeat btn  ng-scopefa"></i></button>
+                        </div>
+                        <div class="col-md-4 margin40top">
+                            <button class="btn btn-success form-control" ng-click="decodeHtml(editDoc)" style="padding:0;"> Download <i class="fa fa-download btn  ng-scopefa"></i></button>
+                        </div>
+                        <div class="col-md-12 margin40top">
+                            <div text-angular ng-model="editDoc"></div>
+                        </div>
+                    </div>
+                    <div class="list-group col-md-offset-3 col-md-6 margin40top">
+                        <div ng-repeat="doc in templates" class="list-group-item">
+                            <div class="col-md-9">
+                                <h4 class="list-group-item-heading" ng-bind="doc.title"></h4>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="fa fa-pencil btn btn-warning ng-scopefa" ng-click="editDocFun(doc.text)"></i>
+                            </div>
+                            <div class="col-md-1 col-md-offset-1">
+                                <i class="fa fa-download btn btn-success ng-scopefa" ng-click="decodeHtml(doc.text)"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </md-tab-body>
+        </md-tab>
+        <md-tab label="Calculator">
+            <md-tab-body>
+                <div class="panel-heading">
+                    <h2>Calculator</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <strong>Starting Date</strong>
+                                <select ng-model="calculator.startingDate" ng-options="item as item.name group by item.category for item in fields | orderBy:'order' | filter:{type:'date'}" class="form-control" ng-change="calculator.changeDate()"></select>
+                            </div>
+                            <div class="col-md-4">
+                                <strong>Ending Date</strong>
+                                <input type="checkbox" name="vehicle" value="Select Today" ng-model="selectToday"> <small>Today</small>
+                                <select ng-disabled="selectToday" ng-model="calculator.endingDate" ng-options="item as item.name group by item.category for item in fields | orderBy:'order' | filter:{type:'date'}" class="form-control">
+                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-info" ng-click="calculator.changeDate()">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-12">
+                                <span ng-if="calc1Error == true">Error </span>
+                                <table class="calc1" ng-if="diff > 0 && calc1Error !== true">
+                                    <tr>
+                                        <td class="big">
+                                            <strong>Daily Rate</strong>
+                                        </td>
+                                        <td class="med">
+                                            ${{stream.TDDailyrateFocusInformation.value}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="big">
+                                            <b>From</b> <span class="color1"> {{date1 | date}} </span> to <span class="color2">{{date2  | date}}</span>
+                                        </td>
+                                        <td class="med">
+                                            <b class="color1">{{diff}}</b> days passed
+                                        </td>
+                                        <td class="small">
+                                            = <b class="color2">${{diff * stream.TDDailyrateFocusInformation.value}}</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="big">
+                                            <b>With Reg Perm</b>
+                                        </td>
+                                        <td class="med">
+                                        </td>
+                                        <td class="small color2">
+                                            = <b class="color2">${{diff * stream.TDDailyrateFocusInformation.value + 6000}}</b>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </md-tab-body>
+        </md-tab>
+    </md-tabs>
+</script>
+<script type="text/ng-template" id="emailTemplate">
+    <div class="row">
+        <div class="ngdialog-close" ng-click="reloadNotes()"></div>
+        <div class="col-md-12">
+            <h2>Send note by Email</h2>
+        </div>
+
+        <form novalidate name="emailNote">
+            <div class="col-md-12">
+                <div class="col-md-4 form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" ng-model="note.to" required id="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="exampleInputEmail1">cc</label>
+                    <input type="text" class="form-control" ng-model="note.cc" id="cc" name="cc">
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="exampleInputEmail1">bcc</label>
+                    <input type="text" class="form-control" ng-model="note.bcc" id="bcc" name="bcc">
+                </div>
+                <div class="col-md-7">
+                    <label for="exampleInputEmail1">Subject</label>
+                    <input type="text" class="form-control" ng-model="note.title" name="title" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="exampleInputEmail1">Print</label>
+                    <br>
+                    <button class="btn btn-info" ng-click="printDiv(note)">Print <i class="fa fa-print"></i></button>
+                </div>
+                <div class="col-md-4">
+                    <fieldset>
+                        <button class="btn form-control btn-info" ng-click="showSearch = !showSearch">
+              Search File
+            </button>
+                        <div class="float-search" ng-if="showSearch">
+                            <search-doc user="{{stream._id}}" callback="onFile"></search-doc>
+                        </div>
+                        <div class="text-center form-group">
+                            <div class="btn btn-default btn-file form-control">
+                                Add File
+                                <input type="file" nv-file-select uploader="uploader" class="form-control" required ng-click="changeUploadType('newEmailAttachment',{case: stream._id})">
+                            </div>
+                        </div>
+                        <div class="text-center form-group">
+                            <ul class="list-group">
+                                <li ng-repeat="file in note.files track by $index" class="list-group-item">{{file.originalName}} <i class="fa fa-minus btn btn-danger pull-right" ng-click="removeAttachment($index)"></i></li>
+                            </ul>
+                        </div>
+                        <div class="text-center form-group" ng-show="loadFile">
+                            <i class="fa fa-spinner fa-spin"></i>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-md-12">
+                    <h4>Content</h4>
+                    <div text-angular ng-model="note.content" class=""></div>
+                    </textarea>
+                </div>
+            </div>
+            <div class="panel-footer text-center col-md-12">
+                <button class="btn btn-success" ng-click="sendEmail()" ng-disabled="emailNote.$invalid">Send Email</button>
+            </div>
+        </form>
+    </div>
+</script>
+<script type="text/ng-template" id="editNoteTemplate">
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Add Notes <i class="fa fa-level-down"></i>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-3 form-group">
+                <h4>Note Title</h4>
+                <input type="text" class="form-control" ng-model="editNote.title">
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Note Type</h4>
+                <select ng-model="editNote.type" class="form-control">
+          <option value="priority" class="priorityNote">Priority</option>
+          <option value="closing" class="closingNote">Closing File</option>
+          <option value="email" class="closingNote">Email</option>
+          <option value="employer" class="employerNote">Employer contact</option>
+          <option value="form" class="formNote">Forms</option>
+          <option value="meeting" class="meetingNote">Meeting</option>
+          <option value="other" class="otherNote">Other</option>
+          <option value="phone" class="phoneNote">Phone Call</option>
+          <option value="physician" class="physicianNote">Physician Contact</option>
+          <option value="check" class="checkingNote">Status</option>
+          <option value="JD/ERTW" class="jdNote"> JD/ERTW</option>
+          <option value="Ergo" class="ergoNote">Ergo</option>
+          <option value="invoice" class="invoiceNote">Invoice</option>
+        </select>
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Work Status</h4>
+
+                <select ng-model="editNote.workface" ng-options="workface._id as workface.workface group by workface.workstatus for workface in allworkfaces track by workface._id" class="form-control">
+        </select>
+
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Medical Status</h4>
+
+                <select ng-options="item for item in stream.StatusFocusInformation.id.values track by stream.StatusFocusInformation.value" ng-model="editNote.type" class="form-control" ng-change="sendEditStream(true)"></select>
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Assign Followup</h4>
+
+                <select ng-options="item._id as item.displayName for item in users track by item._id" ng-model="editNote.assign" class="form-control"></select>
+            </div>
+
+            <div class="col-md-3 form-group">
+                <h4>Note Date</h4>
+                <md-content class="md-hue-1">
+                    <mdp-date-picker class="form-control" ng-model="editNote.date"></mdp-date-picker>
+                </md-content>
+            </div>
+            <div class="col-md-3 form-group">
+                <h4>Follow Up Date</h4>
+                <md-content class="md-hue-1">
+                    <mdp-date-picker class="form-control" ng-model="editNote.followup"></mdp-date-picker>
+                </md-content>
+            </div>
+
+            <div class="col-md-3 form-group">
+                <h4>RTW (reg/perm)</h4>
+                <mdp-date-picker class="form-control" ng-model="editNote.date"></mdp-date-picker>
+            </div>
+            <div class="col-md-6 form-group">
+                <h4>RTW (trans)</h4>
+                <mdp-date-picker class="form-control" ng-model="editNote.date"></mdp-date-picker>
+            </div>
+            <div class="col-md-6 form-group">
+                <h4>Attachments</h4>
+                <form>
+                    <fieldset style="position: relative;">
+                        <button class="btn form-control btn-info" ng-click="showSearch = !showSearch">
+              Search File
+            </button>
+                        <div class="float-search" ng-if="showSearch">
+                            <search-doc user="{{stream._id}}" callback="onFileNote"></search-doc>
+                        </div>
+                        <div class="text-center form-group">
+                            <div class="btn btn-default btn-file form-control">
+                                Add File
+                                <input type="file" nv-file-select uploader="uploader" class="form-control" required ng-click="changeUploadType('editNote',{note: editNote._id, case: stream._id})">
+                            </div>
+                        </div>
+                        <div class="text-center form-group">
+                            <ul class="list-group">
+                                <li ng-repeat="file in editNote.files track by $index" class="list-group-item">{{file.originalName}} <i class="fa fa-minus btn btn-danger pull-right" ng-click="editNote.files.splice($index,1);"></i></li>
+                            </ul>
+                        </div>
+                        <div class="text-center form-group" ng-show="loadFile">
+                            <i class="fa fa-spinner fa-spin"></i>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-12 input-height">
+                <h4>Description</h4>
+                <!-- <textarea ng-model="newNote.text" class="form-control" rows="12"></textarea> -->
+                <!--<div text-angular ng-model="editNote.content" class=""></div>-->
+                <textarea froala="froalaOptions" ng-model="editNote.content"></textarea>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <button type="submit" class="btn btn-primary center-block" ng-disabled="loadFile || !canEditNote(editNote)" ng-click="updateNote(newNoteForm.$invalid)">Save</button>
+        </div>
+    </div>
+    <!-- end of panel -->
+</script>
+<script type="text/ng-template" id="PdfTemplate">
+    <div class="panel panel-primary">
+        <h1 ng-if="loadingPdf"> Loading PDF </h1>
+        <iframe src="{{url}}" style="width:100%; height:700px;" frameborder="0" type="application/pdf"></iframe>
+    </div>
+</script>

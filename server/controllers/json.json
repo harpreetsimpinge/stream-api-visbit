@@ -1,0 +1,2263 @@
+[{
+    "_id": {
+        "$oid": "570dd30d2c76030e00f5cc8d"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f42/14605237777570c8d9b6150aa9d880ca8template%20%287%29.docx",
+        "name": "template (7).docx"
+    }, {
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f42/1460523779943180f27c73236e653c292template%20%286%29.docx",
+        "name": "template (6).docx"
+    }, {
+        "url": {
+            "ETag": "\"3e6a4229fbec15b6e7913edb6d56a38d\"",
+            "Location": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f42/1460523795761e60c04ca1322e31daa31template%20%282%29.docx",
+            "key": "56aa66be44aeb7c61ba42f42/1460523795761e60c04ca1322e31daa31template (2).docx",
+            "Key": "56aa66be44aeb7c61ba42f42/1460523795761e60c04ca1322e31daa31template (2).docx",
+            "Bucket": "focusdev",
+            "name": "template (2).docx"
+        },
+        "name": "template (2).docx"
+    }],
+    "_case": "56f04239f9581a111152aa4a",
+    "creator": "56aa66be44aeb7c61ba42f42",
+    "title": "test2345",
+    "type": "email",
+    "content": "<p>tedsrtsetser 435 435</p>",
+    "stream": "56f04239f9581a111152aa4a",
+    "followUp": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-14T04:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T05:03:09.113+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570e7bad2c76030e00f5cc93"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146056689931960c42bd2139278004567Biram%2CRebecca%2030131476916-%20MD%20Report%20-%20031616%20-Rec%20041316.pdf",
+        "name": "Biram,Rebecca 30131476916- MD Report - 031616 -Rec 041316.pdf"
+    }],
+    "_case": "56f04229f9581a111152a8c9",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Biram, Rebecca / Cl # 30131476916 - Post 2004/MD Response 04/13/16 - MOD",
+    "type": "email",
+    "content": "<p>Hi  Brittany,<br/><br/>Here is the updated status we received regarding Rebecca Biram<br/><br/>PTP &amp; Phone #:  Dr. Paicious   949-644-5800<br/><br/>Last office visit:  03/16/16<br/><br/>Next office visit:  As of 04/13/16, none scheduled. Not P&amp;S.<br/><br/>Status:  (03/16/16). No carrying over 10 pounds, no walking or standing over 30 minutes no twisting bending or kneeling. See attached.<br/><br/>Next Diary:  04/27/16<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f04229f9581a111152a8c9",
+    "followUp": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T17:02:37.191+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570e8a1a2c76030e00f5cc9d"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1460570566914c2d680d50397b9ee4d33Gonzales%2CGilbert-MD%20Reports%20-%20%20033116%20031016%20032516.pdf",
+        "name": "Gonzales,Gilbert-MD Reports -  033116 031016 032516.pdf"
+    }],
+    "_case": "56f04285f9581a111152b141",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Re: Gonzales, Gilbert / 30154194552 - Post 2004/MD Response - 04/01/16 - MOD",
+    "type": "email",
+    "content": "<p>Hi  Shelby,<br/><br/>Regarding the updated status we received from Dr. Hammani on Gilbert Gonzales,<br/><br/>PTP &amp; Phone #:  Dr. Hammani 626-939-5900<br/><br/>I just got off of the phone with Oliver at Dr. Hammani's office,  626-939-5900. Oliver read me the statuses from the 02/25/16 and 03/31/16 MD visits. Oliver started by reading to me the 03/31/16 status which was &#34;The patient may return to modified duties as of 03/31/2016; patient is limited to no lifting greater than 20 pounds; patient is limited to no frequent bending or stooping.&#34; I explained to Oliver that I was trying to clear up an apparent discrepancy between the lifting limit on the 03/31/16  report and the lifting limit on the 02/25/16  report. Oliver stated that the work status from the 02/25/16 report was the same as the work status from the 03/31/16 report, he read the status from 02/25/16 to me ; &#34;The patient may return to modified duties as of 02/25/2016; patient is limited to no lifting greater than 20 pounds; patient is limited to no frequent bending or stooping.&#34; I asked Oliver if he would please fax me the reports in question. He agreed to do so and they arrived swiftly as well as a report from 03/10/2016. All 3 reports indicate the same work status ; &#34;...patient is limited to no lifting greater than 20 pounds; patient is limited to no frequent bending or stooping&#34;. I have attached all three reports as one .pdf file for your perusal.<br/><br/>Thank you for providing me with the opportunity to be of service.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/>On 4/13/2016 10:17 AM, Russo, Shelby wrote:<br/>&gt; Hello,<br/>&gt;<br/>&gt; Per LOV before 3/31/16, on 2/25/16, Claimant's restrictions were 25 pounds, however now they are 20 pounds. Did PTP note any reason for this set back?<br/>&gt;<br/>&gt; LOV 02/25/16<br/>&gt; MOD no lifting greater than 25 pounds, no frequent bending or stopping (w/s per sedgwick notes)<br/>&gt; NOV 03/31/16 @ 3:30<br/>&gt;<br/>&gt; Thanks,<br/>&gt;<br/>&gt; Shelby M. Russo |  Claims Representative<br/>&gt; Sedgwick Claims Management Services, Inc.<br/>&gt; DIRECT 858.503.4846<br/>&gt; |EMAIL Shelby.Russo@sedgwick.com<br/>&gt;  www.sedgwick.com | The leader in innovative claims and productivity management solutions<br/>&gt;<br/>&gt;<br/>&gt; -----Original Message-----<br/>&gt; From: P Howland [mailto:phowland@focusonintervention.com]<br/>&gt; Sent: Friday, April 01, 2016 4:24 PM<br/>&gt; To: Russo, Shelby<br/>&gt; Subject: Gonzales, Gilbert / 30154194552 - Post 2004/MD Response - 04/01/16 - MOD - Restr Change<br/>&gt;<br/>&gt; Hi  Shelby,<br/>&gt;<br/>&gt; Here is the updated status we received regarding Gilbert Gonzales<br/>&gt;<br/>&gt; PTP &amp; Phone #:  Dr. Hammani 626-939-5900<br/>&gt;<br/>&gt; Received information by phone/spoke with Eddie<br/>&gt;<br/>&gt; Last office Visit:  03/31/16<br/>&gt;<br/>&gt; Next office visit:  04/19/16 @ 4:15<br/>&gt;<br/>&gt; Status:  Modified duty. No lifting greater than 20 lbs. No frequent<br/>&gt; bending/stooping<br/>&gt;<br/>&gt; Next Diary:  04/20/16<br/>&gt;<br/>&gt; Have a great day !<br/>&gt; Sincerely,<br/>&gt;<br/>&gt; P Howland<br/>&gt; Focus On Intervention<br/>&gt; Return To Work Coordinator<br/>&gt; phowland@focusonintervention.com<br/></p>",
+    "stream": "56f04285f9581a111152b141",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-13T18:04:10.887+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570ef83a2c76030e00f5ccc2"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f42/1460598818360c86c544675818c95fa71AAA%20New-Age%20Perm%20M-A%20JD.docx",
+        "name": "AAA New-Age Perm M-A JD.docx"
+    }, {
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f42/1460598832248c5663313d56fb6e99992School_General_Secretary_II.pdf",
+        "name": "School_General_Secretary_II.pdf"
+    }],
+    "_case": "56f041a2f9581a1111529c47",
+    "creator": "56aa66be44aeb7c61ba42f42",
+    "title": "testing",
+    "type": "other",
+    "content": "<p>testing testing</p>",
+    "stream": "56f041a2f9581a1111529c47",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T01:54:02.499+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fd9bd5c23ab0e00528f97"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/1460656456810490204ef3bc65edf5bddRobles%2C%20Miguel%20Perm%20",
+        "name": "Robles, Miguel Perm "
+    }],
+    "_case": "56f0424af9581a111152abd2",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "PC  to ER Anna Herrera to discuss PMA avail",
+    "type": "phone",
+    "content": "<p class=\"p1\"><span class=\"s1\">Hi Anna, </span></p><p class=\"p1\">Per our conversation, attached is the letter I spoke with you about.</p><p class=\"p1\"><span class=\"s1\">Please advise and call to discuss PMA</span></p><p class=\"p1\">Thank you</p><p class=\"p3\"><span class=\"s1\">Janet Collins</span></p><p class=\"p3\"><span class=\"s1\">Focus On Intervention</span></p><p class=\"p3\"><span class=\"s1\">Return to Work Coordinator</span></p><p class=\"p3\"><span class=\"s1\">760-632-0237 Phone</span></p><p class=\"p3\"><span class=\"s1\">888-503-3910 Fax</span></p><p class=\"p4\"><span class=\"s2\"><a href=\"mailto:janet@focusonintervention.com\">janet@focusonintervention.com</a></span></p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f0424af9581a111152abd2",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T17:56:13.853+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fdf005c23ab0e00528f9f"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460657915942be5661347a73f7734ed6Apodaca%2CJohn-Letter%20to%20ER.pdf",
+        "name": "Apodaca,John-Letter to ER.pdf"
+    }],
+    "_case": "570e7fe02c76030e00f5cc97",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: Letter Who Is Focus & re: availability",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi John,</p><p class=\"p2\">Per our conversation and your request please see attached.</p><p class=\"p2\">Please provide us with your availability so we can proceed on coordinating a phone meeting to develop the job description based on Mr. Apodaca's usual and customary duties.</p><p class=\"p2\">Per our conversation you advised me that Mr. Apodaca has resume modified work as of 4/13/16 within his temporary restrictions.</p>",
+    "stream": "570e7fe02c76030e00f5cc97",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T18:18:40.587+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "570fdf725c23ab0e00528fa1"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146065797033148936ca2699412270740Fonseca%2CSilvia-%20Supplemental%20Orthopaedic%20Report%20122215.pdf",
+        "name": "Fonseca,Silvia- Supplemental Orthopaedic Report 122215.pdf"
+    }],
+    "_case": "56f04185f9581a1111529982",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Fonseca,Silvia/33034188-Post 2004/MD Response 4/14/16 P&S",
+    "type": "email",
+    "content": "<p>Hi Maria,<br/><br/>Here is the updated status we received regarding  Silvia Fonseca<br/><br/>PTP &amp; Phone #:  Southern California Orthopedic Specialists Timothy P.  Gray M.D.   951-354-7270<br/><br/>Received information by fax. (Attached). Supplemental Orthopaedic Report dated 12/22/15 addressed to Evan Gamos, from Timothy P.  Gray M.D.   951-354-7270, in which Dr. Gray defers opinions regarding ratable disability and future medical care to QME Dr. Donald Kim as per Dr. Kim's 09/29/15 report. Dr. Gray states that he has nothing to add to Dr. Kim's opinion in this regard. <br/><br/>I did not forward this to the adjuster since presumably they have received this report already.<br/><br/>Please let me know if you need anything further on this from me.<br/>Thanks<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f04185f9581a1111529982",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T18:20:34.627+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5710039c5c23ab0e00528fc3"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14606672583874f4e6dfd924eee1c8f40OpenAttachment.pdf",
+        "name": "OpenAttachment.pdf"
+    }],
+    "_case": "56f0427ef9581a111152b0a2",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Per Email: EE placed on mod. per MD",
+    "type": "email",
+    "content": "<p class=\"p1\">On Apr 13, 2016, at 1:14 PM, Kelly Gonzalez &lt;kgonzalez@bhhc.com&gt; wrote:</p><p class=\"p2\">Hi Maria,</p><p class=\"p2\">EE returned to the PTP on 4/11/16 and was placed back on mod duty. Please contact ER to confirm if restrictions can be accommodated.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f0427ef9581a111152b0a2",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-13T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T20:54:52.952+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57101f8b5c23ab0e00528fe4"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460674408649320a70ed155283f58d46Lucero%2CHugo-ER%20Response.pdf",
+        "name": "Lucero,Hugo-ER Response.pdf"
+    }],
+    "_case": "56f04221f9581a111152a819",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: No Perm. Mod/Alt. Available/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Candace,</p><p class=\"p1\">I proceeded to follow up with the employer, JKP, Inc. regarding permanent mod/alt availability.  Per Peter Schurkman (ER) there is no permanent mod/alt available (see attached).</p><p class=\"p2\">We will now proceed to close our file.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04221f9581a111152a819",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-14T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-14T22:54:03.335+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57111ea5b938ab0e00ff31e0"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146073961572951ecd41b11c08025c797Eary%2CKrista-QME%20Report%20021616.pdf",
+        "name": "Eary,Krista-QME Report 021616.pdf"
+    }],
+    "_case": "56f04274f9581a111152afb6",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Important Fwd: Re: P&S Per QME Eary, Krista / 30153730131 - Post 2004/MD Response - 04/15/16",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p>Hi Maria, </p><p><br/></p><p><br/></p><div>Should i continue to f/u with Dr. Forsythe 530-668-2605 ?<br/>Let me know. <br/>Thanks.<br/><br/></div><div>Have a great day !<br/>Sincerely, </div><div><br/></div><div>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <div class=\"moz-forward-container\">  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>Re: Eary, Krista / 30153730131 - Post 2004/MD Response - 03/17/16 - MOD - Restr Change</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Fri, 15 Apr 2016 09:52:25 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization: </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Raygoza, Vanessa &lt;Vanessa.Raygoza@sedgwickcms.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/>  <pre>Good morning Vanessa,<br/><br/>We will proceed on following up with the ER and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/>On 4/15/2016 9:41 AM, Raygoza, Vanessa wrote:<br/>&gt; Good morning,<br/>&gt;<br/>&gt; We received the attached QME report were EE is deemed P&amp;S w/ perm work restrictions. If you can please contact the ER regarding the restrictions.<br/>&gt;<br/>&gt; Thank you!<br/>&gt; Vanessa K. Raygoza |  Claims Representative - IAP<br/>&gt; Sedgwick Claims Management Services, Inc.<br/>&gt; DIRECT 858.503.4870 FAX 859.280.3275<br/>&gt; EMAIL Vanessa.Raygoza@sedgwick.com<br/>&gt;   www.sedgwick.com | The leader in innovative claims and productivity management solutions<br/>&gt;<br/>&gt; -----Original Message-----<br/>&gt; From: P Howland [mailto:phowland@focusonintervention.com]<br/>&gt; Sent: Thursday, March 17, 2016 3:44 PM<br/>&gt; To: Raygoza, Vanessa<br/>&gt; Subject: Eary, Krista / 30153730131 - Post 2004/MD Response - 03/17/16 - MOD - Restr Change<br/>&gt;<br/>&gt; Hi  Vanessa,<br/>&gt;<br/>&gt; Here is the updated status we received regarding Krista Eary<br/>&gt;<br/>&gt; PTP  &amp; Phone #:  Dr. Forsythe 530-668-2605<br/>&gt;<br/>&gt; Received information by phone/spoke with Becci<br/>&gt;<br/>&gt; Last office visit:  03/16/16<br/>&gt;<br/>&gt; Next office visit:  04/13/16<br/>&gt;<br/>&gt; Status: No lifting/pushing/pulling over 10 lbs. Limited repeated bending/twisting or reaching.<br/>&gt;<br/>&gt; Next Diary:  04/14/16<br/>&gt;<br/>&gt; Have a great day!<br/>&gt; P. Howland<br/>&gt; Focus on Intervention</pre><br/></div><br/><!--EndFragment--><br/><br/></div>",
+    "stream": "56f04274f9581a111152afb6",
+    "followUp": {
+        "$date": "2016-04-18T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T17:02:29.224+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57112f02b938ab0e00ff31ef"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146074389458273452383d518a9cba2fcBrown%2CYolonda-MD%20Report%20041416.pdf",
+        "name": "Brown,Yolonda-MD Report 041416.pdf"
+    }],
+    "_case": "56f042a5f9581a111152b432",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "ORANGE - Brown, Yolanda / Cl # 30153885997 - 04/15/16 - P&S - Report N/A",
+    "type": "email",
+    "content": "<p><br/><!--StartFragment-->4/14/2016    TSTEARNS    TSTEARNS    claim    MD<br/><br/><br/><br/>DCN 5220160414013354<br/><br/>4/14/16 USHW Work Status, Navin Mallavaram, MD<br/><br/>Mod Duty: limited lift/push/pull up to 25 lbs<br/><br/>Patient discharged as P&amp;S with either impairment, work restrictions or need for FMC. PR-4 to follow<br/><br/><br/><br/>04/29/16 for PR-4<!--EndFragment--><br/><br/><br/></p>",
+    "stream": "56f042a5f9581a111152b432",
+    "followUp": {
+        "$date": "2016-04-29T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T18:12:18.750+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571166ffb938ab0e00ff3209"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14607582634129cc246d991262fd880f6Oberholtzer%2CJohn-TWA%20Offer.pdf",
+        "name": "Oberholtzer,John-TWA Offer.pdf"
+    }],
+    "_case": "56f042a5f9581a111152b41f",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: TWA Offer (dated 4/13/16)",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Melissa,</p><p class=\"p1\">For your review.  All correct documents have been mailed to the employee and employer with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Temporary Transitional Work Offer</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of temporary transitional duties</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f042a5f9581a111152b41f",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T22:11:11.434+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5711686cb938ab0e00ff320e"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460758626689862d948eebc6a6c9d4d8Ratley%2CDonald-DWC%20Forms.pdf",
+        "name": "Ratley,Donald-DWC Forms.pdf"
+    }],
+    "_case": "56f0429ff9581a111152b3ab",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Sent Notice of Offer of Regular Work(dated 4/13/16)/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Kristina,</p><p class=\"p2\">For your review.  All documents have been mailed to the employee and employer with Proof of Service.</p><blockquote><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p></blockquote><blockquote><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            DWC-AD 10133.35 Regular Wor</p><p class=\"p4\"><span class=\"s1\"><b>X </b></span><b><span class=\"Apple-tab-span\">    </span><span class=\"Apple-tab-span\">    </span></b>Job Description of Regular Duties</p></blockquote><p><br/></p><p class=\"p2\">We will now proceed to close our file.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f0429ff9581a111152b3ab",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T22:17:16.419+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571169bcb938ab0e00ff320f"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14607589673207a9c4df30fd792664707Lopez%2CJose-DWC%20Forms.pdf",
+        "name": "Lopez,Jose-DWC Forms.pdf"
+    }],
+    "_case": "56f04282f9581a111152b0ee",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Sent Notice of Offer of Regular Work(dated 4/13/16)/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Robert,</p><p class=\"p2\">For your review.  All documents have been mailed to the employee and employer with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            DWC-AD 10133.35 Regular Work</p><p class=\"p4\"><b><span class=\"Apple-tab-span\"> </span></b><span class=\"s1\"><b>X </b></span><b><span class=\"Apple-tab-span\">    </span><span class=\"Apple-tab-span\">    </span></b>Job Description of Regular Duties</p><p class=\"p2\">We will now proceed to close our file.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04282f9581a111152b0ee",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T22:22:52.702+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117860b938ab0e00ff321c"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460762699650724e51b9b1e8c235d1e5Julio%2CEdith-Status%20Pckage.pdf",
+        "name": "Julio,Edith-Status Pckage.pdf"
+    }],
+    "_case": "56f98f24a3ae7e290003e2eb",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Rebecca,</p><p class=\"p1\">I've attached the Job Description developed for this worker for your records.</p><p class=\"p2\">Please confirm if EE is treating.</p>",
+    "stream": "56f98f24a3ae7e290003e2eb",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:25:20.473+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117a5eb938ab0e00ff321f"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460763223365b0e5da597d8aeea810baLeal%2CJosefina-Status%20Package.pdf",
+        "name": "Leal,Josefina-Status Package.pdf"
+    }],
+    "_case": "570553705990b20e004e0fbe",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Stephen,</p><p class=\"p1\">I've attached the Job Description developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Dr. Mike Riley</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "570553705990b20e004e0fbe",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:33:50.701+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117d15b938ab0e00ff3221"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460763922855b2f968e825bf07b41488Millhollin%2CShayne-Status%20Package.pdf",
+        "name": "Millhollin,Shayne-Status Package.pdf"
+    }],
+    "_case": "56fc1270969d330e0020b34d",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Bryan,</p><p class=\"p1\">I've attached the Job Description developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Dr. Mark Montgomery</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "56fc1270969d330e0020b34d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:45:25.826+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57117ea0b938ab0e00ff3223"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/146076431361164183fb19ad11f88caa4Lopez%2CGuadalupe-Status%20Package.pdf",
+        "name": "Lopez,Guadalupe-Status Package.pdf"
+    }],
+    "_case": "5705590d5990b20e004e0fc2",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Pauline,</p><p class=\"p1\">I've attached the Job Description developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Dr. John Knight</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "5705590d5990b20e004e0fc2",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:52:00.047+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5711800ab938ab0e00ff3225"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460764676250b507df8ab5762303a6b3Caamal%2CRuby-Status%20Package.pdf",
+        "name": "Caamal,Ruby-Status Package.pdf"
+    }],
+    "_case": "56f9a526a3ae7e290003e2ef",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Shelby,</p><p class=\"p1\">I've attached the Job Description developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Garfield Health Center</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "56f9a526a3ae7e290003e2ef",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-15T23:58:02.939+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5711820eb938ab0e00ff3227"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1460765191140c6f1b5889d51a425a546Kassa%2CNevada-Status%20Package.pdf",
+        "name": "Kassa,Nevada-Status Package.pdf"
+    }],
+    "_case": "56f9993aa3ae7e290003e2ed",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Stephen,</p><p class=\"p1\">I've attached the Job Description and transitional job assignment developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Inland Urgent Care</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "56f9993aa3ae7e290003e2ed",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-15T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-16T00:06:38.433+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57153855e21bd10e0046525b"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/1461008376333af39e3c89bbe6b3978b3Brown%2C%20Yolonda",
+        "name": "Brown, Yolonda"
+    }],
+    "_case": "56f042a5f9581a111152b432",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "Sent PMA letter to Er for review & comment",
+    "type": "email",
+    "content": "<p>Sent PMA letter to ER for review &amp; comment</p><p><br/></p><p>psandhu@agility-health.org</p><p><br/></p><p><br/></p>",
+    "stream": "56f042a5f9581a111152b432",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-18T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-18T19:41:09.852+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571538bae21bd10e0046525c"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14610085377922f3a851aa6dd94645fe2Evans%2CJames-MD%20Report-041516.pdf",
+        "name": "Evans,James-MD Report-041516.pdf"
+    }],
+    "_case": "56f0427ff9581a111152b0a8",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Evans,James/30153857362-Post 2004/MD Response 04/18/16 - F/D",
+    "type": "email",
+    "content": "<p>4/15/2016    BPFANKUC    BPFANKUC    claim    MD<br/><br/>Rec'd work status from USHW<br/><br/>LOV: 4/15/16<br/>NOV: 5/27/16<br/>Work Status: Full Duty<br/><br/>DCN:5220160415014964 [attached]<br/><br/>Diary : 05/30/16<br/></p>",
+    "stream": "56f0427ff9581a111152b0a8",
+    "followUp": {
+        "$date": "2016-05-30T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-18T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-18T19:42:50.778+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57154282e21bd10e00465261"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/146101106399416e111768a509db549b9Rameriz%2C%20Jose.pdf",
+        "name": "Rameriz, Jose.pdf"
+    }],
+    "_case": "56f0427ef9581a111152b08d",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "E-mailed letter to ER w/ Perm restrictions MMI 03/15/16",
+    "type": "email",
+    "content": "<p><br/></p><p></p><p>E-mailed letter to ER w/ Perm restrictions MMI 03/15/16</p><p><br/></p><p>dejongsweeping@msn.com<br/></p>",
+    "stream": "56f0427ef9581a111152b08d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-18T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-18T20:24:34.358+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57165912a2e42d0e00163b35"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14610822662596fa72e8e3f1e06da6bc5Agadjanian%2CArmine-MD%20Report%20012516.pdf",
+        "name": "Agadjanian,Armine-MD Report 012516.pdf"
+    }],
+    "_case": "56f0426af9581a111152aecc",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Fwd: Fwd: Fwd: Agadjanian,Armine/44015445-Post 2004/MD Response 3/10/16 MMI See attached",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p>Hi Maria, </p><p><br/></p><div><br/></div><div>Do you need anything else on this ?</div><div><br/></div><div>Have a great day !<br/>Sincerely, <br/><br/></div><div>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/><br/><div class=\"moz-forward-container\"><br/><br/>  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>Fwd: Fwd: Agadjanian,Armine/44015445-Post 2004/MD Response 3/10/16 MMI See attached</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Wed, 6 Apr 2016 07:47:19 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization: </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Maria Aragon &lt;maria@focusonintervention.com&gt;</td></tr></tbody></table><div class=\"moz-forward-container\"><br/><br/>      <br/><br/>      -------- Forwarded Message --------<br/>      <br/>        <br/>          <br/>            <br/>    <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/>            </th><td>Fwd: Agadjanian,Armine/44015445-Post 2004/MD Response<br/>              3/10/16 MMI See attached</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Wed, 23 Mar 2016 09:40:15 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization:<br/>            </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Maria Aragon <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:maria@focusonintervention.com\">&lt;maria@focusonintervention.com&gt;</a></td></tr></tbody></table><br/>      <br/><br/>      <br/><br/>      <br/>      <br/><br/>      <div class=\"moz-forward-container\">Do you need anything else on<br/>        this ?<br/><br/>        <br/><br/>        -------- Forwarded Message --------<br/>        <br/>          <br/>            <br/>              <br/>       <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/><br/>              </th><td>Agadjanian,Armine/44015445-Post 2004/MD Response<br/>                3/10/16 MMI See attached</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date:<br/>              </th><td>Thu, 10 Mar 2016 11:43:15 -0800</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From:<br/>              </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization:<br/><br/><br/>              </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Maria Aragon <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:maria@focusonintervention.com\">&lt;maria@focusonintervention.com&gt;</a></td></tr></tbody></table><br/>        <br/><br/>        <br/><br/>        <pre>Hi  Maria,<br/><br/>Here is the updated status we received regarding  Armine Agadjanian<br/><br/>PTP &amp; Phone #:  Dr. Mouradian 818-901-6600<br/><br/>Received information by phone/spoke with  Priscella<br/><br/>Last office visit: 1/25/16  PRN<br/><br/>Next office visit:<br/><br/>Status: MMI  There is no PR4 report for the 11/11/15 visit.  See <br/>attached PR2 for 1/25/16<br/><br/><br/><br/>Have a great day!<br/>P. Howland<br/>Focus on Intervention<br/><br/></pre></div></div></div><br/></div>",
+    "stream": "56f0426af9581a111152aecc",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T16:13:06.584+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57166153a2e42d0e00163b38"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461084476410fc5125b97ca5265c513bWibbels%2CEric-MD%20Report%20041816.pdf",
+        "name": "Wibbels,Eric-MD Report 041816.pdf"
+    }],
+    "_case": "56f04253f9581a111152aca9",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Webbels,Eric/33056688-Post 2004/MD Response 4/19/16 Mod See attached",
+    "type": "email",
+    "content": "<p>Hi Bonnie,<br/><br/>Here is the updated status we received regarding Eric Wibbels<br/><br/>PTP &amp; Phone #:  Dr. Nadel 805-449-0066<br/><br/>Received information by phone/spoke with Taylor<br/><br/>Last office visit:   4/18/15<br/><br/>Next office visit: Pending  second MRI Results.<br/><br/>Status: Modified duty, no lifting over 2 pounds. No push/pull over 2 pounds.  No overhead work.  No repetitive use of right arm.<br/><br/>Next Diary: 5/3/16<br/><br/>Have a great day!<br/>P. Howland<br/>Focus on Intervention <br/></p>",
+    "stream": "56f04253f9581a111152aca9",
+    "followUp": {
+        "$date": "2016-05-03T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T16:48:19.682+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716738da2e42d0e00163b49"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461089157907398e9d1a7105562759e4Sanderson%2CRandolph-P%26S%20Report.pdf",
+        "name": "Sanderson,Randolph-P&S Report.pdf"
+    }],
+    "_case": "56f04267f9581a111152ae7e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Sanderson,Randolph / Cl # 30142846623 - 04/19/16 - P&S - Report attached",
+    "type": "email",
+    "content": "<p>Hi Maria,<br/><br/>regarding Sanderson,Randolph / Cl # 30142846623<br/><br/>Received information by fax (See attached)<br/><br/>PTP &amp; Phone # : Kaiser<br/><br/>Last office visit : 03/23/16<br/><br/>Status : MMI. P&amp;S. Permanent modified work ; Restrictions: 1. Bend at waist intermittently ( up to 50% of shift) 2. Torso/spine twist Intermittently ( up to 50% of shift) 3. Squat/kneel, knee bending intermittently ( up to 50% of shift) 4. Reach above left shoulder: Occasionally ( up to 25% of shift) 5. Lift/carry/push/pull no more that 25 pounds<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/></p>",
+    "stream": "56f04267f9581a111152ae7e",
+    "followUp": {
+        "$date": "2016-04-18T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T18:06:05.920+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57168b5fa2e42d0e00163b50"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146109522302324e1875a8e2cc0f0ef6eMixon%2CMisti-Admin%20DC%20040516.pdf",
+        "name": "Mixon,Misti-Admin DC 040516.pdf"
+    }],
+    "_case": "56f042a6f9581a111152b447",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "ORANGE - Mixon, Misti cl # - 30165322588 - 04/19/16 - F/D - Admin D/C - ORANGE",
+    "type": "email",
+    "content": "<p>Hi Janet,<br/><br/>04/05 ; regarding Misti Mixon   USHW Case  # : 135 107 012<br/>Received information by phone spoke with : Frederick<br/>PTP &amp; Phone # : USHW   877-678-4612<br/>Last office visit :  03/04/16. No show/no reschedule 04/04/16.<br/>Status : Full duty.<br/><br/>04/19 ; Admin discharged, non compliant with appointments. (see attached)<br/><br/>Diary : 05/03/13<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f042a6f9581a111152b447",
+    "followUp": {
+        "$date": "2016-05-03T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T19:47:43.658+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57168b78a2e42d0e00163b52"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/1461095284468201ee424a7e3c1e6f688Larson%2C%20Allen.pdf",
+        "name": "Larson, Allen.pdf"
+    }],
+    "_case": "56f0422df9581a111152a916",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "Closiing file",
+    "type": "closing",
+    "content": "<p>ER has no PMA avail</p><p><br/></p><p>Close file</p>",
+    "stream": "56f0422df9581a111152a916",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T19:48:08.707+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571697a2a2e42d0e00163b61"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14610983988226ae22da38f19b190adbdMadrigal%2C%20Trisha%20MD%20Report%20041816.pdf",
+        "name": "Madrigal, Trisha MD Report 041816.pdf"
+    }],
+    "_case": "56f042abf9581a111152b4b3",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "ORANGE - Fwd: Madrigal, Trisha cl # 30165467080 - Post 2004/MD Response 04/19/16 - ORANGE",
+    "type": "email",
+    "content": "<div class=\"moz-forward-container\">     <br/><br/>      -------- Forwarded Message --------<br/>        <br/>          <br/>        <br/>      <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/>            </th><td>Madrigal, Trisha cl # 30165467080 - Post 2004/MD<br/>              Response 04/19/16</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Tue, 19 Apr 2016 13:36:58 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization:<br/>            </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Amber Austin <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:amber.austin@sedgwickcms.com\">&lt;amber.austin@sedgwickcms.com&gt;</a></td></tr></tbody></table><br/>      <br/><br/>      <br/><br/>      <pre>Hi Amber,<br/><br/>Here is the updated status we received regarding Trisha Madrigal<br/><br/>Received information by phone spoke with : Paloma, L v/m w/ Lulu x 711 , <br/>received fax.<br/><br/>PTP &amp; Phone # : Dr. Soheil Samimi    626-338-7391   Orthopedic Group Inc.<br/><br/>Last office visit : 04/18/16<br/><br/>Status : TTD<br/><br/>Next office visit : 05/16/16<br/><br/>Next diary : 05/17/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/><br/></pre></div><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f042abf9581a111152b4b3",
+    "followUp": {
+        "$date": "2016-05-17T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:40:02.942+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716997aa2e42d0e00163b66"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14610988708928a6bc14be0d29bbcbb15Perez%2CJuan-Letter%20to%20ER.pdf",
+        "name": "Perez,Juan-Letter to ER.pdf"
+    }],
+    "_case": "57153fe8e21bd10e00465260",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: Letter Who Is Focus",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Annie,</p><p class=\"p2\">Please see attached.</p><p class=\"p2\">Please provide us with your availability so we can proceed on coordinating a meeting to develop the job description based on Mr. Perez usual and customary duties.</p>",
+    "stream": "57153fe8e21bd10e00465260",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T20:47:54.170+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57169f2aa2e42d0e00163b6e"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1461100327045b149cf19f21761edaf6eSanchez%2CBlanca%20Yadira-Letter%20to%20ER.pdf",
+        "name": "Sanchez,Blanca Yadira-Letter to ER.pdf"
+    }],
+    "_case": "571526f8e21bd10e0046524d",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed ER: Letter Who Is Focus",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Darcy,</p><p class=\"p2\">Please see attached.</p><p class=\"p2\">Please provide us with your availability so we can proceed on coordinating a meeting to develop the job description based on Ms. Sanchez usual and customary duties.</p>",
+    "stream": "571526f8e21bd10e0046524d",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T21:12:10.954+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716af91a2e42d0e00163b78"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461104521487e07cec8c7c5ccaa1810fZavala%2CTeresa-%20041816.pdf",
+        "name": "Zavala,Teresa- 041816.pdf"
+    }],
+    "_case": "56f042a8f9581a111152b468",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Zavala,Teresa- Cl # 30165276871 - 04/19/16 MOD",
+    "type": "email",
+    "content": "<p>LOV : 04/18/16<br/>W/S : MOD no lifting more than 10lbs<br/>NOV : Unscheduled T.O.C.  requested<br/><br/>Diary : 05/03/16<br/><br/>4/19/2016    CSULLIV2    CSULLIV2    claim    MD<br/>PR2 4/18/16<br/>PT did not work. referral to ortho. RTWM no lifting more than 10lbs<br/><br/>DCN: 5220160418031287 [attached]<br/></p>",
+    "stream": "56f042a8f9581a111152b468",
+    "followUp": {
+        "$date": "2016-05-03T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T22:22:09.851+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716baf9a2e42d0e00163b90"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461107294866a3c67935097836790f2cVitas%2C%20Balanda%20041616%20RFA%20PR2.pdf",
+        "name": "Vitas, Balanda 041616 RFA PR2.pdf"
+    }, {
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14611073651252be05c21ee374ff26fe8Balanda%2C%20Vitas%20041616%20RFA%20PR2.pdf",
+        "name": "Balanda, Vitas 041616 RFA PR2.pdf"
+    }],
+    "_case": "570564c65990b20e004e0fca",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Balanda, Vitas / Cl # 30165460313 - 04/11/16 - TTD",
+    "type": "email",
+    "content": "<p>LOV : 04/16/16<br/>W/S : TTD<br/>NOV : 04/23/16<br/>Diary : 04/25/16<br/><br/>4/19/2016    VRAYGOZA    VRAYGOZA    claim    MD<br/><br/>Recv'd PR2 from MedCenter- Dr. William Meller, MD for OV on 4/16/16<br/><br/>wrk status: TTD until 4/25/16<br/><br/>NOV: 4/23/16 at 9am<br/><br/>DCN: 5220160416001396<br/></p>",
+    "stream": "570564c65990b20e004e0fca",
+    "followUp": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T23:10:49.848+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5716bea6a2e42d0e00163b92"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461108378454a79889fb0bbb5b70f098Moreno%2CAntonio-MD%20Report%20040516.pdf",
+        "name": "Moreno,Antonio-MD Report 040516.pdf"
+    }],
+    "_case": "56f04286f9581a111152b14b",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Moreno, Antonio / 30154377082 - 04/19/16 - Mod",
+    "type": "email",
+    "content": "<p><br/><!--StartFragment-->LOV : 04/05/16<br/><br/>W/S :  Modified duty. No lifting greater than 5 pounds. No repetitive <br/>arm movements. No repetitive grasping/gripping. No use of both upper <br/>extremities <br/><br/>NOV : 05/03/16 @ 2:15 <br/><br/>Diary : 05/04/16<!--EndFragment--><br/><br/><br/></p>",
+    "stream": "56f04286f9581a111152b14b",
+    "followUp": {
+        "$date": "2016-05-04T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-19T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-19T23:26:30.333+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717ae9c70318b0e006435ff"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146116981504646fffff010a890bc1de3Velasquez%20Trejo%2C%20Martha%20041816%20PR2.pdf",
+        "name": "Velasquez Trejo, Martha 041816 PR2.pdf"
+    }],
+    "_case": "56f04274f9581a111152afb3",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Velazquez (Trejo), Martha / 30153454790 - 04/20/16 - F/D - P&S - PR4 N/A",
+    "type": "email",
+    "content": "<p>LOV - 04/18/16<br/>W/S : F/D, P&amp;S. PR4 to follow<br/>NOV : N/A<br/>Diary : 05/02/16 for PR4<br/><br/>4/19/2016    SYS    CBETTS    claim    MD<br/>DCN: 5220160419004615<br/>Subject: WORK STATUS - P&amp;S<br/></p>",
+    "stream": "56f04274f9581a111152afb3",
+    "followUp": {
+        "$date": "2016-05-02T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T16:30:20.578+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717b4dd70318b0e00643601"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14611714189131a5004e559c924331abfRincon%2CAlejandra-MD%20Report%20041416.pdf",
+        "name": "Rincon,Alejandra-MD Report 041416.pdf"
+    }],
+    "_case": "56f04251f9581a111152ac7f",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Rincon, Alejandra / RP12009452 - Post 2004/MD Response 04/20/16 - MOD",
+    "type": "email",
+    "content": "<p>Hi  Adriana,<br/><br/>Here is the updated status we received regarding  Alejandra Rincon<br/><br/>PTP &amp; Phone #:  Work Med 559-224-4600<br/><br/>Received information by phone/spoke with Evelia<br/><br/>Last office visit: 04/14/16<br/><br/>Next office visit:    05/26/16 @ 9:15<br/><br/>Status:  No lifting greater than 5 lbs. No forceful pushing/pulling. Allow to wear left hand splint. No repetitive hand movement. No forceful use of injured extremity. No pulling/pushing or heavy lifting more than 5 lbs.<br/><br/>Next Diary:  05/27/16<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f04251f9581a111152ac7f",
+    "followUp": {
+        "$date": "2016-05-27T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T16:57:01.875+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717cb1370318b0e0064360f"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146117709025412d89a390509216b1ae0Ortiz%2C%20Anahi%20MD%20Report%20040816.pdf",
+        "name": "Ortiz, Anahi MD Report 040816.pdf"
+    }],
+    "_case": "56f04273f9581a111152af90",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "ORANGE - Ortiz, Anahi - Cl # 30153341897 - Post 2004/MD Response 04/20/16 - MOD - ORANGE",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\">-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>Ortiz, Anahi - Cl # 30153341897 - Post 2004/MD Response 04/20/16 - MOD</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Wed, 20 Apr 2016 11:29:36 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization: </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Dayes, Brittany &lt;Brittany.Dayes@sedgwickcms.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/>  <pre>Hi Brittany,<br/><br/>Here is the updated status we received regarding Anahi Ortiz<br/><br/>Received information by phone spoke with : Andrea<br/><br/>PTP &amp; Phone # : West Coast Orthopedic Institute   Dr. Phillips <br/>949-287-3231 ext 121<br/><br/>Last office visit : 04/08/16<br/><br/>Status : Modified Duty: No lifting over 10lbs; No overhead work on the <br/>right side; Limited use of R Hand; No repetitive gripping/grasping on <br/>the right side.<br/><br/>Next office visit : 05/06/16<br/><br/>Next diary : 05/09/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/></pre><br/><br/>  <br/><br/></div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f04273f9581a111152af90",
+    "followUp": {
+        "$date": "2016-05-09T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T18:31:47.966+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717d4d670318b0e00643614"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461179596135870eb8a4daa868c2a324Pereyra%2CVictor%20-%20PR2%20Report%20-%20RFA%20-%20041416.pdf",
+        "name": "Pereyra,Victor - PR2 Report - RFA - 041416.pdf"
+    }],
+    "_case": "56f0427af9581a111152b03f",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Pereyra, Victor / 30153543118 - 04/20/16 - MOD",
+    "type": "email",
+    "content": "<p>4/19/2016    JGALVAN    JGALVAN    claim    CK<br/><br/>Dr. Philips 949-287-3231<br/><br/>LOV: 4/13/2016<br/>NOV: 5/11/2016 @ 9:15am<br/><br/>Work Status: [Modified duty. No lifting over 5 pounds with left arm. No overhead work on left side.  No repetitive arm movements w/ left arm.]<br/><br/>Diary : 05/12/16<br/></p>",
+    "stream": "56f0427af9581a111152b03f",
+    "followUp": {
+        "$date": "2016-05-12T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T19:13:26.507+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717ed5570318b0e00643624"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14611858613797748577d99f20ace7c98Sanderson%2CRandolph-P%26S%20Report.pdf",
+        "name": "Sanderson,Randolph-P&S Report.pdf"
+    }],
+    "_case": "56f04267f9581a111152ae7e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Re: Sanderson, Randolph / 30142846623 - Post 2004/MD Response 03/29/16 P&S - Report N/A",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p>Hi Shelby,</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>I apologize for not e-mailing you yesterday when I found the PR4 in the </p><p><br/></p><p>Sedgwick online case notes, I had assumed you had already received the </p><p><br/></p><p>report by the 12th of this month when it was uploaded. I'm sorry for any </p><p><br/></p><p>inconvenience this may have caused. I have attached it here for your </p><p><br/></p><p>convenience.</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>Last office visit : 03/23/16</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>Status : MMI. P&amp;S. Permanent modified work ; Restrictions: 1. Bend at </p><p><br/></p><p>waist intermittently ( up to 50% of shift) 2. Torso/spine twist </p><p><br/></p><p>Intermittently ( up to 50% of shift) 3. Squat/kneel, knee bending </p><p><br/></p><p>intermittently ( up to 50% of shift) 4. Reach above left shoulder: </p><p><br/></p><p>Occasionally ( up to 25% of shift) 5. Lift/carry/push/pull no more that </p><p><br/></p><p>25 pounds</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>Have a great day !</p><p><br/></p><p><br/></p><p>Sincerely,</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>P Howland</p><p><br/></p><p><br/></p><p>Focus On Intervention</p><p><br/></p><p><br/></p><p>Return To Work Coordinator</p><p><br/></p><p><br/></p><p><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>On 4/20/2016 1:41 PM, Russo, Shelby wrote:</p><p><br/></p><p><br/></p><blockquote type=\"cite\" style=\"color: #000000;\">Hello,<br/><br/><br/><br/>It has been nearly 4 weeks, can you please check on the status of the P&amp;S report again?<br/><br/><br/><br/>Thanks,<br/><br/><br/><br/>Shelby M. Russo |  Claims Representative<br/><br/>Sedgwick Claims Management Services, Inc.<br/><br/>DIRECT 858.503.4846<br/><br/>|EMAIL <a class=\"moz-txt-link-abbreviated\" href=\"mailto:Shelby.Russo@sedgwick.com\">Shelby.Russo@sedgwick.com</a><br/><br/>  <a class=\"moz-txt-link-abbreviated\" href=\"http://www.sedgwick.com\">www.sedgwick.com</a> | The leader in innovative claims and productivity management solutions<br/><br/><br/><br/><br/><br/>-----Original Message-----<br/><br/>From: P Howland [<a class=\"moz-txt-link-freetext\" href=\"mailto:phowland@focusonintervention.com\">mailto:phowland@focusonintervention.com</a>]<br/><br/>Sent: Thursday, April 07, 2016 2:06 PM<br/><br/>To: Russo, Shelby<br/><br/>Subject: Re: Sanderson, Randolph / 30142846623 - Post 2004/MD Response 03/29/16 P&amp;S - Report N/A<br/><br/><br/><br/>Hi Shelby,<br/><br/><br/><br/>I just got off of the phone with Gabby at Kaiser Panorama City<br/><br/>818-375-2233. Per Gabby, the P&amp;S report on Randolph Sanderson is not ready.<br/><br/><br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/><br/><br/>Have a great day !<br/><br/>Sincerely,<br/><br/><br/><br/>P Howland<br/><br/>Focus On Intervention<br/><br/>Return To Work Coordinator<br/><br/><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/><br/><br/><br/><br/><br/>On 4/7/2016 1:41 PM, Russo, Shelby wrote:<br/><br/><blockquote type=\"cite\" style=\"color: #000000;\">Hello,<br/><br/><br/><br/>Any update on the 3/23/16 P&amp;S report? Please advise.<br/><br/><br/><br/>Thanks,<br/><br/><br/><br/>Shelby M. Russo |  Claims Representative<br/><br/>Sedgwick Claims Management Services, Inc.<br/><br/>DIRECT 858.503.4846<br/><br/>|EMAIL <a class=\"moz-txt-link-abbreviated\" href=\"mailto:Shelby.Russo@sedgwick.com\">Shelby.Russo@sedgwick.com</a><br/><br/>   <a class=\"moz-txt-link-abbreviated\" href=\"http://www.sedgwick.com\">www.sedgwick.com</a> | The leader in innovative claims and productivity management solutions<br/><br/><br/><br/><br/><br/>-----Original Message-----<br/><br/>From: P Howland [<a class=\"moz-txt-link-freetext\" href=\"mailto:phowland@focusonintervention.com\">mailto:phowland@focusonintervention.com</a>]<br/><br/>Sent: Wednesday, March 30, 2016 10:53 AM<br/><br/>To: Russo, Shelby<br/><br/>Subject: Sanderson, Randolph / 30142846623 - Post 2004/MD Response 03/29/16 P&amp;S - Report N/A<br/><br/><br/><br/>Hi  Shelby,<br/><br/><br/><br/>Here is the updated status we received regarding  Randolph Sanderson<br/><br/><br/><br/>PTP &amp; Phone #:  Kaiser 818-375-2233<br/><br/><br/><br/>Received information by phone/spoke with Lashonda<br/><br/><br/><br/>Last office visit:  03/23/16<br/><br/><br/><br/>Next office visit: None scheduled.<br/><br/><br/><br/>Status:  P&amp;S. PR4 not available at the time of my call.<br/><br/><br/><br/>Next Diary: 04/13/16<br/><br/><br/><br/>Have a great day !<br/><br/>Sincerely,<br/><br/><br/><br/>P Howland<br/><br/>Focus On Intervention<br/><br/>Return To Work Coordinator<br/><br/><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/><br/>________________________________<br/><br/>The information transmitted is intended only for the person or <br/>entity to which it is addressed and may contain confidential and/or <br/>privileged material. Any review, retransmission, dissemination or other <br/>use of, or taking of any action in reliance upon this information by <br/>persons or entities other than the intended recipient is prohibited. If <br/>you received this in error, please contact the sender and delete the <br/>material from any computer.<br/><br/></blockquote></blockquote><p><br/></p><p><br/></p><div class=\"moz-txt-sig\"><span class=\"moz-txt-tag\">-- <br/></span>Sincerely,<br/><br/>P Howland<br/><br/>Focus On Intervention<br/><br/><br/></div><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f04267f9581a111152ae7e",
+    "followUp": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T20:57:57.500+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5717f19370318b0e0064362c"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461186947916663b87d8805b02599704Sanderson%2CRandolph-P%26S%20Report.pdf",
+        "name": "Sanderson,Randolph-P&S Report.pdf"
+    }],
+    "_case": "56f04267f9581a111152ae7e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Important : Fwd: RE: Sanderson, Randolph / 30142846623 - Post 2004/MD Response 03/29/16 P&S - Report N/A",
+    "type": "email",
+    "content": "<p>To : Maria Aragon</p><p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>RE: Sanderson, Randolph / 30142846623 - Post 2004/MD Response 03/29/16 P&amp;S - Report N/A</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Wed, 20 Apr 2016 21:04:52 +0000</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>Russo, Shelby &lt;Shelby.Russo@sedgwickcms.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/>  <pre>Hello, <br/><br/>Dr. Ahmad does not list any WPI for injured body parts or recommended future medical care, could you please follow up as I cannot settle without knowledge of any permanent disability?<br/><br/>Thanks, <br/><br/>Shelby M. Russo |  Claims Representative <br/>Sedgwick Claims Management Services, Inc.<br/>DIRECT 858.503.4846<br/> EMAIL Shelby.Russo@sedgwick.com<br/> www.sedgwick.com | The leader in innovative claims and productivity management solutions<br/><br/><br/>-----Original Message-----<br/>From: P Howland [mailto:phowland@focusonintervention.com] <br/>Sent: Wednesday, April 20, 2016 1:52 PM<br/>To: Russo, Shelby<br/>Subject: Re: Sanderson, Randolph / 30142846623 - Post 2004/MD Response 03/29/16 P&amp;S - Report N/A<br/><br/>Hi Shelby,<br/><br/>I apologize for not e-mailing you yesterday when I found the PR4 in the Sedgwick online case notes, I had assumed you had already received the report by the 12th of this month when it was uploaded. I'm sorry for any inconvenience this may have caused. I have attached it here for your convenience.<br/><br/>Last office visit : 03/23/16<br/><br/>Status : MMI. P&amp;S. Permanent modified work ; Restrictions: 1. Bend at waist intermittently ( up to 50% of shift) 2. Torso/spine twist Intermittently ( up to 50% of shift) 3. Squat/kneel, knee bending intermittently ( up to 50% of shift) 4. Reach above left shoulder: <br/>Occasionally ( up to 25% of shift) 5. Lift/carry/push/pull no more that<br/>25 pounds<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/><br/>On 4/20/2016 1:41 PM, Russo, Shelby wrote:<br/>&gt; Hello,<br/>&gt;<br/>&gt; It has been nearly 4 weeks, can you please check on the status of the P&amp;S report again?<br/>&gt;<br/>&gt; Thanks,<br/>&gt;<br/>&gt; Shelby M. Russo |  Claims Representative Sedgwick Claims Management <br/>&gt; Services, Inc.<br/>&gt; DIRECT 858.503.4846<br/>&gt; |EMAIL Shelby.Russo@sedgwick.com<br/>&gt;   www.sedgwick.com | The leader in innovative claims and productivity <br/>&gt; management solutions<br/>&gt;<br/>&gt;<br/>&gt; -----Original Message-----<br/>&gt; From: P Howland [mailto:phowland@focusonintervention.com]<br/>&gt; Sent: Thursday, April 07, 2016 2:06 PM<br/>&gt; To: Russo, Shelby<br/>&gt; Subject: Re: Sanderson, Randolph / 30142846623 - Post 2004/MD Response <br/>&gt; 03/29/16 P&amp;S - Report N/A<br/>&gt;<br/>&gt; Hi Shelby,<br/>&gt;<br/>&gt; I just got off of the phone with Gabby at Kaiser Panorama City <br/>&gt; 818-375-2233. Per Gabby, the P&amp;S report on Randolph Sanderson is not ready.<br/>&gt;<br/>&gt; We will continue to follow up with the MD and keep you updated.<br/>&gt;<br/>&gt; Have a great day !<br/>&gt; Sincerely,<br/>&gt;<br/>&gt; P Howland<br/>&gt; Focus On Intervention<br/>&gt; Return To Work Coordinator<br/>&gt; phowland@focusonintervention.com<br/>&gt;<br/>&gt;<br/>&gt; On 4/7/2016 1:41 PM, Russo, Shelby wrote:<br/>&gt;&gt; Hello,<br/>&gt;&gt;<br/>&gt;&gt; Any update on the 3/23/16 P&amp;S report? Please advise.<br/>&gt;&gt;<br/>&gt;&gt; Thanks,<br/>&gt;&gt;<br/>&gt;&gt; Shelby M. Russo |  Claims Representative Sedgwick Claims Management <br/>&gt;&gt; Services, Inc.<br/>&gt;&gt; DIRECT 858.503.4846<br/>&gt;&gt; |EMAIL Shelby.Russo@sedgwick.com<br/>&gt;&gt;    www.sedgwick.com | The leader in innovative claims and <br/>&gt;&gt; productivity management solutions<br/>&gt;&gt;<br/>&gt;&gt;<br/>&gt;&gt; -----Original Message-----<br/>&gt;&gt; From: P Howland [mailto:phowland@focusonintervention.com]<br/>&gt;&gt; Sent: Wednesday, March 30, 2016 10:53 AM<br/>&gt;&gt; To: Russo, Shelby<br/>&gt;&gt; Subject: Sanderson, Randolph / 30142846623 - Post 2004/MD Response <br/>&gt;&gt; 03/29/16 P&amp;S - Report N/A<br/>&gt;&gt;<br/>&gt;&gt; Hi  Shelby,<br/>&gt;&gt;<br/>&gt;&gt; Here is the updated status we received regarding  Randolph Sanderson<br/>&gt;&gt;<br/>&gt;&gt; PTP &amp; Phone #:  Kaiser 818-375-2233<br/>&gt;&gt;<br/>&gt;&gt; Received information by phone/spoke with Lashonda<br/>&gt;&gt;<br/>&gt;&gt; Last office visit:  03/23/16<br/>&gt;&gt;<br/>&gt;&gt; Next office visit: None scheduled.<br/>&gt;&gt;<br/>&gt;&gt; Status:  P&amp;S. PR4 not available at the time of my call.<br/>&gt;&gt;<br/>&gt;&gt; Next Diary: 04/13/16<br/>&gt;&gt;<br/>&gt;&gt; Have a great day !<br/>&gt;&gt; Sincerely,<br/>&gt;&gt;<br/>&gt;&gt; P Howland<br/>&gt;&gt; Focus On Intervention<br/>&gt;&gt; Return To Work Coordinator<br/>&gt;&gt; phowland@focusonintervention.com<br/>&gt;&gt; ________________________________<br/>&gt;&gt; The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender and delete the material from any computer.<br/><br/>--<br/>Sincerely,<br/>P Howland<br/>Focus On Intervention<br/><br/></pre><br/><br/>  <br/><br/></div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f04267f9581a111152ae7e",
+    "followUp": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T21:16:03.296+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57180e8a70318b0e0064364d"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461194362037f5f88aec3433e25fec3dPerez%2CFelipe-MD%20Report-041116.pdf",
+        "name": "Perez,Felipe-MD Report-041116.pdf"
+    }],
+    "_case": "56f04252f9581a111152ac9a",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Perez, Felipe / 30142619514 - Post 2004/MD Response 04/20/16 - MOD",
+    "type": "email",
+    "content": "<p>4/20/2016    CKIMBLE    CKIMBLE    claim    MD<br/><br/>DCN: 5220160415018204<br/><br/>4/11/16 work status [Modified duty. No lifting greater than 5 pounds. No repetitive bending/stooping. Sit stand as needed to alleviate pain.]<br/><br/>NOV 5/9/16 1:30pm<br/><br/>Diary : 05/10/16<br/></p>",
+    "stream": "56f04252f9581a111152ac9a",
+    "followUp": {
+        "$date": "2016-05-10T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T23:19:38.633+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5718125570318b0e00643655"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14611953217112e9b84298ca3c312fba7Hernandez%2CIrma-MD%20Report%20041916.pdf",
+        "name": "Hernandez,Irma-MD Report 041916.pdf"
+    }],
+    "_case": "56f04235f9581a111152a9ef",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Hernandez,Irma/22024944-Post 2004/MD Response 4/20/16 Mod See attached",
+    "type": "email",
+    "content": "<p>Hi Bonnie,<br/><br/>Here is the updated status we received regarding<br/><br/>PTP &amp; Phone #:  Sharp Rees Stealy 619-585-4050<br/><br/>Received information by phone/spoke with Peggy<br/><br/>Last office visit: 4/19/16<br/><br/>Next office visit: 05/31/16<br/><br/>Status:  No repetitive climbing/bending/twisting.  No lifting over 15 pounds.<br/><br/>Next Diary:   06/01/16<br/><br/>Have a great day!<br/>P. Howland<br/>Focus on Intervention <br/></p>",
+    "stream": "56f04235f9581a111152a9ef",
+    "followUp": {
+        "$date": "2016-06-01T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-20T23:35:49.913+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571820be70318b0e00643658"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/146119903545358b4d330a439a095e5bfCerda%2C%20Rodolfo.pdf",
+        "name": "Cerda, Rodolfo.pdf"
+    }],
+    "_case": "570685dfd16ce30e0070e07e",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "JD ER Signature",
+    "type": "other",
+    "content": "<p>Job description</p>",
+    "stream": "570685dfd16ce30e0070e07e",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-20T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T00:37:18.551+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5718f6f3ba3e2a0e00550ef8"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461253860944e00a7039f9368f224091Meza%2C%20Frank%20MD%20Report%20041916.pdf",
+        "name": "Meza, Frank MD Report 041916.pdf"
+    }],
+    "_case": "56f042a0f9581a111152b3af",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Meza, Frank - 30154809707 - 04/21/16 - F/D - P&S - PR4 N/A",
+    "type": "email",
+    "content": "<p>Diary : 05/05/16 for PR4<br/><br/>4/20/2016    SYS    VRAYGOZA    claim    PR<br/><br/>Telephonic Case Management Referral: Date of Service: 4/15/16 work status / DCN5220160419007441<br/>Provider:Dr Banffy<br/>NOV: PRN<br/>Work Status at LOV: Full duty<br/>Exam Findings: Placed at P+S.<br/>Nurse Analysis: Treatment plan appropriate per MTUS for dx. Work status appropriate per ODG for dx.<br/><br/>Maureen Kanavy, RN, CCM<br/>Entered by: Maureen Kanavy<br/>Entered on: 04/20/2016<br/></p>",
+    "stream": "56f042a0f9581a111152b3af",
+    "followUp": {
+        "$date": "2016-05-05T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T15:51:15.799+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57191705ba3e2a0e00550f03"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14612620815128a1b8886587072bef3aeAlvarez%2CHeriberto-ER%20Response.pdf",
+        "name": "Alvarez,Heriberto-ER Response.pdf"
+    }],
+    "_case": "56f04229f9581a111152a8d0",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: No Permanent Mod/Alt Available/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Ana,</p><p class=\"p2\">Per Diana Sidi at The Habit Restaurants, LLC there is no permanent mod/alt available (see attached).</p><p class=\"p2\">We will now proceed to close our file.</p>",
+    "stream": "56f04229f9581a111152a8d0",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T18:08:05.964+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57191a3aba3e2a0e00550f06"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1461262903714c0ee91183062dd844db6Vazquez%2CLeticia-ER%20Response.PDF",
+        "name": "Vazquez,Leticia-ER Response.PDF"
+    }],
+    "_case": "57029a844311a02900b10e61",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: No Permanent Mod/Alt. Available/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Candace,</p><p class=\"p2\">I have continued to follow up with the employer, Los Angeles Hospice regarding permanent mod/alt availability.  Per Pheobe (ER) there is no permanent mod/alt available (see attached).</p><p class=\"p2\">We will now proceed to close our file.</p>",
+    "stream": "57029a844311a02900b10e61",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T18:21:46.660+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571922a5ba3e2a0e00550f0e"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461265027654cf456b32f346e91be534Garza%2CIsaac-%20MD%20Report%20-%20041916.pdf",
+        "name": "Garza,Isaac- MD Report - 041916.pdf"
+    }],
+    "_case": "56f04259f9581a111152ad36",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Garza,Issac/33047165-Post 2004/MD Response 4/21/16 TTD",
+    "type": "email",
+    "content": "<p>Hi  Allison,<br/><br/>Here is the updated status we received regarding  Isaac Garza<br/><br/>PTP &amp; Phone #: Central Valley Occupational 661-632-1540<br/><br/>Received information by phone/spoke with Teresa<br/><br/>Last office visit:  4/19/16<br/><br/>Next office visit:  5/17/16 @8:30<br/><br/>Status:  TTD<br/><br/>Next Diary:  5/18/16<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f04259f9581a111152ad36",
+    "followUp": {
+        "$date": "2016-05-18T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T18:57:41.174+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5719311aba3e2a0e00550f1e"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146126874270204c3cd29215c4ed34efdCarlon%2CJeffrey-MD%20Report-033016%202.pdf",
+        "name": "Carlon,Jeffrey-MD Report-033016 2.pdf"
+    }],
+    "_case": "56f04272f9581a111152af87",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Carlon, Jeffrey/33062938-Post 2004/MD Response 4/21/16 TTD",
+    "type": "email",
+    "content": "<p>Hi  Andrew,<br/><br/>Here is the updated status we received regarding  Jeffrey Carlon<br/><br/>PTP &amp; Phone #:  SD Ortho 619-299-8500<br/><br/>Received information by fax (attached), 04/21/16<br/><br/>Last office visit: 03/30/16<br/><br/>Next office visit : 04/20/16<br/><br/>Status: TTD  <br/><br/>Next Diary:   05/05/16<br/><br/>Have a great day!<br/>P. Howland<br/>Focus on Intervention<br/></p>",
+    "stream": "56f04272f9581a111152af87",
+    "followUp": {
+        "$date": "2016-05-05T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-21T19:59:22.133+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a3b6d8f1b600e00ebf1d3"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461336917141ee93ac659994534cc1a3Pearson%2CJoseph-MD%20Report%20042016.pdf",
+        "name": "Pearson,Joseph-MD Report 042016.pdf"
+    }],
+    "_case": "56f04265f9581a111152ae4e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Pearson, Joseph / 30142223407 - Post 2004/MD Response - 04/22/16 - TTD",
+    "type": "email",
+    "content": "<p>Diary : 06/09/16<br/><br/>4/21/2016    SYS    CKIMBLE    claim    PR<br/><br/>Telephonic Case Management Referral: Date of Service: 4/20/16 DCN5220160420024456<br/>Provider: Dr. Barad<br/>NOV: 6/8/16<br/>Work Status at LOV: OOW.<br/><br/>Maureen Kanavy, RN, CCM<br/>Entered by: Maureen Kanavy<br/>Entered on: 04/21/2016 <br/></p>",
+    "stream": "56f04265f9581a111152ae4e",
+    "followUp": {
+        "$date": "2016-06-09T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T14:55:41.249+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a3e308f1b600e00ebf1dd"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146133762322053aee3de328e1b9d479fPoulsen%2C%20Richard%20RFA.pdf",
+        "name": "Poulsen, Richard RFA.pdf"
+    }],
+    "_case": "56f04297f9581a111152b2e0",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "RE : RFA Claim Number: 30154646080-0001 Claimant: POULSEN RICHARD Loss Date: 9/22/2015",
+    "type": "email",
+    "content": "<p>Hi Daniel,<br/><br/>I received this RFA from Dr. Fishman.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/></p>",
+    "stream": "56f04297f9581a111152b2e0",
+    "followUp": {
+        "$date": "2016-04-21T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T15:07:28.663+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a4e108f1b600e00ebf1e9"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14613416220016d0994d2b9001df25050Flores%2CGuadalupe-MD%20report%20041916.pdf",
+        "name": "Flores,Guadalupe-MD report 041916.pdf"
+    }],
+    "_case": "56f0429ef9581a111152b387",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Flores, Guadalupe cl # 30154803299 -  04/22/16 - MOD",
+    "type": "email",
+    "content": "<p>4/22/2016    ASKOROPI    ASKOROPI    claim    MD<br/><br/>Disability Status Rec'd<br/>Doctor/Facility Name: Muir Orthopedic<br/>Phone Number: (925) 939-8585<br/>Last seen: 4/19/16<br/>Work Status: MOD<br/>Work Restrictions: no lifting over 5 lbs., no working over 4 hours a day<br/>Next Appointment: 6 weeks<br/><br/>DCN: 5220160421021181 [attached] <br/></p>",
+    "stream": "56f0429ef9581a111152b387",
+    "followUp": {
+        "$date": "2016-05-13T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T16:15:12.755+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a57918f1b600e00ebf1ef"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146134411136051cb510db4261a184e35Grasso%2C%20Brian%20RFA%20Dr.%20Nudleman%20Includes%20MD%20Contact%20Info.pdf",
+        "name": "Grasso, Brian RFA Dr. Nudleman Includes MD Contact Info.pdf"
+    }],
+    "_case": "56f0424af9581a111152abd1",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Claim Number:  30142681733-0001     Claimant:  GRASSO BRIAN     Loss Date:  8/18/2014",
+    "type": "email",
+    "content": "<p>Hi Chad,<br/><br/>In reviewing the online case notes regarding claimant Brian Grasso, I noticed that there is a transfer of care to Dr. Kenneth L. Nudleman, M.D., am I correct in assuming that Dr. Nudleman is the claimant's new PTP ? Please advise and I will be happy to continue medical follow up.<br/><br/>Thank you.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f0424af9581a111152abd1",
+    "followUp": {
+        "$date": "2016-05-06T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T16:55:45.668+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a5b2a8f1b600e00ebf1f1"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146134505874410b5825ef069b2c3806bImportant%20Fwd%20Re%20FW%2033056247%20Zaragoza%2C%20Maria%20-%20Foothill%20Family%20Service.eml",
+        "name": "Important Fwd Re FW 33056247 Zaragoza, Maria - Foothill Family Service.eml"
+    }],
+    "_case": "56f04260f9581a111152ade0",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Important : Fwd: Re: FW: 33056247 Zaragoza, Maria - Foothill Family Service",
+    "type": "email",
+    "content": "",
+    "stream": "56f04260f9581a111152ade0",
+    "followUp": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T17:11:06.570+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a60228f1b600e00ebf1f6"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14613463045695642491df6f06916a570Osborne%2C%20London%20MD%20Report%20041916_1.pdf",
+        "name": "Osborne, London MD Report 041916_1.pdf"
+    }],
+    "_case": "56f042a2f9581a111152b3e6",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Osborne, London - 30142832746 - Post 2004/MD Response 04/22/16 - F/D",
+    "type": "email",
+    "content": "<p>Hi Courtney,<br/><br/>Here is the updated status we received regarding London Osborne<br/><br/>PTP &amp; Phone #: Kaiser  408-972-6333<br/><br/>Received information by fax<br/><br/>Last office visit: 04/19/16<br/><br/>Next office visit: 05/10/16 @ 3:30 pm<br/><br/>Status: Full duty.<br/><br/>Next Diary: 05/11/16<br/><br/>We will continue to follow up regarding the work status for this patient.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com <br/></p>",
+    "stream": "56f042a2f9581a111152b3e6",
+    "followUp": {
+        "$date": "2016-05-11T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T17:32:18.601+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a66408f1b600e00ebf1fc"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461347896335a16ac597e7de2f7a80cbImportant%20Fwd%20Re%2030154169947-0001%20MALDONADO%20HERNANDEZ%2C%20BALDEMAR.eml",
+        "name": "Important Fwd Re 30154169947-0001 MALDONADO HERNANDEZ, BALDEMAR.eml"
+    }],
+    "_case": "56f04282f9581a111152b0f5",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Important : Fwd: Re: 30154169947-0001 MALDONADO HERNANDEZ, BALDEMAR",
+    "type": "email",
+    "content": "",
+    "stream": "56f04282f9581a111152b0f5",
+    "followUp": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T17:58:24.421+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a837e8f1b600e00ebf210"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/14613553574953071b360bede0ea91aa3Renteria%2C%20Claudia%20revised%20TWA%20.pdf",
+        "name": "Renteria, Claudia revised TWA .pdf"
+    }, {
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/146135536792606322fbec0a3ef894e20Renteria%2C%20Claudia%20revised%20TWA%20.doc",
+        "name": "Renteria, Claudia revised TWA .doc"
+    }],
+    "_case": "56f04287f9581a111152b166",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "Revised TWA To ER for review & signature",
+    "type": "email",
+    "content": "<p>Revised TWA JD</p><p><br/></p><p>To ER Tamara Kato </p><p><br/></p>",
+    "stream": "56f04287f9581a111152b166",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T20:03:10.151+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a841f8f1b600e00ebf211"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1461355545534077dc64e1fe4cdb00d07Tapia%2CNestor-TWA%20Offer.pdf",
+        "name": "Tapia,Nestor-TWA Offer.pdf"
+    }],
+    "_case": "56f042a8f9581a111152b472",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: TWA Offer dated 4/21/16",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Jeffrey,</p><p class=\"p2\">For your review.  All correct documents have been mailed to the employee and employer with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Temporary Transitional Work Offer</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of temporary transitional duties</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f042a8f9581a111152b472",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T20:05:51.937+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a85ce8f1b600e00ebf213"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/146135597907758e243a80fb80557addbJimenez%2CJames-TWA%20Offer.pdf",
+        "name": "Jimenez,James-TWA Offer.pdf"
+    }],
+    "_case": "56f04268f9581a111152ae92",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: TWA Offer dated 4/18/16",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Cheryl,</p><p class=\"p2\">For your review.  All correct documents have been mailed to the employee and employer with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Temporary Transitional Work Offer</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of temporary transitional duties</p>",
+    "stream": "56f04268f9581a111152ae92",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T20:13:02.138+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a87168f1b600e00ebf216"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14613563045007c50d7153580b120dbedWooley%2CTheo-DWC%20Forms.pdf",
+        "name": "Wooley,Theo-DWC Forms.pdf"
+    }],
+    "_case": "56f042aaf9581a111152b4a8",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: DWC Forms (perm. mod dated 4/19/16)/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Bonnie,</p><p class=\"p2\">For your review.  All documents have been mailed to the employee, employer and defense attorney with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            DWC-AD 10133.35 Permanent Modified Work</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of modified position</p><p class=\"p2\"><br/></p><p><br/></p><p class=\"p1\">We will now proceed to close our file.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f042aaf9581a111152b4a8",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T20:18:30.694+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a88678f1b600e00ebf217"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/14613565971778bb3448d56b82fb9de83Madrigal%2C%20Trisha.pdf",
+        "name": "Madrigal, Trisha.pdf"
+    }],
+    "_case": "56f042abf9581a111152b4b3",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "Email CE to advise EE TTD for 4 wks -MD response attached",
+    "type": "email",
+    "content": "<p class=\"p1\"><span class=\"s1\">Hi Amber, </span></p><p class=\"p1\">Dr. Samimi has noted on the MD response letter that EE is off work  for 4 weeks</p><p class=\"p1\"><span class=\"s1\">Attached is the MD response :</span></p><p class=\"p1\"><span class=\"s1\">We will continue to follow up and advise</span></p><p><br/></p><p class=\"p2\"><span class=\"s1\"></span><br/></p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f042abf9581a111152b4b3",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T20:24:07.000+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a8b288f1b600e00ebf21a"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1461357343079862049307c08b3845645Abas%2CAnita-DWC%20Forms%28perm%29.pdf",
+        "name": "Abas,Anita-DWC Forms(perm).pdf"
+    }],
+    "_case": "56f04280f9581a111152b0c5",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: DWC Forms (perm. mod-had EE not resigned dated 4/20/16)/Closing File",
+    "type": "closing",
+    "content": "<p class=\"p1\">Hi Daniel,</p><p class=\"p2\">For your review.  All documents have been mailed to the employee and employer with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            DWC-AD 10133.35 Permanent Modified Work (Had EE not resigned her position)</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of modified position</p><p class=\"p2\"><br/></p><p><br/></p><p class=\"p1\">We will now proceed to close our file.</p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04280f9581a111152b0c5",
+    "followUp": null,
+    "date": {
+        "$date": "1970-01-01T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T20:35:52.289+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a95758f1b600e00ebf224"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14613599658354b9e8f9157ff9ef0ad79Guess%2C%20Jeff%20MD%20Report%20042016.pdf",
+        "name": "Guess, Jeff MD Report 042016.pdf"
+    }],
+    "_case": "56f0429bf9581a111152b34d",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Guess, Jeff cl # 30154811954 - Post 2004/MD Response 04/22/16",
+    "type": "email",
+    "content": "<p>Hi Bryan,<br/><br/>Here is the updated status we received regarding Jeff Guess,<br/><br/>Received information by voice message from Annie<br/><br/>PTP &amp; Phone # : Dr. Tushla's office<br/><br/>Last office visit : 04/20/16<br/><br/>Status : &#34;Continued tempered disability&#34; PR2 attached<br/><br/>Next office visit : w/Dr. Tushla, appointment will be made after  04/26/16 10 am appointment with general surgeon Dr. Woodburn.<br/><br/>Next diary : 04/28/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/></p>",
+    "stream": "56f0429bf9581a111152b34d",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T21:19:49.211+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a97b08f1b600e00ebf226"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461360434172337c8d56f74e50ac0c10Sato%2C%20Kent%20MD%20Report%20042116.pdf",
+        "name": "Sato, Kent MD Report 042116.pdf"
+    }],
+    "_case": "56f042aaf9581a111152b49d",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Sato, Kent / Cl # 30165218222 - 04/22/16 - MOD",
+    "type": "email",
+    "content": "<p><br/><!--StartFragment-->4/21/2016    ACUSTODI    ACUSTODI    claim    MD<br/><br/>Disability Status Call<br/><br/>Doctor/Facility Name Kaiser Permanente Occ Health<br/><br/>Phone Number 510-675-3453<br/><br/>Spoke with Received Report<br/><br/>Last seen 4/21/16<br/><br/><br/><br/>Work Status Mod duty through 5/31/16<br/><br/><br/><br/>Work Restrictions<br/><br/>- no weight bearing with R arm<br/><br/>- minimal use of R arm<br/><br/><br/><br/>Next Appointment 5/31/16<br/><br/><br/><br/>DCN:<br/><br/>5220160421025441S000<br/><br/><br/><br/>Diary : 06/01/16<br/><!--EndFragment--><br/><br/><br/></p>",
+    "stream": "56f042aaf9581a111152b49d",
+    "followUp": {
+        "$date": "2016-06-01T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T21:29:20.816+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a9b7d8f1b600e00ebf22a"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1461361507434fb74d3025a91969594cdTapia%2CNestor-Status%20Package.pdf",
+        "name": "Tapia,Nestor-Status Package.pdf"
+    }],
+    "_case": "56f042a8f9581a111152b472",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Jeffrey,</p><p class=\"p1\">I've attached the Job Description and transitional assignment developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Kaiser</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "56f042a8f9581a111152b472",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T21:45:33.859+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a9d188f1b600e00ebf22e"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/1461361918712b4d1fea1710a2ff46985Jimenez%2CJames-Status%20Package.pdf",
+        "name": "Jimenez,James-Status Package.pdf"
+    }],
+    "_case": "56f04268f9581a111152ae92",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Cheryl,</p><p class=\"p1\">I've attached the Job Description and transitional assignment developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Mar Monte Medical Clinic</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "56f04268f9581a111152ae92",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T21:52:24.265+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571a9f408f1b600e00ebf230"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14613624679222d170e060d7965e7e014Gonzalez%2COlga-Status%20Package.pdf",
+        "name": "Gonzalez,Olga-Status Package.pdf"
+    }],
+    "_case": "570549e15990b20e004e0fb6",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: Status Package",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Pauline,</p><p class=\"p1\">I've attached the Job Description and transitional assignment developed for this worker for your records.</p><p class=\"p2\">We are following up with the treater, Dr. Domenick Sisto</p><p class=\"p2\">We will continue to keep you updated</p>",
+    "stream": "570549e15990b20e004e0fb6",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T22:01:36.204+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571aafd78f1b600e00ebf23b"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146136673805051330ea791496070fc00Murrieta%2C%20Michael%20MD%20Report%20-%20032316.pdf",
+        "name": "Murrieta, Michael MD Report - 032316.pdf"
+    }],
+    "_case": "56f04276f9581a111152afd9",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Murrieta, Michael / 30153820345 - Post 2004 / MD Response 04/22/16 - F/D - MMI - PR4 N/A",
+    "type": "email",
+    "content": "<p>4/20/2016    PAULINEG    PAULINEG    claim    MD<br/><br/>Rcvd MD report from Dr. Noriega Plastic Surgeon<br/>LOV 3/23/16<br/>W/S Full Duty<br/>NOV as needed<br/>MMI as of 3/23/16<br/><br/>DCN: 5220160419026877<br/><br/>Diary : 05/06/16<br/></p>",
+    "stream": "56f04276f9581a111152afd9",
+    "followUp": {
+        "$date": "2016-05-06T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T23:12:23.024+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571ab2188f1b600e00ebf23d"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461367316076e38bf35fcad298104a6cArellano%2C%20Benjamin%20MD%20Report%20041916.pdf",
+        "name": "Arellano, Benjamin MD Report 041916.pdf"
+    }],
+    "_case": "571545dee21bd10e00465263",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Arellano,Benjamin/30154710518-04/22/16 - TTD",
+    "type": "email",
+    "content": "<p>4/20/2016    SYS    AGATBONT    claim    MD<br/>DCN: 5220160419029889<br/>Subject: US Health Works report dated 04/19/2016<br/><br/>Notes: DCN:<br/>5220160419029889<br/><br/>Remain off work for 45 days<br/><br/>Start physical therapy 2x4<br/><br/>Next office visit 05/10/2016<br/>Created By: Ana Gatbonton<br/><br/>Diary : 05/11/16<br/></p>",
+    "stream": "571545dee21bd10e00465263",
+    "followUp": {
+        "$date": "2016-05-11T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T23:22:00.212+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571ab8d08f1b600e00ebf245"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14613690091299803896b6d8e43cff2f6Gonzalez%2COlga-TWA%20Offer.pdf",
+        "name": "Gonzalez,Olga-TWA Offer.pdf"
+    }],
+    "_case": "570549e15990b20e004e0fb6",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: TWA Offer (dated 4/22/16)",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Pauline,</p><p class=\"p3\">For your review.  All correct documents have been mailed to the employee, employer, applicant attorney and defense attorney with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Temporary Transitional Work Offer</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of temporary transitional duties</p>",
+    "stream": "570549e15990b20e004e0fb6",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T23:50:40.599+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571aba9e8f1b600e00ebf246"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14613694787302ebbcba398b3d7f4c77cWood%2C%20Fidel%20042016.pdf",
+        "name": "Wood, Fidel 042016.pdf"
+    }],
+    "_case": "57153d2ce21bd10e0046525e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Wood, Fidel / Cl # 30165409269 - 04/22/16 - MOD",
+    "type": "email",
+    "content": "<p>4/21/2016    SYS    CFERRER    claim    MD<br/><br/>DCN: 5220160420033986<br/>Subject: Dr Peterson's report dated 4/20/16<br/>Notes: DCN: 5220160420033986<br/>Work status: No work with right hand. Restricted from climbing, lifting, driving (other than his personal vehicle). Plan: MRI. F/u after MRI.<br/>Created By: Cheryl G. Ferrer<br/><br/>F/U pending MRI<br/><br/>Disry : 05/06/16<br/></p>",
+    "stream": "57153d2ce21bd10e0046525e",
+    "followUp": {
+        "$date": "2016-05-06T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-22T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-22T23:58:22.594+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571e89edc874a90e009ff22e"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461619155790ef51736a8fdcec6e7b1aSolis%2C%20Olivia%20MD%20Report%20042216.pdf",
+        "name": "Solis, Olivia MD Report 042216.pdf"
+    }],
+    "_case": "56f04298f9581a111152b306",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Solis, Olivia / 30154705454 - Post 2004/MD Response 04/25/16 - MOD",
+    "type": "email",
+    "content": "<p>Hi  Anna,<br/><br/>Here is the updated status we received regarding  Olivia Solis<br/><br/>PTP &amp; Phone #:  Dr. Phillips   949-287-3231   West Coast Orthopedic Institute<br/><br/>Received information by phone/spoke with Crystal, received fax.<br/><br/>Last office visit: 04/22/16<br/><br/>Next office visit:  05/20/16 @ 10<br/><br/>Status:  Modified duty. No lifting greater than 5 pounds. No prolonged standing or walking greater than 1 hour. No kneeling or squatting.<br/><br/>Next Diary:  05/23/16<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/></p>",
+    "stream": "56f04298f9581a111152b306",
+    "followUp": {
+        "$date": "2016-05-23T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T21:19:41.761+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571e8ea2c874a90e009ff232"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14616203539862cca1bac2fa9e97e8c29Balanda%2C%20Vitas%20MD%20Report%20042316%20PR2.pdf",
+        "name": "Balanda, Vitas MD Report 042316 PR2.pdf"
+    }],
+    "_case": "570564c65990b20e004e0fca",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Balanda, Vitas / Cl # 30165460313 - 04/25/16 - TTD",
+    "type": "email",
+    "content": "<p>4/25/2016    VRAYGOZA    VRAYGOZA    claim    MD<br/><br/>Recv'd PR2 from med Center for OV on 4/23/16<br/>wrk status: TTD until 5/7/16<br/>[NOV : 05/07/16]<br/>DCN: 5220160425008131 [attached]<br/><br/>Diary : 05/09/16<br/></p>",
+    "stream": "570564c65990b20e004e0fca",
+    "followUp": {
+        "$date": "2016-05-09T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T21:39:46.943+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571e99dac874a90e009ff238"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146162323668131d6d962cdc4a1e993aeGonzales%2CGilbert-MD%20Report%20-%20041416.pdf",
+        "name": "Gonzales,Gilbert-MD Report - 041416.pdf"
+    }],
+    "_case": "56f04285f9581a111152b141",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Gonzales, Gilbert / 30154194552 - Post 2004/MD Response - 04/25/16 - MOD",
+    "type": "email",
+    "content": "<p>Hi  Shelby,<br/><br/>Here is the updated status we received regarding Gilbert Gonzales<br/><br/>PTP &amp; Phone #:  Dr. Hannani 626-939-5900<br/><br/>Received information by fax<br/><br/>Last office Visit:  04/14/16<br/><br/>Next office visit:  Not listed<br/><br/>Status:  Modified duty. No lifting greater than 20 lbs. No frequent bending/stooping<br/><br/>Next Diary:  05/09/16<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/></p>",
+    "stream": "56f04285f9581a111152b141",
+    "followUp": {
+        "$date": "2016-05-09T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T22:27:38.470+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571ea21ec874a90e009ff23c"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461625370242bc3f9c79691c3e0af9b6Cesena%2CMargarita-MD%20Report%20-%20042116.pdf",
+        "name": "Cesena,Margarita-MD Report - 042116.pdf"
+    }],
+    "_case": "56f04229f9581a111152a8ce",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Cesena, Margarita / 30130830593 - 04/25/16 - MOD",
+    "type": "email",
+    "content": "<p>LOV : 04/21<br/>W/S : LD lift, carry 10#, no repetitive bend at waist, squat, kneel, stair climb, overhead reach or lift.<br/>NOV  : Unsch, pos T.O.C.<br/>Diary : 05/09<br/><br/>4/22/2016    SYS    KBUGAJ    claim    PR<br/>Telephonic Case Management Referral: Date of Service: 4/21/16 ov note<br/>Provider: Dr Matthew Wedemeyer Physiatrist (650) 223-6400<br/>NOV:<br/>Work Status at LOV: LD lift, carry 10#, no repetitive bend at waist, squat, kneel, stair climb, overhead reach or lift.<br/><br/>Exam Findings: Reports pain. Completed 12 PT for right knee. Not much help. Exam: slow antalgic gait. Limited ROM right knee - notable with flexion. Taking Celebrex 100mg bid prn, Tramadol 50mg prn. Dx: lumbar strain, right kne eosteoarthritis, r/o ligament/meniscal derangement. Right shoulder impingement. Plan: we are treating EE for right knee pain, right shoulder pain, low back pain. We rec'd auth for consult to ortho knee specialist. EE saw Dr Sah 2/17/16 - discussed knee replacement. Completed additional PT - no benefit. EE would like to move forward with sx - she will FU with Dr Sah. EE did well with shoulder injection.<br/><br/>Nurse Analysis: TCM will FU with Dr Sah for appt date.<br/>DCN: 5220160421034174<br/><br/><br/><br/><br/>Jodi Keen, RN, CCM<br/>Entered by: Jodi Keen<br/>Entered on: 04/22/2016<br/></p>",
+    "stream": "56f04229f9581a111152a8ce",
+    "followUp": {
+        "$date": "2016-05-09T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T23:02:54.130+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571ea41ac874a90e009ff23e"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/146162587453932ccb026201f6ca47a40Renteria%20Claudia%20Temp%20Trans%20Offer.pdf",
+        "name": "Renteria Claudia Temp Trans Offer.pdf"
+    }],
+    "_case": "56f04287f9581a111152b166",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "Temp Trans Offer to ER EE AA -Email CE",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi April</p><p class=\"p2\"><span class=\"s1\">Attached, please find TWA offer sent to EE &amp; ER  &amp; AA for your records</span></p><p class=\"p2\"><span class=\"s1\">Thank you, </span></p>",
+    "stream": "56f04287f9581a111152b166",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-25T23:11:22.447+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571f98289713b00e0015c51a"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/146168835416859b6110a851dd10aae03Luciano%2CMaria%20Del%20Carmen-Letter%20to%20ER%20%28perm%29.pdf",
+        "name": "Luciano,Maria Del Carmen-Letter to ER (perm).pdf"
+    }],
+    "_case": "571e7587c874a90e009ff21a",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "ER Contact",
+    "type": "phone",
+    "content": "<p>Phd. ER 626-610-9512 spoke to Patti re: perm. mod/alt being available.  Patti stated she will need to follow up with EE's supervisor and get back to us.  Advised Patti I can email her EE's perm. restrictions for her to review with the supervisor.  Patti asked that I email her at pattin@cdsinsurance.com</p><p><br/></p><p>Emailed ER: EE's perm. restrictions for review</p>",
+    "stream": "571e7587c874a90e009ff21a",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T16:32:40.243+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fd20f9713b00e0015c55c"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146170316982207dd9aee924297a10cf5Katkov%2CMichael-PR4.pdf",
+        "name": "Katkov,Michael-PR4.pdf"
+    }],
+    "_case": "56f0425cf9581a111152ad73",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "ORANGE - Fwd: Katkov, Michael / Cl # 30142679258 - 04/26/16 - P&S Report - ORANGE",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>Katkov, Michael / Cl # 30142679258 - 04/26/16 - P&amp;S Report</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Tue, 26 Apr 2016 13:37:37 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization: </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Raygoza &lt;Vanessa.Raygoza@sedgwickcms.com&gt;, Vanessa &lt;Vanessa.Raygoza@sedgwickcms.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/>  <pre>Hi Vanessa<br/><br/>Here is the updated status we received regarding Michael Katkov<br/><br/>Received information by phone spoke with : Lorena<br/><br/>PTP &amp; Phone # : Sports &amp; Spine Orthopaedics   Peter S. Borden M.D.   <br/>(310) 775-2331<br/><br/>Last office visit : 04/04/16<br/><br/>Status : Spoke with Lorena. She said the P&amp;S report was complete. She <br/>took my fax # and said she would fax the report right over. I received <br/>the report promptly. P&amp;S. 4% whole person disability rating. The patient <br/>is unable to return to his usual and customary duties and should be <br/>precluded from squatting, twisting, prolonged standing and climbing. <br/>Future medical care should be available for re-evaluation, <br/>anti-inflammatory medication,  and possible Viscosupplementation. (See <br/>attached)<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/></pre><br/><br/>  <br/><br/></div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f0425cf9581a111152ad73",
+    "followUp": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T20:39:43.530+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571fe2969713b00e0015c56a"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14617073863502ae5c58d1f20b58d80d8Power%2C%20Jose%20PR4.pdf",
+        "name": "Power, Jose PR4.pdf"
+    }],
+    "_case": "56f0428ef9581a111152b20c",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Power, Jose / 30154581643 - Post 2004/MD Response 04/26/16 - P&S",
+    "type": "email",
+    "content": "<p>Hi Cody,<br/><br/>Here is the updated status we received regarding  Jose Power<br/><br/>PTP &amp; Phone #:  Industrial Medical Group 661-327-2225<br/><br/>Received information by phone/spoke with Glenda<br/><br/>Last office visit:  04/22/16<br/><br/>Status:  Discharged as P&amp;S. Permanent restrictions ; No lifting, pushing, puling greater than 25 lbs, no repetitive bending stooping, twisting. Glenda said that the PR4 is complete and she will fax it right  over. Received fax. 10% whole person impairment. The patient will require future medical treatment. (see attached)<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/></p>",
+    "stream": "56f0428ef9581a111152b20c",
+    "followUp": {
+        "$date": "2016-04-25T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T21:50:14.493+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571feeb29713b00e0015c56d"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461710465096dfefeb78a1815b95816cImportant%20Fwd%20RE%20Carney%2C%20Jim%20-%20cl%20%23%2030154688525%20-%20Post%202004_MD%20Response%2003_22_16%20-%20MOD.eml",
+        "name": "Important Fwd RE Carney, Jim - cl # 30154688525 - Post 2004_MD Response 03_22_16 - MOD.eml"
+    }],
+    "_case": "56f042aaf9581a111152b4ae",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Important : Fwd: RE: Carney, Jim - cl # 30154688525 - Post 2004/MD Response 03/22/16 - MOD",
+    "type": "email",
+    "content": "<p>To :  Maria Aragon (attached)</p><p><br/></p><p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>      <br/><br/>      -------- Forwarded Message --------<br/>      <br/>        <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>          <br/>            <br/>            <br/>          <br/>        <br/>      <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject:<br/>            </th><td>RE: Carney, Jim - cl # 30154688525 - Post 2004/MD<br/>              Response 03/22/16 - MOD</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Tue, 26 Apr 2016 22:26:36 +0000</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>Russo, Carlye <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:Carlye.Russo@sedgwickcms.com\">&lt;Carlye.Russo@sedgwickcms.com&gt;</a></td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>P Howland <a class=\"moz-txt-link-rfc2396E\" href=\"mailto:phowland@focusonintervention.com\">&lt;phowland@focusonintervention.com&gt;</a></td></tr></tbody></table><br/>      <br/><br/>      <br/><br/>      <pre>I am following up on my email below.<br/><br/>Thank you,<br/><br/>Carlye Russo | IAP<br/>Sedgwick Claims Management Services, Inc.<br/>DIRECT (858) 503-4887<br/>EMAIL <a class=\"moz-txt-link-abbreviated\" href=\"mailto:Carlye.Russo@sedgwick.com\">Carlye.Russo@sedgwick.com</a><br/> <a class=\"moz-txt-link-abbreviated\" href=\"http://www.sedgwick.com\">www.sedgwick.com</a> | The leader in innovative claims and productivity management solutions<br/><br/><br/>-----Original Message-----<br/>From: Russo, Carlye<br/>Sent: Thursday, April 21, 2016 9:31 AM<br/>To: 'P Howland'<br/>Subject: RE: Carney, Jim - cl # 30154688525 - Post 2004/MD Response 03/22/16 - MOD<br/><br/>Please advise the status of injured worker's LOV, as well have we talked to the employer about modified work yet?<br/><br/>Thank you,<br/><br/>Carlye Russo | IAP<br/>Sedgwick Claims Management Services, Inc.<br/>DIRECT (858) 503-4887<br/>EMAIL <a class=\"moz-txt-link-abbreviated\" href=\"mailto:Carlye.Russo@sedgwick.com\">Carlye.Russo@sedgwick.com</a><br/> <a class=\"moz-txt-link-abbreviated\" href=\"http://www.sedgwick.com\">www.sedgwick.com</a> | The leader in innovative claims and productivity management solutions<br/><br/><br/>-----Original Message-----<br/>From: P Howland [<a class=\"moz-txt-link-freetext\" href=\"mailto:phowland@focusonintervention.com\">mailto:phowland@focusonintervention.com</a>]<br/>Sent: Tuesday, March 22, 2016 2:43 PM<br/>To: Russo, Carlye<br/>Subject: Carney, Jim - cl # 30154688525 - Post 2004/MD Response 03/22/16 - MOD<br/><br/>Hi Carlye,<br/><br/>Here is the updated status we received regarding<br/><br/>Received information by phone spoke with : Chris<br/><br/>PTP &amp; Phone # : Dr. William Sima 805-434-5555<br/><br/>Last office visit : 03/21/16<br/><br/>Status : Modified duty. No right handed work.<br/><br/>Next office visit : 04/18/16 @ 2 pm<br/><br/>Next diary : 04/19/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a><br/>________________________________<br/>The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender and delete the material from any computer.<br/></pre><br/>      <br/><br/>    </div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f042aaf9581a111152b4ae",
+    "followUp": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T22:41:54.029+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "571ff39a9713b00e0015c571"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461711744075f2744ca6a6c08a668459Renderos%2C%20Margarita%20MD%20Report%20%20042516.pdf",
+        "name": "Renderos, Margarita MD Report  042516.pdf"
+    }],
+    "_case": "56f0425af9581a111152ad54",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Renderos,Margarita/22025962-Post 2004/MD Response 4/25/16 See attached - MOD",
+    "type": "email",
+    "content": "<p>Hi  Evan,<br/><br/>Here is the updated status we received regarding  Margarita Renderos<br/><br/>PTP &amp; Phone #: Dr. Fernandez 415-409-7364  SF Multispecialists<br/><br/>Received information by phone/spoke with Jennifer<br/><br/>Last office visit:  4/25/16<br/><br/>Next office visit: 6/1/16<br/><br/>Status:   See attached. Modified duty.<br/><br/>Next Diary:   6/2/16<br/><br/>Have a great day!<br/>P. Howland<br/>Focus on Intervention <br/></p>",
+    "stream": "56f0425af9581a111152ad54",
+    "followUp": {
+        "$date": "2016-06-02T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-26T23:02:50.191+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5720045b9713b00e0015c585"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/1461715977119bb2c808ca33032d856f1Katkov%2C%20Michael.pdf",
+        "name": "Katkov, Michael.pdf"
+    }],
+    "_case": "56f0425cf9581a111152ad73",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "Letter to ER - PMA rest- emailed CE",
+    "type": "email",
+    "content": "<p class=\"p1\"><span class=\"s1\">Hi  Vanessa, </span></p><p class=\"p1\"><span class=\"s1\">As you are aware Mr. Katkow is now MMI with Permanent Restrictions from Dr Borden 04/04/16 report.</span></p><p class=\"p1\"><span class=\"s1\">I have left a message with ER  Andy Pringle and forwarded a letter to him advising the Permanent restrictions </span></p><p class=\"p1\"><span class=\"s1\">I will follow up to see if they can accommodate and keep you updated.</span></p><p class=\"p1\"><span class=\"s1\">Thank you, </span></p><p class=\"p3\"><span class=\"s1\"><b>Janet Collins</b></span></p><p class=\"p3\"><b>FOCUS ON INTERVENTION</b></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Phone: (888)-616-9675 or (760)-632-0237 Ext. 11</span></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Fax: (888) 503-3910</span></p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f0425cf9581a111152ad73",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T00:14:19.388+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57200cbf9713b00e0015c586"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f47/14617181904271f33cc58856d6efe6bb9IMG_1084.JPG",
+        "name": "IMG_1084.JPG"
+    }],
+    "_case": "56f04287f9581a111152b166",
+    "creator": "56aa66be44aeb7c61ba42f47",
+    "title": "E-mail CE to update on EE RTW status",
+    "type": "email",
+    "content": "<p class=\"p1\"><span class=\"s1\">HI Tamara, </span></p><p class=\"p1\"><span class=\"s1\">As you are aware the employer has  mod duty work available to begin 04/27/16 :</span></p><p class=\"p1\"><span class=\"s1\">I rec’d the following e-mails from ER Tamara Kato advising she has spoken with Claudia and that she  (EE) would need to confirm the work was okay to return to and let Tamara know.</span></p><p class=\"p1\"><span class=\"s1\">She sent a note from Dr. Samini  dated 03/18/16 advising EE was able to RTW in 6 weeks ( note attached)</span></p><p class=\"p1\"><span class=\"s1\">I called the MD office to comfirm the current restrictions we have from LOV 03/18/16 :  PR-2 from MD on file:</span></p><p class=\"p1\"><span class=\"s1\">Modified duty with restrictions of no lifting over 10 pounds, no repetitive bending or stooping, alternate between sitting and standing as needed for comfort, work day limited to 4 hours/day. </span></p><p class=\"p1\"><span class=\"s1\">I will confirm and keep you updated, </span></p><p class=\"p1\"><span class=\"s1\">Thanks Tamara</span></p><p class=\"p3\"><span class=\"s1\">E-mails From ER Tamara Kato:</span></p><p class=\"p5\"><span class=\"s1\">I found the email Claudia sent us – I guess it got lost in shuffle.  Sorry.</span></p><p class=\"p5\"><span class=\"s1\">She said she needs to confirm with the doctor 4/29 that she can return to work.</span></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Tamara Kato</span></p><p class=\"p5\"><span class=\"s1\">Comfort Keepers, In-Home Care</span></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Phone:  626-254-0100  </span> </p><p><br/></p><p class=\"p6\"><span class=\"s2\"> </span><span class=\"s3\"><b>om: </b>&#34;Tamara Kato&#34; &lt;<a href=\"mailto:tamarakato@comfortkeepers.com\"><span class=\"s4\">tamarakato@comfortkeepers.com</span></a>&gt;</span></p><p><br/></p><p class=\"p3\"><span class=\"s1\"><b>Subject: RE: [] Re: Claudia Renteria - revised Transitional job description for review &amp; signature</b></span></p><p class=\"p3\"><span class=\"s1\"><b>Date: </b>April 25, 2016 at 4:51:44 PM PDT</span></p><p class=\"p7\"><span class=\"s3\"><b>To: </b>&#34;'Janet at Focus'&#34; &lt;<a href=\"mailto:janet@focusonintervention.com\"><span class=\"s5\">janet@focusonintervention.com</span></a>&gt;</span></p><p class=\"p5\"><span class=\"s1\">We let her know about the job. She said she will talk with her doctor and get back to us tomorrow. </span></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Tamara Kato</span></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Comfort Keepers, In-Home Care</span></p><p><br/></p><p class=\"p5\"><span class=\"s1\">Phone:  626-254-0100    </span></p><p><br/></p><p class=\"p8\"><span class=\"s1\"><b>Janet Collins</b></span></p><p><br/></p><p class=\"p9\"><span class=\"s1\"><b>FOCUS ON INTERVENTION</b></span></p><p><br/></p><p class=\"p10\"><span class=\"s1\">Phone: (888)-616-9675 or (760)-632-0237 Ext. 11</span></p><p><br/></p><p class=\"p10\"><span class=\"s1\">Fax: (888) 503-3910</span></p><p><br/></p><p class=\"p11\"><span class=\"s1\"></span><br/></p><p><br/></p><p class=\"p12\"><span class=\"s1\"></span><br/></p><p><br/></p><p><br/></p><p><br/></p>",
+    "stream": "56f04287f9581a111152b166",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T00:50:07.245+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5720d5c58f57c80e001bc407"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461769655524277d61c7a8c5d8440aa9PLEASE%20ADVISE%20RE%20Sapien%2C%20Petra%20cl%20%23%2030142376014%20-%20Post%202004_MD%20Response%2002_26_16%20-%20nd051116.eml",
+        "name": "PLEASE ADVISE RE Sapien, Petra cl # 30142376014 - Post 2004_MD Response 02_26_16 - nd051116.eml"
+    }],
+    "_case": "56f0427ef9581a111152b08e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Re: PLEASE ADVISE RE : Sapien, Petra cl # 30142376014 - Post 2004/MD Response 02/26/16 - nd051116",
+    "type": "email",
+    "content": "<p>E-Mail attached</p>",
+    "stream": "56f0427ef9581a111152b08e",
+    "followUp": {
+        "$date": "2016-05-11T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T15:07:49.489+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5720df768f57c80e001bc40c"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14617721290111431877a4425c8b38b35Take%20Off%20Diary-Re%20Alvarez%2C%20Saul%20_%2030154964628%20-%2004_22_16%20-%20W_S%20-%20N_A.eml",
+        "name": "Take Off Diary-Re Alvarez, Saul _ 30154964628 - 04_22_16 - W_S - N_A.eml"
+    }],
+    "_case": "56fc0c1d969d330e0020b349",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Re: Take Off Diary-Re: Alvarez, Saul / 30154964628 - 04/22/16 - W/S - N/A",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p>Taken off Diary</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><div class=\"moz-cite-prefix\">On 4/27/2016 8:41 AM, Maria Aragon<br/>      wrote:<br/><br/>    </div><p><br/></p><blockquote type=\"cite\"><br/>      <br/>      Hi Paul,<br/>      <div><br/><br/>      </div><br/>      <div>Please take off your diary.  File closed.</div><br/>      <div><br/><br/>      </div><br/>      <div>Thank You</div><br/>      <div><br/>        <div><font size=\"4\" color=\"#f9a226\" face=\"HelveticaNeue\"><b>Maria Aragon</b></font></div><br/>        <div><b><span style=\"color: rgb(132, 150, 186);\">FOCUS<br/>              ON INTERVENTION</span></b><span></span></div><br/>        <div><span>Phone:   (760) 632-0237 or<br/>            (888) 616-9675 Ext. 10</span></div><br/>        <div><span>Fax:       (888) 503-3910</span></div><br/>      </div><br/>      <div><br/><br/>        <div><br/>          <div>On Apr 22, 2016, at 11:52 AM, P Howland &lt;<a href=\"mailto:phowland@focusonintervention.com\"></a><a class=\"moz-txt-link-abbreviated\" href=\"mailto:phowland@focusonintervention.com\">phowland@focusonintervention.com</a>&gt;<br/>            wrote:</div><br/>          <br/>          <blockquote type=\"cite\">LOV : 04/18/16<br/><br/>            W/S : N/A<br/><br/>            NOV : Unscheduled<br/><br/>            <br/><br/>            Diary : 04/29/16<br/><br/>            <br/><br/>            4/19/2016    SYS    ASKOROPI    claim    PR<br/><br/>            Telephonic Case Management Referral: PC to PTP Dr Peter<br/>            Borden MD Ortho Phone 310-375-8700 to get date NOV and<br/>            4/18/16 ov note, ws and MRI report. S/w Dee, LOV 4/18/16.<br/>            WS/Notes to be sent once ready. No pending appt. Do not see<br/>            any MRI reports in system yet.<br/><br/>            <br/><br/>            TCM plan: contact provider by 5/2/16 for updated notes, nov<br/>            date.<br/><br/>            <br/><br/>            Jodi Keen, RN, CCM<br/><br/>            Entered by: Jodi Keen<br/><br/>            Entered on: 04/19/2016<br/><br/>          </blockquote><br/>        </div><br/>        <br/><br/>        <div><br/>          <div style=\"color: rgb(0, 0, 0);\"><br/>            <div><font size=\"4\" color=\"#f9a226\" face=\"HelveticaNeue\"><b>Maria Aragon</b></font></div><br/>            <div style=\"color: rgb(0, 0, 0);\"><b><span style=\"color: rgb(132, 150, 186);\">FOCUS ON INTERVENTION</span></b><span style=\"color: rgb(132, 150, 186);\"></span></div><br/>            <div style=\"color: rgb(0, 0, 0);\"><span>Phone:   (760) 632-0237 or<br/>                (888) 616-9675 Ext. 10</span></div><br/>            <div style=\"color: rgb(0, 0, 0);\"><span>Fax:       (888) 503-3910</span><span></span></div><br/>            <div style=\"color: rgb(0, 0, 0);\"><span> </span></div><br/>            <div style=\"color: rgb(0, 0, 0);\"><span> </span></div><br/>            <div style=\"color: rgb(0, 0, 0);\"><span><br/><br/>              </span></div><br/>          </div><br/>          <span><img id=\"b4cb3ef3-8028-43a2-9898-a527890b3fcf\" height=\"68\" width=\"304\"/></span><span> <br/><br/>            <br/><br/>          </span><a href=\"http://focusonintervention.com/\"><span><img id=\"4ef5b275-2d01-4489-bd7b-00b4ee18d04b\" height=\"39\" width=\"140\"/></span></a><a href=\"http://focusonintervention.com/form.html\"><span><img id=\"4ae9956d-a978-4fcc-a395-81c0ad25f137\" height=\"40\" width=\"152\"/></span><br/>            </a><div style=\"color: rgb(0, 0, 0);\"><br/>              <div style=\"color: rgb(0, 0, 0);\"><br/>                <br/><br/>              </div><br/>            </div><br/>            <br/>            <br/>          </div><br/>        <a href=\"http://focusonintervention.com/form.html\"><br/>        </a><br/><br/>      </div><br/>    </blockquote><p><br/></p><p><br/></p><p><br/></p><pre class=\"moz-signature\" cols=\"72\">-- <br/>Sincerely, <br/>P Howland<br/>Focus On Intervention</pre><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56fc0c1d969d330e0020b349",
+    "followUp": {
+        "$date": "2016-04-26T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T15:49:10.211+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5720fd898f57c80e001bc419"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/14617798391300d228bf72009384ae76dImportant%20Fwd%20RE%20Gonzales%2C%20Gilbert%20_%2030154194552%20-%20Post%202004_MD%20Response%20-%2004_25_16%20-%20MOD.eml",
+        "name": "Important Fwd RE Gonzales, Gilbert _ 30154194552 - Post 2004_MD Response - 04_25_16 - MOD.eml"
+    }],
+    "_case": "56f04285f9581a111152b141",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Important : Fwd: RE: Gonzales, Gilbert / 30154194552 - Post 2004/MD Response - 04/25/16 - MOD",
+    "type": "email",
+    "content": "<p>To : Maria Aragon </p><p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>RE: Gonzales, Gilbert / 30154194552 - Post 2004/MD Response - 04/25/16 - MOD</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Wed, 27 Apr 2016 17:53:14 +0000</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>Russo, Shelby &lt;Shelby.Russo@sedgwickcms.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/>  <pre>Hello,<br/><br/>Can you please obtain or schedule a follow up appointment for PTP to address potential P&amp;S status as well as check with employer and make sure they are still accommodating for the same reduced rate?<br/><br/>Thanks,<br/><br/>Shelby M. Russo |  Claims Representative<br/>Sedgwick Claims Management Services, Inc.<br/>DIRECT 858.503.4846<br/> EMAIL Shelby.Russo@sedgwick.com<br/> www.sedgwick.com | The leader in innovative claims and productivity management solutions<br/><br/><br/>-----Original Message-----<br/>From: P Howland [mailto:phowland@focusonintervention.com]<br/>Sent: Monday, April 25, 2016 3:28 PM<br/>To: Russo, Shelby<br/>Subject: Gonzales, Gilbert / 30154194552 - Post 2004/MD Response - 04/25/16 - MOD<br/><br/>Hi  Shelby,<br/><br/>Here is the updated status we received regarding Gilbert Gonzales<br/><br/>PTP &amp; Phone #:  Dr. Hannani 626-939-5900<br/><br/>Received information by fax<br/><br/>Last office Visit:  04/14/16<br/><br/>Next office visit:  Not listed<br/><br/>Status:  Modified duty. No lifting greater than 20 lbs. No frequent bending/stooping<br/><br/>Next Diary:  05/09/16<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/>________________________________<br/>The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender and delete the material from any computer.<br/></pre><br/><br/></div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f04285f9581a111152b141",
+    "followUp": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T17:57:29.769+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572101458f57c80e001bc41e"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461780800609e527fcf39b7d243e11feIsidoro%2C%20Moises%20MD%20Report%20042516.pdf",
+        "name": "Isidoro, Moises MD Report 042516.pdf"
+    }],
+    "_case": "56f042a5f9581a111152b422",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "ORANGE - Fwd: Isidoro, Moises / cl # 30154614413 - Post 2004/MD Response 04/27/16 - MOD - ORANGE",
+    "type": "email",
+    "content": "<p><br/></p><!--StartFragment--><p><br/></p><p><br/></p><div class=\"moz-forward-container\"><br/><br/>  <br/><br/>-------- Forwarded Message --------<br/>  <br/><br/>  <table class=\"moz-email-headers-table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Subject: </th><td>Isidoro, Moises / cl # 30154614413 - Post 2004/MD Response 04/27/16 - MOD</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Date: </th><td>Wed, 27 Apr 2016 11:08:29 -0700</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">From: </th><td>P Howland &lt;phowland@focusonintervention.com&gt;</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">Organization: </th><td>Focus On Intervention</td></tr><tr><th nowrap=\"nowrap\" style=\"text-align: right;\">To: </th><td>Raygoza, Vanessa &lt;Vanessa.Raygoza@sedgwickcms.com&gt;</td></tr></tbody></table><br/><br/>  <br/><br/>  <br/><br/>  <pre>Hi Vanessa,<br/><br/>Here is the updated status we received regarding Moises Isidoro<br/><br/>Received information by phone spoke with : Crystal, Received fax<br/><br/>PTP &amp; Phone # : Dr. Phillips   949-287-3231<br/><br/>Last office visit : 04/25/16<br/><br/>Status : Modified duty. No lifting greater than 25 lbs. Sit or stand as <br/>needed to alleviate pain. Sedentary desk work only. No prolonged <br/>standing or walking. See attached<br/><br/>Next office visit : 05/23/16<br/><br/>Next diary : 05/24/16<br/><br/>We will continue to follow up with the MD and keep you updated.<br/><br/>Have a great day !<br/>Sincerely,<br/><br/>P Howland<br/>Focus On Intervention<br/>Return To Work Coordinator<br/>phowland@focusonintervention.com<br/><br/></pre><br/></div><p><br/></p><!--EndFragment--><p><br/></p><p><br/></p>",
+    "stream": "56f042a5f9581a111152b422",
+    "followUp": {
+        "$date": "2016-05-24T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T18:13:25.081+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57210e3f8f57c80e001bc42d"
+    },
+    "status": "close",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f48/14617841244914182d3070ba709e070dbSmith%2CJoyce-TWA%20Offer.pdf",
+        "name": "Smith,Joyce-TWA Offer.pdf"
+    }],
+    "_case": "570e875f2c76030e00f5cc9b",
+    "creator": "56aa66be44aeb7c61ba42f48",
+    "title": "Emailed Carrier: TWA Offer (dated 4/26/16)",
+    "type": "email",
+    "content": "<p class=\"p1\">Hi Anna,</p><p class=\"p2\">For your review.  All correct documents have been mailed to the employee and employer with Proof of Service.</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Cover letter</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Temporary Transitional Work Offer</p><p class=\"p4\"><span class=\"s1\"><b>X_</b></span>            Job Description of temporary transitional duties</p>",
+    "stream": "570e875f2c76030e00f5cc9b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T19:08:47.351+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572120bd8f57c80e001bc444"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/146178885224772abbd6bd074d624bc79Diaz%2CFrancisco-MD%20D-C%20P%26S%20042516.pdf",
+        "name": "Diaz,Francisco-MD D-C P&S 042516.pdf"
+    }],
+    "_case": "56f042abf9581a111152b4af",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Diaz, Francisco 30165274013 - MD D/C",
+    "type": "email",
+    "content": "<p><br/><!--StartFragment-->LOV : 04/25<br/><br/>W/S : MD D/C, F/D, No Restr, No Need for FMC, No Ratable Impairment<br/><br/><br/><br/>4/26/2016    CRUSSO    CRUSSO    claim    MD<br/><br/>Date of Service: 4/25/16<br/><br/>Provider: Dr. Dana Johnson/Kaiser Occupational Medicine/866-984-7483<br/><br/>NOV: released from medical care<br/><br/>Work Status at LOV: full duty, no restrictions, [no ratable impairment], no need for future medical care<br/><br/><br/><br/>DCN: 5220160425032705 [attached]<br/><br/><br/><br/>Tania Peraza RN CCM CPDM<br/><br/>Case Specialist<!--EndFragment--><br/><br/><br/></p>",
+    "stream": "56f042abf9581a111152b4af",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T20:27:41.869+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "572134f98f57c80e001bc458"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461794024249e078df8644e9185302d4Fax%20Message%20Transmission%20Result%20to%20%2B1%20%28949%29%20644-5813%20-%20Sent.eml",
+        "name": "Fax Message Transmission Result to +1 (949) 644-5813 - Sent.eml"
+    }],
+    "_case": "56f04229f9581a111152a8c9",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "faxed req for lov, ws and nov to md",
+    "type": "physician",
+    "content": "",
+    "stream": "56f04229f9581a111152a8c9",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-27T21:54:01.133+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57223ad20f0f9a0e00775589"
+    },
+    "status": "open",
+    "files": [{
+        "url": "https://focusdev.s3.amazonaws.com/56aa66be44aeb7c61ba42f4d/1461861042336ce31325e49912a47be48Harding%2C%20Elizabeth%20-%20041916%20-%20MD%20Report.pdf",
+        "name": "Harding, Elizabeth - 041916 - MD Report.pdf"
+    }],
+    "_case": "571e53e0c874a90e009ff20e",
+    "creator": "56aa66be44aeb7c61ba42f4d",
+    "title": "Please advise RE : Harding,Elizabeth/33069581-Post 2004/MD Response 4/28/16",
+    "type": "email",
+    "content": "<p>Hi  Chris,<br/><br/>Here is the updated status we received regarding  Elizabeth Harding  SS# 553-79-4435<br/><br/>PTP &amp; Phone #:  Kaiser 408-972-6333 <br/><br/>Received information by phone/spoke with  Rob<br/><br/>Last office visit:  4/14/16<br/><br/>Next office visit:  None scheduled.  Patient is transferring care to a Dr. Reis outside the Kaiser network.<br/><br/>Status:  Modified work  No walking/standing more than 30 to 45 minutes per  per hour.  See attached<br/><br/>Next Diary: 05/12/16<br/><br/>Please advise, Do you have contact information for Dr. Reis ? If so, please forward it to me and I will happily follow up with Dr. Reis<br/><br/>Have a great day!<br/>P. Howland<br/>Focus on Intervention <br/></p>",
+    "stream": "571e53e0c874a90e009ff20e",
+    "followUp": {
+        "$date": "2016-05-12T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T16:31:14.580+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57224a02e9f972f5219c147d"
+    },
+    "status": "open",
+    "files": [{
+        "$oid": "572249f9e9f972f5219c147b"
+    }],
+    "_case": "56f04150f9581a111152949b",
+    "creator": "56aa63bca971d57c2b28d0bf",
+    "title": "test",
+    "type": "email",
+    "content": "<p>fdgdfgfdg</p>",
+    "stream": "56f04150f9581a111152949b",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-29T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:36:02.259+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "57224a32e9f972f5219c1482"
+    },
+    "status": "open",
+    "files": [{
+        "$oid": "57224a23e9f972f5219c1480"
+    }],
+    "_case": "56f04150f9581a111152949b",
+    "creator": "56aa63bca971d57c2b28d0bf",
+    "title": "test",
+    "type": "employer",
+    "content": "",
+    "stream": "56f04150f9581a111152949b",
+    "followUp": null,
+    "date": {
+        "$date": "2016-04-27T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T17:36:50.695+0000"
+    },
+    "__v": 0
+}, {
+    "_id": {
+        "$oid": "5722618d0de8a9132facdfe2"
+    },
+    "status": "open",
+    "files": [{
+        "$oid": "572261870de8a9132facdfdf"
+    }],
+    "_case": "56f04150f9581a111152949b",
+    "creator": "56aa63bca971d57c2b28d0bf",
+    "title": "fgdsdf",
+    "type": "email",
+    "content": "<p>sdfsdf</p>",
+    "stream": "56f04150f9581a111152949b",
+    "followUp": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "date": {
+        "$date": "2016-04-28T12:00:00.000+0000"
+    },
+    "created": {
+        "$date": "2016-04-28T19:16:29.328+0000"
+    },
+    "__v": 0
+}]
